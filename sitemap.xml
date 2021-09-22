@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/docs/strategy/datasaveslives/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/datasaveslives/</loc>
   </url><url>
-    <loc>http://example.org/docs/strategy/eastkentandmedway/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/eastkentandmedway/</loc>
   </url><url>
-    <loc>http://example.org/docs/datascience/licensing/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/datascience/licensing/</loc>
   </url><url>
-    <loc>http://example.org/docs/strategy/strategy/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/strategy/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/</loc>
     <lastmod>2021-09-21T20:43:51+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/docs/strategy/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/categories/</loc>
   </url><url>
-    <loc>http://example.org/docs/datascience/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/datascience/</loc>
   </url><url>
-    <loc>http://example.org/docs/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/tags/</loc>
   </url>
 </urlset>

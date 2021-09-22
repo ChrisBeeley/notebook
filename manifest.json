@@ -1,14 +1,14 @@
 {
   "name": "Notebook",
   "short_name": "Notebook",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/notebook/",
+  "scope": "/notebook/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/notebook/favicon.svg",
       "sizes": "512x512"
     }
   ]
