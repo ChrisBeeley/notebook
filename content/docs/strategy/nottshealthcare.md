@@ -20,6 +20,12 @@ Given the other published materials, what should be the priority for Nottinghams
 
 ## Population health intelligence
 
+* Analytics should consider:
+    * Mental and physical wellness
+    * Factors that contribute to wellbeing such as loneliness and employment
+    * Inequalities in health outcomes and service provision
+* 
+
 Appendix A: Supporting plans
 
 * Intelligence to support clinicians and care teams
