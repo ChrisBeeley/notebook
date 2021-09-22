@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-draft: false
+type: docs
 ---
 
 ## Introduction
