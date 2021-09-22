@@ -1,6 +1,5 @@
 ---
 title: "Introduction"
-date: 2021-09-21T20:43:51+01:00
 draft: false
 ---
 
