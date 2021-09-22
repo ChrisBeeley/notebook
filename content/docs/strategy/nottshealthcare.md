@@ -29,27 +29,33 @@ Given the other published materials, what should be the priority for Nottinghams
     * Evaluate what treatments work for whom
     * Feed evaluation information back to clinicians to guide their clinical practice
     * Robust evaluation and high quality clinical practice should feed back into research through peer reviewed publication
-* Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service
+
 
 ## Driving innovation and quality
 
 * Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate
 * Workforce plan across clinicians, managers, and analysts in embed QI, statistical, and data science methods in everyday practice
 * Provide a joined up service, provoke curiosity across the workforce and triage questions across the range of data and analytic services with a single point of access
+* Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service
+    * Data and analysis should be 
 
 ## Whole system demand and capacity intelligence
 
 * Contribute to building capacity in the ICS to routinely carry out demand and capacity modelling
-* Develop a system wide approach to demand and capacity, including
+* Develop a system wide approach to demand and capacity, including models of patient flow and early warning systems
 
-Appendix A: Supporting plans
+## Intelligent decision support
 
-* Intelligence to support clinicians and care teams
-* Research
-* Evaluation
+* Provide legible, real time, analytically robust PROMS, CROMS, and PREMS to all staff who need them
+* Continue to use and build on success of data science methods such as forecasting and text mining
+* Consider implementing [CogStack](https://cogstack.org/) to support text mining of clinical notes in the EHR
+
+Appendix A: Related areas
+
+* Research & Evaluation
 * Data architecture plan
-* Data quality plan
-* IG plan
 * Analytical capacity plan
     * What can be stopped or optimised, and how we can work better
-* Giving people the skills they need to ask the right questions, interpret intelligence and turn it into action
+* Workforce plan
+    * Data skills for the whole workforce, not just analysts
+    * Consider analytic capacity at an ICS level
