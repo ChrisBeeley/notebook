@@ -11,12 +11,12 @@ weight: 2
 
 # Nottinghamshire Healthcare
 
-Given the other published materials, what should be the priority for Nottinghamshire Healthcare? There follows the key elements of the strategy followed by more detail about each.
+Given the other [published](https://www.nhsx.nhs.uk/key-tools-and-info/data-saves-lives/) [materials](https://democracy.kent.gov.uk/documents/s96055/Analytics%20-App1.pdf), what should be the priority for Nottinghamshire Healthcare? There follows the key elements of the strategy followed by more detail about each.
 
 * Population Health Intelligence
 * Driving innovation and quality
 * Whole system demand and capacity intelligence
-* Intelligent decision support for clinicians
+* Intelligent decision support
 
 ## Population health intelligence
 
@@ -33,11 +33,15 @@ Given the other published materials, what should be the priority for Nottinghams
 
 ## Driving innovation and quality
 
-* Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate
+* Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate joint working between them
 * Workforce plan across clinicians, managers, and analysts in embed QI, statistical, and data science methods in everyday practice
 * Provide a joined up service, provoke curiosity across the workforce and triage questions across the range of data and analytic services with a single point of access
 * Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service
-    * Data and analysis should be 
+    * Data and analysis should contribute to ["intelligent transparency"](https://blog.ons.gov.uk/2019/03/08/statisticians-may-have-a-bit-of-an-image-problem-but-their-code-of-practice-is-full-of-good-sense/)
+        * Accessible
+        * Comprehensible
+        * Usable
+        * Assessable- that is, open for inspection
 
 ## Whole system demand and capacity intelligence
 
@@ -53,7 +57,10 @@ Given the other published materials, what should be the priority for Nottinghams
 Appendix A: Related areas
 
 * Research & Evaluation
-* Data architecture plan
+* Data architecture
+    * Metadata and documentation of data
+    * Data should be self service where possible
+    * Supporting analytical teams to access data from the data warehouse
 * Analytical capacity plan
     * What can be stopped or optimised, and how we can work better
 * Workforce plan
