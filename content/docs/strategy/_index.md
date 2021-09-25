@@ -1,6 +1,7 @@
 ---
 bookCollapseSection: true
 title: Analytics strategy
+weight: 1
 ---
 
 ## Introduction
