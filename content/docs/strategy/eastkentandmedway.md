@@ -11,14 +11,14 @@ weight: 2
 
 # East Kent and Medway
 
-We will:
+## We will
 
 - Develop shared health and care analytics, which will enable us to understand the health needs of the population and to estimate how we can make the biggest improvements in improving health outcomes, patient experience, cost efficiency, workforce wellbeing and reducing health inequalities
 - Examine the bigger picture of the drivers of good health and provide an understanding of the relationship and variation between care received throughout different points in an integrated care system
 - Design how to move from reactive care to preventative care, through the use of prescriptive rather than descriptive analytics to provide a more holistic view of a patient’s requirements and care
 - Develop the new and collaborative ways of working across organisational health and care boundaries needed to deliver the changes that our patients and communities need
 
-Strategic goals
+## Strategic goals
 
 - Population Health Intelligence
 	- We will develop intelligence to plan and commission services based on what will offer the most value for individuals, considering every aspect of their health and wellbeing, proactively preventing poor health and being ready to best manage it when it happens.
@@ -52,7 +52,7 @@ Strategic goals
         - Decision support algorithms that alert clinicians and care teams of personalised matches to intervention options based on predicted risks and benefits.
         - Reduced unwarranted variation by providing clinicians with tools to compare their outcomes with peers.
 
-Supporting plans:
+## Supporting plans
 
 * Intelligence to support clinicians and care teams
 * Research
