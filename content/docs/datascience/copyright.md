@@ -9,7 +9,9 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# Intellectual property
+# Copyright
+
+## Intellectual property
 
 Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development ([for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel](https://en.wikipedia.org/wiki/Mozilla_software_rebranded_by_Debian)) are only obliquely related to the present matters of discussion and will not be explored any further here.
 
@@ -19,7 +21,7 @@ Patents are a very different thing, and give intellectual property over an idea.
 
 Copyright, on the other hand, cannot be avoided since, as discussed above, it is automatically attributed at the moment of creation to the individual creator(s) or their employing organisation. Failing to discuss this issue at the beginning of a project could lead to confusion and disagreement once a project has begun or been completed. In a sense the holder of copyright for a piece of software licensed as FOSS (whether permissively or as copyleft) is unimportant, since the software licence ensures that anybody can use the code for any purpose (subject to the restrictions of copyleft where this is applied). However, one important power that a copyright holder has on a piece of open source software is the ability to *relicense*. Relicensing takes place when copyright holders wish to take existing code and place it under another licence. There is a great deal of confusion about exactly how to ensure that code can be relicensed legally, but there are examples of where this has been done successfully [here](https://dolphin-emu.org/blog/2015/05/25/relicensing-dolphin/), [here](https://blogs.fsfe.org/ciaran/?p=58), and [here](https://www-archive.mozilla.org/mpl/relicensing-faq). In short, it is widely believed that in order to relicense computer code it is necessary to get the approval of all, or nearly all, of the contributors. Some projects, such as the Linux kernel, have thousands of contributors and are therefore widely seen as impossible to relicense. Where only one individual or organisation holds the copyright relicensing is simple. The FSF ensures that the [copyright of all of their software projects is explicitly granted to them by all contributors](https://www.gnu.org/licenses/why-assign.en.html) so they can responsibly exercise the powers that being a copyright holder grants.
 
-# Crown copyright
+## Crown copyright
 
 The data scientists at the Government Digital Service have no need to concern themselves with copyright in their day to day work since
 

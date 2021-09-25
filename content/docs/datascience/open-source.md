@@ -9,13 +9,15 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# Introduction
+# Open source
+
+## Introduction
 
 As discussed in an earlier chapter, section 12 of the NHS service standards compels those who follow it to "Make new source code open". Elsewhere, the NHS is being enjoined to use (as well as produce) open source software (REF). Using free software sounds like an obvious thing for a public sector body to do, and open sourcing its own code and allowing other bodies to make use of it also sounds on the surface like a sensible approach. It's important first to understand what the words "free" and "open" actually mean.
 
 Open source software licences are not well understood within the NHS, and the important distinction between copyright and licensing even less so. This chapter will cover what free and open source software is, discuss why software licensing is so important, cover the most commonly used software licences, and explain the crucial distinction between holding the copyright for a body of code and having a licence to modify and distribute it.
 
-# "Free" and "open"
+## "Free" and "open"
 
 The words *free* and *open* both have everyday meanings in English, and the word *free* is perhaps doubly confusing since it can refer to something that is either provided without cost ("free as in beer") or without restriction ("free as in speech"). Confusion often arises because much of free and open source software is both free of cost and provided without restriction. However, when organisations like the Free Software Foundation (FSF) use the word free:
 
@@ -25,7 +27,7 @@ Indeed, being able to charge money for copies of source code is part of the mean
 
 The word *open* is sometimes used to mean "visible", and sometimes in a more restrictive meaning of "free and open source". Merely releasing code, for example on a website, and making it visible, gives nobody else the right to use, modify or distribute it. In order to avoid this confusion, truly free and open source software is often designated as such- Free and Open Source, often abbreviated to FOSS. The remainder of this chapter will focus on FOSS. Even the meaning of FOSS can be controversial, since there is some disagreement about how "free" different software licences are. It is standard practice to take the list of [FOSS licences maintained by the FSF](https://www.gnu.org/licenses/license-list.html) and the [Open Source Initiative](https://opensource.org/licenses/alphabetical) (OSI) as being the canonical list of free licences.
 
-# Free and open source software
+## Free and open source software
 
 Before considering some of the common licences it is worth understanding the different perspectives of the FSF and the OSI and how they affect for what kinds of licence they typically advocate for. The FSF was founded by Richard Stallman (RMS) who became convinced of the need for software freedom through a number of incidents that occurred when he worked at MIT's AI laboratory in the 70s and 80s.
 
@@ -44,13 +46,13 @@ Copyleft can be contrasted with "permissive" licences, which give similar rights
 
 It is not necessary for this argument to be settled here- for the current purpose it is enough to understand what copyleft licences (like the GPL) do and what permissive licences (such at the MIT licence) do and to make sure that data science teams in the NHS are able to choose the licence that is best for their individual project.
 
-# Licences
+## Licences
 
-## Permissive
+### Permissive
 
 The most famous examples of permissive licences are the MIT and BSD licences. These licences allow reuse and modification but, unlike copyleft licences, also allow the code to be incorporated into a proprietary codebase without making that codebase subject to the terms of the original licence.
 
-### MIT
+#### MIT
 
 The [MIT licence]((https://choosealicense.com/licenses/mit/#)) is one of the shortest and simplest licences, and reads as follows:
 
@@ -78,9 +80,9 @@ SOFTWARE.
 
 This licence shows all the typical features of an open source licence very clearly- it gives permission to others to use, copy, and modify the source, it ensures that the copyright and permission notice is displayed in any modified software, and it includes a notice indicating that the software is provided without warranty of any kind.
 
-### Apache 2.0
+#### Apache 2.0
 
-The apache licence is quite a similar permissive licence. It is quite a lot longer than the MIT licence, in the main because it spells out more legal terms which are left implicit in the MIT licence. The main important difference is that it places more obligations on individuals ditributing the code or modified versions to include materials from the original codebase. Specifically, it states:
+The Apache licence is quite a similar permissive licence. It is quite a lot longer than the MIT licence, in the main because it spells out more legal terms which are left implicit in the MIT licence. The main important difference is that it places more obligations on individuals distributing the code or modified versions to include materials from the original codebase. Specifically, it states:
 
 >1. You must give any other recipients of the Work or Derivative Works a copy of
 this License; and
@@ -105,11 +107,11 @@ tional attribution notices cannot be construed as modifying the License.
 
 As can be seen, this adds to the licence conditions of the MIT licence by forcing distributors of code to state changes that have been made, as well as to include the contennts of any NOTICE file from the original codebase.
 
-### Other licences
+#### Other licences
 
 Although there are many other permissive licences, in the interest of brevity they will not be discussed further here. [This is a very comprehensive list of licences (with some commentary from the perspecitve of the FSF)](https://www.gnu.org/licenses/license-list.html).
 
-## Copyleft
+### Copyleft
 
 Copyleft licences, as described previously, are quite different to permissive licences. They:
 
@@ -119,7 +121,7 @@ Copyleft licences, as described previously, are quite different to permissive li
 
 Copyleft licences therefore frequently find a use when the publishers of open source code want to make sure that the code in them is not relicensed and incorporated into a proprietary system. There is no prohibition on what the code is used for, or whether the distributors charge a fee, as long as the distributor of the code is prepared to open source all of the code in the derivative work, not just the piece originally licensed under the GPL. Quite obviously it is therefore extremely unpopular companies and individuals who are in the business of selling proprietary code. It is important to note that the GPL comes into effect whenever the code is *distributed* in some way- for example on a CD or as a download from the Internet. This distinction will become important later in this section.
 
-### GPL
+#### GPL
 
 The GPL (general public licence) is the cornerstone of the philosophy of the FSF, and it enshrines the *four freedoms* described previously. Many of the key projects championed by the FSF (such as the GNU Emacs editor and the GNU C Compiler, as well as the Linux Kernel) are licensed under the GPL. [The licence begins with a nice summary of its terms](https://choosealicense.com/licenses/gpl-3.0/#):
 
@@ -187,11 +189,11 @@ The GPL, as can be seen, in this introductory section, lays out three important 
 
 The GPL goes on to give clearer guidance on the exact terms of the licence. For the sake of brevity it will not be discussed further here. Interested parties are directed to the link given above or for explanation on the terms to @understandingopensource.
 
-### AGPL
+#### AGPL
 
 The AGPL (Affero General Public Licence) 1is more strongly copyleft than the GPL. Its status among the free software community is somewhat controversial, with [some individuals bitterly opposed to it](https://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-970009.16). The most important difference between the GPL and the AGPL is that the AGPL defines "distribution of code" (which, it should be remembered, is the point at which the provisions of the GPL come into force) as allowing a piece of software to be transmitted over a network. It is quite common in recent time for software companies to provide what is called "Software as a Service" (SaaS). An example would be [Google Sheets](https://en.wikipedia.org/wiki/Google_Sheets) which is a spreadsheet program delivered through a web browser. The user does not have to download any extra code to use it and therefore Google does not have to distribute the code. Software licensed under the GPL can therefore be provided as SaaS without any of the provisions of the GPL applying. The AGPL, therefore, exists to allow code to be licensed so as to ensure that even if it is provided as SaaS the entity making the provision is forced to release all of the modified code under the terms of the GPL.
 
-### LGPL
+#### LGPL
 
 The LGPL (lesser general public licence) is so called because it ["because it does Less to protect the user’s freedom than the ordinary General Public License. It also provides other free software developers Less of an advantage over competing non-free programs."](https://opensource.org/licenses/LGPL-2.1)
 
@@ -199,11 +201,11 @@ The LGPL is designed for software libraries rather than full applications. A lib
 
 To understand where the LGPL does and does not allow the use of LGPL code in a proprietary product the FSF distinguish "works based on the library" and "works that use the library". Works that use the library can be incorporated within a proprietary product. What this means in practice is slightly fuzzy in practice but usually this means that a body of code will communicate with the library using some sort of standardised interface (e.g. sending some sort of stream of data in a particular way) and receive back something that itself is standardised in some way (for example, music that has been decoded). The library itself is being used for its intended purpose and is not substantially modified. Works that are based on the library will usually be works that reimplement or modify the actual library itself, changing the code and making it do something different or making it work in a different way. Under the LGPL works that do this have to release all of their code exactly as though the code was licensed by the GPL (Ibid).
 
-### Mozilla public licence
+#### Mozilla public licence
 
 The Mozilla public licence (MPL) is like the LGPL except more weakly copyleft. Both allow the possibility over incorporating code released under their licence conditions to be used with a proprietary codebase. As we have seen, the LGPL places fairly clear restrictions on this reuse, which effectively prevent distributors of the code from modifying the original code in any way. By contrast, the MPL allows modified code to be incorporated into a proprietary codebase as long as the modifications are themselves shared, but *not* the rest of the code which they are distributed with.
 
-# NHS data science and software licences
+## NHS data science and software licences
 
 The best software licence for a data science project will vary case by case, but there are some broad things to consider when choosing one. The most important decision to make is between permissive and copyleft licences. Permissive licences are useful to maximise the impact of something in situations where there is no concern about what proprietary vendors might do with code. Releasing code under, for example, an MIT licence allows everybody, including individuals using proprietary code, a chance to use the code under that licence.
 
