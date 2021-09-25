@@ -7,6 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/datascience/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Copyright</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
+      <description>Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.
+Under the Berne convention, copyright is assigned automatically to any expression (such as a piece of music, a book, an artwork, or a set of computer code).</description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</guid>
+      <description>Introduction #  As discussed in an earlier chapter, section 12 of the NHS service standards compels those who follow it to &amp;ldquo;Make new source code open&amp;rdquo;. Elsewhere, the NHS is being enjoined to use (as well as produce) open source software (REF). Using free software sounds like an obvious thing for a public sector body to do, and open sourcing its own code and allowing other bodies to make use of it also sounds on the surface like a sensible approach.</description>
+    </item>
+    
+    <item>
       <title>Licensing</title>
       <link>https://chrisbeeley.github.io/notebook/docs/datascience/licensing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
