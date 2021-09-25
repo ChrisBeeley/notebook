@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chrisbeeley.github.io/notebook/docs/datascience/</loc>
+  </url><url>
+    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/</loc>
+  </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/strategy/datasaveslives/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/strategy/eastkentandmedway/</loc>
@@ -10,11 +14,9 @@
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/strategy/nottshealthcare/</loc>
   </url><url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/github/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/categories/</loc>
-  </url><url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/datascience/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/</loc>
   </url><url>
