@@ -7,12 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/datascience/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Copyright</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</link>
+      <title>Service Standards</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
-      <description>Copyright #  Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.</description>
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</guid>
+      <description>Data science and the service standards #  Although all of these standards are relevant to data science teams I will now outline those that are most relevant within data science and briefly talk about their importance
+Make the service simple to use #  // TODO
+Team with multidisciplinary skills and perspectives #  The digital, data, and technology provides an outline of the types of roles present within an effective digital/ data/ technology team, which comprise:</description>
     </item>
     
     <item>
@@ -25,14 +27,12 @@
     </item>
     
     <item>
-      <title>Service Standards</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</link>
+      <title>Copyright</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</guid>
-      <description>Data science and the service standards #  Although all of these standards are relevant to data science teams I will now outline those that are most relevant within data science and briefly talk about their importance
-Make the service simple to use #  // TODO
-Team with multidisciplinary skills and perspectives #  The digital, data, and technology provides an outline of the types of roles present within an effective digital/ data/ technology team, which comprise:</description>
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
+      <description>Copyright #  Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.</description>
     </item>
     
   </channel>

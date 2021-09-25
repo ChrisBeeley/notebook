@@ -7,21 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Copyright</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</link>
+      <title>Analyst skills</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/_intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
-      <description>Copyright #  Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.</description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</guid>
-      <description>Open source #  Introduction #  As discussed in an earlier chapter, section 12 of the NHS service standards compels those who follow it to &amp;ldquo;Make new source code open&amp;rdquo;. Elsewhere, the NHS is being enjoined to use (as well as produce) open source software (REF). Using free software sounds like an obvious thing for a public sector body to do, and open sourcing its own code and allowing other bodies to make use of it also sounds on the surface like a sensible approach.</description>
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/_intro/</guid>
+      <description>Analyst skills #  I&amp;rsquo;m looking at the issue of analyst skills in the Nottinghamshire ICS with some other people at the moment. The brief is:
+   This will quite obviously require a very large amount of information about analyst skills, careers, and training, and so I will be making notes as I go along here. There may be a couple of things that come out of this that I can&amp;rsquo;t share, thinking in particular of other people&amp;rsquo;s thoughts and ideas, but I&amp;rsquo;ll share as much as I can and hopefully this will prove a useful resource for somebody else doing the same thing in another part of the country (or world, even 😉)</description>
     </item>
     
     <item>
@@ -50,8 +42,7 @@ Team with multidisciplinary skills and perspectives #  The digital, data, and te
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisbeeley.github.io/notebook/docs/strategy/eastkentandmedway/</guid>
-      <description>East Kent and Medway #  We will:
- Develop shared health and care analytics, which will enable us to understand the health needs of the population and to estimate how we can make the biggest improvements in improving health outcomes, patient experience, cost efficiency, workforce wellbeing and reducing health inequalities Examine the bigger picture of the drivers of good health and provide an understanding of the relationship and variation between care received throughout different points in an integrated care system Design how to move from reactive care to preventative care, through the use of prescriptive rather than descriptive analytics to provide a more holistic view of a patient’s requirements and care Develop the new and collaborative ways of working across organisational health and care boundaries needed to deliver the changes that our patients and communities need  Strategic goals</description>
+      <description>East Kent and Medway #  We will #   Develop shared health and care analytics, which will enable us to understand the health needs of the population and to estimate how we can make the biggest improvements in improving health outcomes, patient experience, cost efficiency, workforce wellbeing and reducing health inequalities Examine the bigger picture of the drivers of good health and provide an understanding of the relationship and variation between care received throughout different points in an integrated care system Design how to move from reactive care to preventative care, through the use of prescriptive rather than descriptive analytics to provide a more holistic view of a patient’s requirements and care Develop the new and collaborative ways of working across organisational health and care boundaries needed to deliver the changes that our patients and communities need  Strategic goals #   Population Health Intelligence  We will develop intelligence to plan and commission services based on what will offer the most value for individuals, considering every aspect of their health and wellbeing, proactively preventing poor health and being ready to best manage it when it happens.</description>
     </item>
     
     <item>
@@ -62,6 +53,24 @@ Team with multidisciplinary skills and perspectives #  The digital, data, and te
       <guid>https://chrisbeeley.github.io/notebook/docs/strategy/nottshealthcare/</guid>
       <description>Nottinghamshire Healthcare #  Given the other published materials, what should be the priority for Nottinghamshire Healthcare? There follows the key elements of the strategy followed by more detail about each.
  Population Health Intelligence Driving innovation and quality Whole system demand and capacity intelligence Intelligent decision support  Population health intelligence #   Analytics should consider:  Mental and physical wellness Factors that contribute to wellbeing such as loneliness and employment Inequalities in health outcomes and service provision   Consider impactability:  Start with a robust evidence base Evaluate what treatments work for whom Feed evaluation information back to clinicians to guide their clinical practice Robust evaluation and high quality clinical practice should feed back into research through peer reviewed publication    Driving innovation and quality #   Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate joint working between them Workforce plan across clinicians, managers, and analysts in embed QI, statistical, and data science methods in everyday practice Provide a joined up service, provoke curiosity across the workforce and triage questions across the range of data and analytic services with a single point of access Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service  Data and analysis should contribute to &amp;ldquo;intelligent transparency&amp;rdquo;  Accessible Comprehensible Usable Assessable- that is, open for inspection      Whole system demand and capacity intelligence #   Contribute to building capacity in the ICS to routinely carry out demand and capacity modelling Develop a system wide approach to demand and capacity, including models of patient flow and early warning systems  Intelligent decision support #   Provide legible, real time, analytically robust PROMS, CROMS, and PREMS to all staff who need them Continue to use and build on success of data science methods such as forecasting and text mining Consider implementing CogStack to support text mining of clinical notes in the EHR  Appendix A: Related areas</description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</guid>
+      <description>Open source #  Introduction #  As discussed in an earlier chapter, section 12 of the NHS service standards compels those who follow it to &amp;ldquo;Make new source code open&amp;rdquo;. Elsewhere, the NHS is being enjoined to use (as well as produce) open source software (REF). Using free software sounds like an obvious thing for a public sector body to do, and open sourcing its own code and allowing other bodies to make use of it also sounds on the surface like a sensible approach.</description>
+    </item>
+    
+    <item>
+      <title>Copyright</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
+      <description>Copyright #  Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.</description>
     </item>
     
   </channel>
