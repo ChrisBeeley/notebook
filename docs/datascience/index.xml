@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
-      <description>Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.
-Under the Berne convention, copyright is assigned automatically to any expression (such as a piece of music, a book, an artwork, or a set of computer code).</description>
+      <description>Copyright #  Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.</description>
     </item>
     
     <item>
@@ -22,16 +21,18 @@ Under the Berne convention, copyright is assigned automatically to any expressio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</guid>
-      <description>Introduction #  As discussed in an earlier chapter, section 12 of the NHS service standards compels those who follow it to &amp;ldquo;Make new source code open&amp;rdquo;. Elsewhere, the NHS is being enjoined to use (as well as produce) open source software (REF). Using free software sounds like an obvious thing for a public sector body to do, and open sourcing its own code and allowing other bodies to make use of it also sounds on the surface like a sensible approach.</description>
+      <description>Open source #  Introduction #  As discussed in an earlier chapter, section 12 of the NHS service standards compels those who follow it to &amp;ldquo;Make new source code open&amp;rdquo;. Elsewhere, the NHS is being enjoined to use (as well as produce) open source software (REF). Using free software sounds like an obvious thing for a public sector body to do, and open sourcing its own code and allowing other bodies to make use of it also sounds on the surface like a sensible approach.</description>
     </item>
     
     <item>
-      <title>Licensing</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/datascience/licensing/</link>
+      <title>Service Standards</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/licensing/</guid>
-      <description>Introduction #  /TODO</description>
+      <guid>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</guid>
+      <description>Data science and the service standards #  Although all of these standards are relevant to data science teams I will now outline those that are most relevant within data science and briefly talk about their importance
+Make the service simple to use #  // TODO
+Team with multidisciplinary skills and perspectives #  The digital, data, and technology provides an outline of the types of roles present within an effective digital/ data/ technology team, which comprise:</description>
     </item>
     
   </channel>
