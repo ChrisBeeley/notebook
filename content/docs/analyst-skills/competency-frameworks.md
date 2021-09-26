@@ -23,3 +23,13 @@ They assessed four frameworks as being the highest ranked in the scoring that th
 * [Civil Service Framework](https://www.gov.uk/government/publications/civil-service-competency-framework)
 
 They note that despite the high score the skills within the KSF relating to analytics are out of date and that framework will not be discussed any further here. 
+
+Other notable frameworks they reviewed include:
+
+* [The Clinical Informatics Framework](https://facultyofclinicalinformatics.org.uk/core-competency-framework)
+* [The digital, data, and technology profession capability framework](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework)
+* [EDISON Data science framework](https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_ds-bok-release2-v04.pdf)
+
+## The digital, data, and technology profession capability framework
+
+This framework is [reviewed elsewhere in this notebook]({{< ref "service-standards.md" >}}) from the perspective of the synergy of the roles within it with the data science family 
