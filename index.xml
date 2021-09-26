@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Analyst skills</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/_intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/_intro/</guid>
-      <description>Analyst skills #  I&amp;rsquo;m looking at the issue of analyst skills in the Nottinghamshire ICS with some other people at the moment. The brief is:
- Identify a generic set of skills for healthcare analysts in the region Identify extra skills necessary dependent on role and organisation Identify individuals within the ICS who can provide training on these skillsets Identify gaps where the system is not self sufficient for training and procure training (preferring free training) Look at the range of external training available to the system Identify areas of training need that cannot be met internally or externally  This will quite obviously require a very large amount of information about analyst skills, careers, and training, and so I will be making notes as I go along here.</description>
-    </item>
-    
-    <item>
       <title>Service Standards</title>
       <link>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -81,6 +71,15 @@ They assessed four frameworks as being the highest ranked in the scoring that th
       
       <guid>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</guid>
       <description>Copyright #  Intellectual property #  Intellectual property is an umbrella term which principally refers to copyright, trademarking, design rights, and patents. Trademarks and design rights, although they can sometimes be relevant in the world of software development (for example, in the story of the Debian linux distribution rebranding Firefox to Iceweasel) are only obliquely related to the present matters of discussion and will not be explored any further here.</description>
+    </item>
+    
+    <item>
+      <title>Generic Skills</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</guid>
+      <description></description>
     </item>
     
   </channel>
