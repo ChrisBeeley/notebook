@@ -1,7 +1,7 @@
 ---
 bookCollapseSection: true
 title: Data science in the NHS
-weight: -100
+weight: 100
 ---
 
 # Data science in the NHS

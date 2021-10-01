@@ -68,7 +68,7 @@ There are eleven different job roles listed within Agile Data Science, and the a
 
 NHS service standard number 6 (multidisciplinary teams) explicitly states that teams must "includes people with expertise in how services are delivered across all the relevant channels, and the back end systems the service will need to integrate with". To make such a team small and agile, it is often preferable for individuals to span several roles, some spanning front end activities (data scientists with experience in UX and web design) and some back end activities (data scientists who can do some or all of their own data engineering).
 
-Agile methods are covered in more detail in chapter \@ref(agile-chapter).
+Agile methods are covered in more detail in /TODO.
 
 ## Respect and protect users’ confidentiality and privacy
 
@@ -85,7 +85,7 @@ Early data science work (for example dashboards which do not contain identifiabl
 
 Although the advantages of using open source technologies and of open sourcing new technologies have been known for decades (see, e.g. [The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)), and government policy has encouraged the production and use of open source within the public sector for ten years or more there has been surprisingly little progress in this area. The NHS is still overwhelmingly dependent on expensive, proprietary software, giving rise to vendor lock in as well as wasting public money. Anecdotal reports suggest even that many IT departments are reluctant to install the statistical programming language [R](https://cran.r-project.org/), an absurd situation given its widespread adoption and use across industry and academia.
 
-At the same time, NHS organisations are still very reluctant to open source any code produced by their staff or by agencies subcontracted by NHS organisations. Open sourcing new code is important enough to warrant its own chapter (see chapter \@ref(open-source-chapter)), for the present time it will suffice to quote from the NHS service standard:
+At the same time, NHS organisations are still very reluctant to open source any code produced by their staff or by agencies subcontracted by NHS organisations. Open sourcing new code is important enough to warrant its own chapter (see [open source]({{< ref "open-source.md" >}}), for the present time it will suffice to quote from the NHS service standard:
 
 >"Public services are built with public money. So unless there's a good reason not to, the code they're based should be made available for other people to reuse and build on.
 Open source code can save teams duplicating effort and help them build better services faster. And publishing source code under an open licence means that you're less likely to get locked in to working with a single supplier"

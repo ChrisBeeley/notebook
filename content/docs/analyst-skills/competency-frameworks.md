@@ -1,6 +1,6 @@
 ---
 title: "Competency Frameworks"
-weight: 2
+weight: 100
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -32,4 +32,4 @@ Other notable frameworks they reviewed include:
 
 ## The digital, data, and technology profession capability framework
 
-This framework is [reviewed elsewhere in this notebook]({{< ref "service-standards.md" >}}) from the perspective of the synergy of the roles within it with the data science family 
+This framework is [reviewed elsewhere in this notebook]({{< ref "service-standards.md" >}}) from the perspective of the synergy of the roles within it with the data science family.  
