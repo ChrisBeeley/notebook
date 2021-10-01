@@ -38,5 +38,5 @@ Some of the other material may end up being on internal documents but it wouldn'
 
 Sources include (links forthcoming, I hope): 
 
-* [Advancing analytics in the NHS]({{ < ref "advancing-analytics.md">}})
-* [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{ < ref "analytics_ics.md">}})
+* [Advancing analytics in the NHS]({{< ref "advancing_analytics.md" >}})
+* [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{< ref "analytics_ics.md" >}})
