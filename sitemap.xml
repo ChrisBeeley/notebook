@@ -2,15 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/datascience/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/advancing-analytics/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/</loc>
   </url><url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/analytics_ics/</loc>
+  </url><url>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</loc>
   </url><url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/strategy/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/strategy/datasaveslives/</loc>
   </url><url>
@@ -20,9 +22,13 @@
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/datascience/open-source/</loc>
   </url><url>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</loc>
+  </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</loc>
   </url><url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</loc>
+  </url><url>
+    <loc>https://chrisbeeley.github.io/notebook/docs/datascience/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/github/</loc>
   </url><url>

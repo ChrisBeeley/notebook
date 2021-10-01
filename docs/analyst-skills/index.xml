@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Team Types</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</guid>
+      <description>Team types #  Summary #  Broadly, we might think of three types of analytic team within the ICS:
+ Performance Data analysis/ reporting Data science  The roles of these teams is discussed in more detail following.
+Performance #  </description>
+    </item>
+    
+    <item>
       <title>Competency Frameworks</title>
       <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -14,15 +25,6 @@
       <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</guid>
       <description>Competency frameworks #  Introduction #  APHA carried out a review of competency frameworks for health service analysts, published in 2021. There were 28 competency frameworks considered in the review, of which 10 were found to contain significant detail about analytical job roles and career progression. Some of the material from this review and from the competency frameworks is presented below.
 They assessed four frameworks as being the highest ranked in the scoring that they designed:</description>
-    </item>
-    
-    <item>
-      <title>Generic Skills</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Advancing Analytics</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/advancing-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/advancing-analytics/</guid>
+      <description>Advancing Analytics in the NHS #  </description>
+    </item>
+    
+    <item>
+      <title>Analytics Ics</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/analytics_ics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/analytics_ics/</guid>
+      <description>Recommendations for advancing the analytical capability of the NHS and its ICS partners #  </description>
+    </item>
+    
+    <item>
       <title>Service Standards</title>
       <link>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -15,16 +33,6 @@
       <description>Data science and the service standards #  Although all of these standards are relevant to data science teams I will now outline those that are most relevant within data science and briefly talk about their importance
 Make the service simple to use #  // TODO
 Team with multidisciplinary skills and perspectives #  The digital, data, and technology provides an outline of the types of roles present within an effective digital/ data/ technology team, which comprise:</description>
-    </item>
-    
-    <item>
-      <title>Competency Frameworks</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</guid>
-      <description>Competency frameworks #  Introduction #  APHA carried out a review of competency frameworks for health service analysts, published in 2021. There were 28 competency frameworks considered in the review, of which 10 were found to contain significant detail about analytical job roles and career progression. Some of the material from this review and from the competency frameworks is presented below.
-They assessed four frameworks as being the highest ranked in the scoring that they designed:</description>
     </item>
     
     <item>
@@ -65,6 +73,17 @@ They assessed four frameworks as being the highest ranked in the scoring that th
     </item>
     
     <item>
+      <title>Team Types</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</guid>
+      <description>Team types #  Summary #  Broadly, we might think of three types of analytic team within the ICS:
+ Performance Data analysis/ reporting Data science  The roles of these teams is discussed in more detail following.
+Performance #  </description>
+    </item>
+    
+    <item>
       <title>Copyright</title>
       <link>https://chrisbeeley.github.io/notebook/docs/datascience/copyright/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -74,12 +93,13 @@ They assessed four frameworks as being the highest ranked in the scoring that th
     </item>
     
     <item>
-      <title>Generic Skills</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</link>
+      <title>Competency Frameworks</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/generic-skills/</guid>
-      <description></description>
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</guid>
+      <description>Competency frameworks #  Introduction #  APHA carried out a review of competency frameworks for health service analysts, published in 2021. There were 28 competency frameworks considered in the review, of which 10 were found to contain significant detail about analytical job roles and career progression. Some of the material from this review and from the competency frameworks is presented below.
+They assessed four frameworks as being the highest ranked in the scoring that they designed:</description>
     </item>
     
   </channel>
