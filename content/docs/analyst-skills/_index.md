@@ -27,9 +27,16 @@ This will quite obviously require a very large amount of information about analy
 
 Presented here will be material concerning:
 
-* [Types of analytic team]({{< ref "team-types.md" >}})
+* [Types of analytic team]({{< ref "team_types.md" >}})
 * Types of analyst (TODO)
 * A generic set of skills for analysts in each type of team (TODO)
 * A review of training available to ICS staff (TODO)
 
 Some of the other material may end up being on internal documents but it wouldn't be of interest to those outside our organisation anyway. 
+
+## Sources
+
+Sources include (links forthcoming, I hope): 
+
+* [Advancing analytics in the NHS]({{ < ref "advancing-analytics.md">}})
+* [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{ < ref "analytics_ics.md">}})
