@@ -32,4 +32,4 @@ Presented here will be material concerning:
 * A generic set of skills for analysts in each type of team (TODO)
 * A review of training available to ICS staff (TODO)
 
-Some of the other material may end up being on internal documents but it wouldn't be of interest to those outside our organisation anyway.
+Some of the other material may end up being on internal documents but it wouldn't be of interest to those outside our organisation anyway. 
