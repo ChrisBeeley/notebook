@@ -27,8 +27,36 @@ The executive summary is a pretty powerful statement and is worth reproducing in
 
 There are several points from the executive summary that are particularly relevant for the present task and which will be discussed in more detail following.
 
-* Each system should establish a strategic analytics team, separate from BI delivery
-* [Strategic analytic teams] should be actively networked at a regional level. The network should be supported/coordinated by an expert team that can offer analytical leadership, structured education and systematic knowledge exchange focussed on advancing the capability of the ICS teams
-* All training offers should be accredited by a credible national body
-* A national competency framework for analysts should be agreed before the end of 2021/2, one that introduces much-needed consistency in role descriptions and grading
-* Protected learning time for all analysts should be built into job descriptions and a national minimum expectation should be set of at least 10 per cent of analysts’ time per week protected for learning. Additionally, 1 week per annum should be identified nationally as a dedicated learning week
+## All training offers should be accredited by a credible national body
+
+## A national competency framework for analysts should be agreed before the end of 2021/2, one that introduces much-needed consistency in role descriptions and grading
+
+## Protected learning time for all analysts should be built into job descriptions
+
+...a national minimum expectation should be set of at least 10 per cent of analysts’ time per week protected for learning. Additionally, 1 week per annum should be identified nationally as a dedicated learning week
+
+Further, the following points of note are also raised in the report
+
+## We must also acknowledge that a common failure of learning programmes can be the recipient returns to a context that makes no use of what they’ve learned
+
+## Recommendations for individual analysts and their teams
+
+* To use the descriptions of high performing, strategic analytics teams, the typology of strategic analytics and career pathways to identify their learning needs and meet these needs via available learning opportunities which includes the “art and craft” of strategic analysis
+* Analytical teams should develop a team learning strategy in conjunction with their regional network (as proposed) which maps out a coherent plan that combines individual development with team development
+* Connect with regional and national analysts and decision support networks
+
+{{<mermaid>}}
+flowchart LR
+    subgraph Analytics leader
+    AL
+    end
+    subgraph Data science
+    DS1(Data Scientist- entry level)-->DS2(Data Scientist- experienced)-->DS3(Data Scientist- advanced)
+    end
+    subgraph Analyst
+    DA1(Data Analyst- entry level)-->DA2(Data Analyst- experienced)-->AL(Analytics leader)
+    end
+    DA2-->DS2
+    DS2-->AL
+
+{{</mermaid>}}
