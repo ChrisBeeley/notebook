@@ -65,3 +65,13 @@ What types of analysis are we considering?
 7.	better understanding of how patients flow through the system
 8.	new data and digital tools
 9.	patients and the public in using information
+
+### Domains
+
+As well as *dataset* type (acute, mental healthcare, etc.) there are domains of analytic task. The SAIU has been restructured to include the following interest groups:
+
+*	Demand and Capacity
+*	Population Health Management
+*	Health Inequalities
+*	Transformation and Efficiency
+*	Place based partnerships
