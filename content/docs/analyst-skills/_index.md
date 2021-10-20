@@ -40,3 +40,38 @@ Sources include (links forthcoming, I hope):
 
 * [Advancing analytics in the NHS]({{< ref "advancing_analytics.md" >}})
 * [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{< ref "analytics_ics.md" >}})
+
+## Ideas 
+
+* Looking at the difference between domain knowledge (MH, acute, maternity...) and analytic knowledge (stats, ML, R...)
+* Consider the case where analysts have skills that they're not able to use
+
+Where is the focus?
+
+1.	ICS Strategic Analytics team
+2.	The strategic analytical needs of the ICS to be met by the above and contributions from partner organisation teams
+3.	All analysts in an ICS meeting ICS and organisational needs
+
+[I think largely 2 + 3, but for discussion]
+
+What types of analysis are we considering? 
+
+1.	clinical decision-making to help busy clinicians diagnose and manage disease
+2.	innovation and change in the NHS, and to evaluate the success of new models of care and whether changes deliver the expected benefits
+3.	effective board-level oversight of complex organisations and care systems
+4.	better everyday management of the monitoring and improvement of the quality and efficiency of care
+5.	senior decision-makers to respond better to national incentives and regulation
+6.	the allocation of finite resources
+7.	better understanding of how patients flow through the system
+8.	new data and digital tools
+9.	patients and the public in using information
+
+### Domains
+
+As well as *dataset* type (acute, mental healthcare, etc.) there are domains of analytic task. The SAIU has been restructured to include the following interest groups:
+
+*	Demand and Capacity
+*	Population Health Management
+*	Health Inequalities
+*	Transformation and Efficiency
+*	Place based partnerships
