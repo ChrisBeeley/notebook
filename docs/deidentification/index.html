@@ -15,7 +15,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.469dbd4a732dbbd654b9bfd8826da44881f4eafd89abb91d468d929ac36d5835.js" integrity="sha256-Rp29SnMtu9ZUub/Ygm2kSIH06v2Jq7kdRo2SmsNtWDU=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.c283adfe5be356fdb244671c0b35e63fb4e3ddeb7bf92225f42868d2198d8275.js" integrity="sha256-woOt/lvjVv2yRGccCzXmP7Tj3et7&#43;SIl9Cho0hmNgnU=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/deidentification/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
@@ -381,7 +381,11 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#deidentification-of-data">Deidentification of data</a></li>
+    <li><a href="#deidentification-of-data">Deidentification of data</a>
+      <ul>
+        <li><a href="#introduction-to-anonymisation">Introduction to anonymisation</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -399,6 +403,19 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#deidentification-of-data">#</a>
 </h2>
 <p>The team and I do a <a href="https://github.com/CDU-data-science-team/pxtextmining">lot</a> of <a href="https://github.com/CDU-data-science-team/experiencesdashboard">stuff</a> with <a href="https://github.com/nhs-r-community/pxtextmineR">patient experience data </a> and it can be tricky to reuse it without thoroughly redacting it because people put personal information in there- sometimes asking for a response, by email or telephone. It&rsquo;s a bit of an unusual case because the data <em>should</em> be anonymous- there&rsquo;s no need to identify patients in it at all, I just want the text of their experience, but in practice it <em>isn&rsquo;t</em>.</p>
+<p>Having some way of automatically redacting patient experience data to a high enough standard to reuse the data would be very useful, and to that end I made a <a href="https://github.com/nhsx/nhsx-internship-projects/pull/4">pull request</a> on the NHSX internship site to see if they could look at it with a PhD student.</p>
+<p>Jonny Pearson very helpfully gave me some links to some resources to improve it and I need to digest the contents of a bit, may as well do it here in case it helps anyone else (or future me, for that matter 😄). We have:</p>
+<ul>
+<li><a href="https://go.privitar.com/rs/588-MYA-374/images/2021-07-Privitar-Bristows-Intro_to_Anonymisation.pdf">Introduction to anonymisation</a></li>
+<li><a href="https://ico.org.uk/media/1061/anonymisation-code.pdf">Anonymisation: managing data protection risk code of practice</a></li>
+<li><a href="https://arxiv.org/pdf/2104.06523.pdf">A Review of Anonymization for Healthcare Data</a></li>
+</ul>
+<p>You may just want the links and ignore my witterings below of course 😉.</p>
+<h3 id="introduction-to-anonymisation">
+  Introduction to anonymisation
+  <a class="anchor" href="#introduction-to-anonymisation">#</a>
+</h3>
+<p>At a simple level, organisations who are trying to anonymise data will mask <em>direct identifiers</em>. Some data, like diagnosis or medication is not identifiable. Some data, like name or phone number is identifiable, and these variables are known as direct identifiers. Masking the direct identifiers should in theory make it impossible to identify individuals, but <a href="https://dataprivacylab.org/projects/identifiability/index.html">Sweeny</a> showed that combining <em>quasi identifiers</em> could lead individuals to be identified.</p>
 </article>
  
       
@@ -440,7 +457,11 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#deidentification-of-data">Deidentification of data</a></li>
+    <li><a href="#deidentification-of-data">Deidentification of data</a>
+      <ul>
+        <li><a href="#introduction-to-anonymisation">Introduction to anonymisation</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
