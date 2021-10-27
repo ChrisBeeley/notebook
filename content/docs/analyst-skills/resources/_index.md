@@ -9,7 +9,9 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-## Sources
+## Resources
+
+Please note the resources are reproduced in the repo with permission and no permission to reproduce elsewhere is implied (although asking nicely usually works, in my experience :wink:).
 
 Sources include (links forthcoming, I hope): 
 
