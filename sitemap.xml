@@ -2,13 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/advancing_analytics/</loc>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/advancing_analytics_nhs/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/analytics_ics/</loc>
-  </url><url>
-    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/datascience/service-standards/</loc>
   </url><url>
@@ -32,6 +30,8 @@
     <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency-frameworks/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/datascience/</loc>
+  </url><url>
+    <loc>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/</loc>
   </url><url>
     <loc>https://chrisbeeley.github.io/notebook/docs/deidentification/</loc>
   </url><url>
