@@ -34,14 +34,7 @@ Presented here will be material concerning:
 
 Some of the other material may end up being on internal documents but it wouldn't be of interest to those outside our organisation anyway. 
 
-## Sources
-
-Sources include (links forthcoming, I hope): 
-
-* [Advancing analytics in the NHS]({{< ref "advancing_analytics.md" >}})
-* [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{< ref "analytics_ics.md" >}})
-
-## Ideas 
+## Appendix A: Ideas 
 
 * Looking at the difference between domain knowledge (MH, acute, maternity...) and analytic knowledge (stats, ML, R...)
 * Consider the case where analysts have skills that they're not able to use
@@ -68,10 +61,16 @@ What types of analysis are we considering?
 
 ### Domains
 
-As well as *dataset* type (acute, mental healthcare, etc.) there are domains of analytic task. The SAIU has been restructured to include the following interest groups:
+As well as _dataset_ type (acute, mental healthcare, etc.) there are domains of analytic task. The SAIU has been restructured to include the following interest groups:
 
 *	Demand and Capacity
 *	Population Health Management
 *	Health Inequalities
 *	Transformation and Efficiency
 *	Place based partnerships
+
+### Scope
+
+* Explicitly wider than healthcare and include social care as well
+* PH intelligence analysis and PHM are separate types of analysis to the Performance/ Data analysis/ reporting/ Data science split given elsewhere
+* Need to include supporting the system with strategically allocating resources and interventions to maximise benefit
