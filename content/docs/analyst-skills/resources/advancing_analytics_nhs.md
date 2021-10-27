@@ -21,4 +21,4 @@ Defining strategic analytics and career pathways for healthcare analysts
 * Is aware of its own limitations and establishes collaborative partnerships to supplement this
 * Is able to influence the decision-making processes by providing reliable, relevant, well communicated analyses to decision makers to ensure decision quality
 * Is dedicated to research and sharing knowledge; producing replicable work and evidencing new ways of working
-* Is well-versed in the healthcare context in which it operates.
+* Is well-versed in the healthcare context in which it operates

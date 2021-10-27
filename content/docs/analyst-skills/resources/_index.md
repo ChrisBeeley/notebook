@@ -15,5 +15,5 @@ Please note the resources are reproduced in the repo with permission and no perm
 
 Sources include (links forthcoming, I hope): 
 
-* [Advancing analytics in the NHS]({{< ref "advancing_analytics.md" >}})
+* [Advancing analytics in the NHS]({{< ref "advancing_analytics_nhs.md" >}})
 * [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{< ref "analytics_ics.md" >}})
