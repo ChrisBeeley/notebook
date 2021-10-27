@@ -29,15 +29,12 @@ Presented here will be material concerning:
 
 * [Types of analytic team]({{< ref "team_types.md" >}})
 * Types of analyst (TODO)
-* A generic set of skills for analysts in each type of team (TODO)
+* [A generic set of skills for analysts in each type of team]({{< ref "skills.md" >}})
 * [A review of training available to ICS staff]({{< ref "training.md" >}})
 
 Some of the other material may end up being on internal documents but it wouldn't be of interest to those outside our organisation anyway. 
 
 ## Appendix A: Ideas 
-
-* Looking at the difference between domain knowledge (MH, acute, maternity...) and analytic knowledge (stats, ML, R...)
-* Consider the case where analysts have skills that they're not able to use
 
 Where is the focus?
 
@@ -58,16 +55,6 @@ What types of analysis are we considering?
 7.	better understanding of how patients flow through the system
 8.	new data and digital tools
 9.	patients and the public in using information
-
-### Domains
-
-As well as _dataset_ type (acute, mental healthcare, etc.) there are domains of analytic task. The SAIU has been restructured to include the following interest groups:
-
-*	Demand and Capacity
-*	Population Health Management
-*	Health Inequalities
-*	Transformation and Efficiency
-*	Place based partnerships
 
 ### Scope
 
