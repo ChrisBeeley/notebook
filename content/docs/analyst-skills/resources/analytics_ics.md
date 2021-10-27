@@ -11,7 +11,7 @@ weight: 1
 
 # Recommendations for advancing the analytical capability of the NHS and its ICS partners
 
-[This document](https://github.com/ChrisBeeley/notebook/blob/main/content/docs/analyst-skills/resources/advancing_ics.pdf) is still under review by NHSEI but I have permission from the Strategy Unit to reproduce it here. Please note that the work is *not* being reproduced with an open licence and if you wish to share or remix this document you should probably contact the authors yourselves to seek their permission. 
+[This document](https://github.com/ChrisBeeley/notebook/blob/main/content/docs/analyst-skills/resources/advancing_ics.pdf) is still under review by NHSEI but I have permission from the Strategy Unit to reproduce it here. Please note that the work is *not* being reproduced with an open licence and if you wish to share or remix this document you should contact the authors yourselves to seek their permission. 
 
 The executive summary is a pretty powerful statement and is worth reproducing in full (note again that these conclusions are currently under review at NHSEI).
 
