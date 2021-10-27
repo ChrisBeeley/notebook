@@ -15,7 +15,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.d4f5105bf1a26933376e1bbbdeea77b2102c6421b027453e5449299eb3862b4a.js" integrity="sha256-1PUQW/GiaTM3bhu73up3shAsZCGwJ0U&#43;VEkpnrOGK0o=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.73f375c3755d65da88f1f065b6ad0406bc563763504f7efadb151550dc1d95bc.js" integrity="sha256-c/N1w3VdZdqI8fBltq0EBrxWN2NQT3762xUVUNwdlbw=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/deidentification/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
@@ -407,11 +407,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#deidentification-of-data">Deidentification of data</a>
+    <li><a href="#introduction-to-anonymisation">Introduction to anonymisation</a>
       <ul>
-        <li><a href="#introduction-to-anonymisation">Introduction to anonymisation</a></li>
+        <li><a href="#the-modern-big-data-landscape">The modern big data landscape</a></li>
+        <li><a href="#summary">Summary</a></li>
       </ul>
     </li>
+    <li><a href="#aggregation">Aggregation</a></li>
   </ul>
 </nav>
 
@@ -424,10 +426,10 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="deidentification-of-data">
+  <article class="markdown"><h1 id="deidentification-of-data">
   Deidentification of data
   <a class="anchor" href="#deidentification-of-data">#</a>
-</h2>
+</h1>
 <p>The team and I do a <a href="https://github.com/CDU-data-science-team/pxtextmining">lot</a> of <a href="https://github.com/CDU-data-science-team/experiencesdashboard">stuff</a> with <a href="https://github.com/nhs-r-community/pxtextmineR">patient experience data </a> and it can be tricky to reuse it without thoroughly redacting it because people put personal information in there- sometimes asking for a response, by email or telephone. It&rsquo;s a bit of an unusual case because the data <em>should</em> be anonymous- there&rsquo;s no need to identify patients in it at all, I just want the text of their experience, but in practice it <em>isn&rsquo;t</em>.</p>
 <p>Having some way of automatically redacting patient experience data to a high enough standard to reuse the data would be very useful, and to that end I made a <a href="https://github.com/nhsx/nhsx-internship-projects/pull/4">pull request</a> on the NHSX internship site to see if they could look at it with a PhD student.</p>
 <p>Jonny Pearson very helpfully gave me some links to some resources to improve it and I need to digest the contents of a bit, may as well do it here in case it helps anyone else (or future me, for that matter 😄). We have:</p>
@@ -437,17 +439,31 @@ https://github.com/alex-shpak/hugo-book
 <li><a href="https://arxiv.org/pdf/2104.06523.pdf">A Review of Anonymization for Healthcare Data</a></li>
 </ul>
 <p>You may just want the links and ignore my witterings below of course 😉.</p>
-<h3 id="introduction-to-anonymisation">
+<h2 id="introduction-to-anonymisation">
   Introduction to anonymisation
   <a class="anchor" href="#introduction-to-anonymisation">#</a>
-</h3>
+</h2>
 <p>At a simple level, organisations who are trying to anonymise data will mask <em>direct identifiers</em>. Some data, like diagnosis or medication is not identifiable. Some data, like name or phone number is identifiable, and these variables are known as direct identifiers. Masking the direct identifiers should in theory make it impossible to identify individuals, but <a href="https://dataprivacylab.org/projects/identifiability/index.html">Sweeney</a> showed that combining <em>quasi identifiers</em> could lead individuals to be identified. Quasi identifiers are values that are not directly identifying on their own, but may be identifying in combination. Sweeney suggested that this kind of <em>linkage attack</em> can be prevented by generalising some of the data. For example, using year and month of birth rather than exact birth date.</p>
 <p>Sweeney codified these ideas within a concept called <a href="https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.html">k-identity</a>. The k variable gives the minimum number of people who are indistinguishable from each other in the dataset. A k-anonymous dataset means that each row is indistinguishable from k-1 other rows. For example, when k is 5 each individual is indistinguishable from 5 other individuals.</p>
-<h4 id="the-modern-big-data-landscape">
+<h3 id="the-modern-big-data-landscape">
   The modern big data landscape
   <a class="anchor" href="#the-modern-big-data-landscape">#</a>
-</h4>
-<p>In more recent times the data available about each individual has proliferated and additional controls are often required in order to thoroughly anonymise data. Controlling the environment can help with this, for example by having data accessed in a secure area where data access is monitored.</p>
+</h3>
+<p>In more recent times the data available about each individual has proliferated and additional controls are often required in order to thoroughly anonymise data. Controlling the environment can help with this, for example by having data accessed in a secure area where data access is monitored, or providing data in a secure way that doesn&rsquo;t allow it to be recombined with other data, like a <a href="https://www.hdruk.ac.uk/wp-content/uploads/2021/04/Goldacre-Review-TRE-Response.pdf">trusted research environment</a>.</p>
+<p>Environmental controls do not generally affect the utility of data for analysis, but have an associated in cost, control of use, etc.</p>
+<h3 id="summary">
+  Summary
+  <a class="anchor" href="#summary">#</a>
+</h3>
+<ul>
+<li>Deidentification comes at a cost- either in terms of the usefulness of the data or the cost of managing environmental access to data</li>
+<li>Deidentification can be very difficult when there is high dimensional or high frequency data</li>
+<li>It is not always obvious what will and what won&rsquo;t lead to reidentification, and there are many high profile failure of deidentified data (e.g. <a href="https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/">Netflix</a>)</li>
+</ul>
+<h2 id="aggregation">
+  Aggregation
+  <a class="anchor" href="#aggregation">#</a>
+</h2>
 </article>
  
       
@@ -489,11 +505,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#deidentification-of-data">Deidentification of data</a>
+    <li><a href="#introduction-to-anonymisation">Introduction to anonymisation</a>
       <ul>
-        <li><a href="#introduction-to-anonymisation">Introduction to anonymisation</a></li>
+        <li><a href="#the-modern-big-data-landscape">The modern big data landscape</a></li>
+        <li><a href="#summary">Summary</a></li>
       </ul>
     </li>
+    <li><a href="#aggregation">Aggregation</a></li>
   </ul>
 </nav>
 
