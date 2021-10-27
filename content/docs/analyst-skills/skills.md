@@ -17,7 +17,15 @@ A full description of a typology of skills and an associated [competency framewo
 * Analytic knowledge (stats, ML, R...)
 * Analytic task (demand and capacity, population health management)
 
-## Domains
+## Health and care domain knowledge
+
+It may not be useful to list these exhaustively since there are so many possibilities and levels of hierarchy that could be used to describe this, but it might be worth describing the domains broadly.
+
+## Analytic knowledge
+
+This is the level that this work most obviously concerns and warrants a reasonably comprehensive description (although not at the level forthcoming from national work on competency frameworks)
+
+## Analytic task
 
 As well as _dataset type_ (acute, mental healthcare, etc.) there are domains of _analytic task_. The SAIU has been restructured to include the following interest groups:
 
