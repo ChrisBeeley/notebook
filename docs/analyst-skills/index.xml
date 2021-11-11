@@ -13,8 +13,9 @@
       
       <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</guid>
       <description>Team types #  Summary #  Broadly, we might think of three types of analytic team within the ICS:
- Performance Data analysis/ reporting Data science  The roles of these teams is discussed in more detail following.
-Performance #  </description>
+ Performance Data analysis/ reporting Data science Public health/ population health  The roles of these teams is discussed in more detail following. Quoted content comes from the data job family which is licensed under the OGL3.
+Performance #  Performance teams:
+ …develop performance measurement frameworks - key performance indicators (KPIs), goals, user needs and benefits - and analyse the performance of a service or product against these, adapting your approach and framework appropriately and in line with any changes</description>
     </item>
     
     <item>
@@ -45,6 +46,18 @@ Area one #   TODO  Appendix A: Training providers #   AphA Health Education Engl
       <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency_frameworks/</guid>
       <description>Competency frameworks #  Introduction #  APHA carried out a review of competency frameworks for health service analysts, published in 2021. There were 28 competency frameworks considered in the review, of which 10 were found to contain significant detail about analytical job roles and career progression. Some of the material from this review and from the competency frameworks is presented below.
 They assessed four frameworks as being the highest ranked in the scoring that they designed:</description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/conclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/conclusion/</guid>
+      <description>Conclusion #  Scope #  In order to carry out this work within a reasonable timeframe it was scoped to exclude any detailed work on career and competency frameworks (which are in any case forthcoming nationally).
+(Are we going to add any more scope to this?)
+Outline #  The current piece of work is designed to carry out the following functions as presented in the introduction:
+ Consider the types of analyst teams within the ICS and their diverse functions Identify a generic set of skills for healthcare analysts in the region Identify extra skills necessary dependent on role and organisation Identify individuals within the ICS who can provide training on these skillsets Identify gaps where the system is not self sufficient for training and procure training (preferring free training) Look at the range of external training available to the system Identify areas of training need that cannot be met internally or externally  These areas will each now be considered in turn.</description>
     </item>
     
   </channel>

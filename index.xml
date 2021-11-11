@@ -14,7 +14,7 @@
       
       <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/advancing_analytics_nhs/</guid>
       <description>Advancing Analytics in the NHS #  Defining strategic analytics and career pathways for healthcare analysts
-I have permission from The Strategy Unit to reproduce this documenthere. Please note that the work is not being reproduced with an open licence and if you wish to share or remix this document you should contact the authors yourselves to seek their permission.
+I have permission from The Strategy Unit to reproduce this document here. Please note that the work is not being reproduced with an open licence and if you wish to share or remix this document you should contact the authors yourselves to seek their permission.
 Characteristics of a high functioning analytical team #   Is clear that their key role is to enhance the quality of the decision making process Has critical problem formulation skills- to help them engage with decision makers to ensure the right questions are being addressed Is technically proficient across the range of analytical project &amp;lsquo;types&amp;rsquo; and able to apply these to the questions at hand Is aware of its own limitations and establishes collaborative partnerships to supplement this Is able to influence the decision-making processes by providing reliable, relevant, well communicated analyses to decision makers to ensure decision quality Is dedicated to research and sharing knowledge; producing replicable work and evidencing new ways of working Is well-versed in the healthcare context in which it operates  Analytical projects typology #   mermaid.</description>
     </item>
     
@@ -83,8 +83,9 @@ Team with multidisciplinary skills and perspectives #  The digital, data, and te
       
       <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/</guid>
       <description>Team types #  Summary #  Broadly, we might think of three types of analytic team within the ICS:
- Performance Data analysis/ reporting Data science  The roles of these teams is discussed in more detail following.
-Performance #  </description>
+ Performance Data analysis/ reporting Data science Public health/ population health  The roles of these teams is discussed in more detail following. Quoted content comes from the data job family which is licensed under the OGL3.
+Performance #  Performance teams:
+ …develop performance measurement frameworks - key performance indicators (KPIs), goals, user needs and benefits - and analyse the performance of a service or product against these, adapting your approach and framework appropriately and in line with any changes</description>
     </item>
     
     <item>
@@ -117,6 +118,17 @@ Area one #   TODO  Appendix A: Training providers #   AphA Health Education Engl
     </item>
     
     <item>
+      <title>Government Analysis Function</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/government_analysis_function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/resources/government_analysis_function/</guid>
+      <description>Government Analysis Function (AF) Learning Curriculum #  Summary #  This document is designed for analysts across the civil service. It is available under the OGL3.
+It is divided into five areas:
+ Ability  Gain aptitude or potential to perform to the required standard – “I need to learn how to do something now”   Technical  Demonstrate specific professional skills, knowledge or qualifications – “I want to get better at doing something”   Behaviours  Actions and activities that people do which result in effective performance in a job – “I want to change a behaviour”   Strengths  The things we do regularly, do well and that motivate us – “I want to learn from the experiences and strengths of others”   Experience  The knowledge or mastery of an activity or subject gained through involvement in or exposure to it – “I want to experience something that will help me grow”    70 : 20 : 10 learning model #  The learning opportunities on the Learning Curriculum are grouped according to the 70:20:10 Learning Model.</description>
+    </item>
+    
+    <item>
       <title>Competency Frameworks</title>
       <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency_frameworks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -124,6 +136,18 @@ Area one #   TODO  Appendix A: Training providers #   AphA Health Education Engl
       <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/competency_frameworks/</guid>
       <description>Competency frameworks #  Introduction #  APHA carried out a review of competency frameworks for health service analysts, published in 2021. There were 28 competency frameworks considered in the review, of which 10 were found to contain significant detail about analytical job roles and career progression. Some of the material from this review and from the competency frameworks is presented below.
 They assessed four frameworks as being the highest ranked in the scoring that they designed:</description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/analyst-skills/conclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/analyst-skills/conclusion/</guid>
+      <description>Conclusion #  Scope #  In order to carry out this work within a reasonable timeframe it was scoped to exclude any detailed work on career and competency frameworks (which are in any case forthcoming nationally).
+(Are we going to add any more scope to this?)
+Outline #  The current piece of work is designed to carry out the following functions as presented in the introduction:
+ Consider the types of analyst teams within the ICS and their diverse functions Identify a generic set of skills for healthcare analysts in the region Identify extra skills necessary dependent on role and organisation Identify individuals within the ICS who can provide training on these skillsets Identify gaps where the system is not self sufficient for training and procure training (preferring free training) Look at the range of external training available to the system Identify areas of training need that cannot be met internally or externally  These areas will each now be considered in turn.</description>
     </item>
     
   </channel>
