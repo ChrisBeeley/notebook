@@ -13,7 +13,7 @@ weight: 1
 
 Defining strategic analytics and career pathways for healthcare analysts
 
-I have permission from The Strategy Unit to reproduce [this document](https://github.com/ChrisBeeley/notebook/blob/main/content/docs/analyst-skills/resources/advancing_analytics_nhs.pdf)here. Please note that the work is *not* being reproduced with an open licence and if you wish to share or remix this document you should contact the authors yourselves to seek their permission. 
+I have permission from The Strategy Unit to reproduce [this document](https://github.com/ChrisBeeley/notebook/blob/main/content/docs/analyst-skills/resources/advancing_analytics_nhs.pdf) here. Please note that the work is *not* being reproduced with an open licence and if you wish to share or remix this document you should contact the authors yourselves to seek their permission. 
 
 ## Characteristics of a high functioning analytical team
 

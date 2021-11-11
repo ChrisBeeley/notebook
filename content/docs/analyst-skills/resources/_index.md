@@ -13,7 +13,8 @@ bookCollapseSection: true
 
 Please note the resources are reproduced in the repo with permission and no permission to reproduce elsewhere is implied (although asking nicely usually works, in my experience :wink:).
 
-Sources include (links forthcoming, I hope): 
+Sources include: 
 
 * [Advancing analytics in the NHS]({{< ref "advancing_analytics_nhs.md" >}})
 * [Recommendations for advancing the analytical capability of the NHS and its ICS partners]({{< ref "analytics_ics.md" >}})
+* [Government analysis function learning curriculum]({{< ref "government_analysis_function.md">}})
