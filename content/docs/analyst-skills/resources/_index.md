@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-weight: 100
+weight: 1000
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

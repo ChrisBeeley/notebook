@@ -1,6 +1,6 @@
 ---
 title: "Government Analysis Function"
-weight: 1
+weight: 10
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -41,4 +41,21 @@ This is a key insight in the current context and elsewhere and illustrates how i
 1. give analysts opportunities to practise their skills
 1. give analysts the opportunity to network and learn from each other
 
-Formal training makes up a very small proportion of the value in learning. 
+Formal training makes up a very small proportion of the value in learning.
+
+## Technical
+
+The [technical](https://www.gov.uk/guidance/af-learning-curriculum-technical) part of the curriculum lists the following topics:
+
+* Data analysis
+* Data management
+* Data science
+* Data visualisation
+* Economics
+* Geography
+* Modelling tools and techniques
+* New systems and ways of working
+* Operational research
+* Quality assurance, validation and data linkage
+* Software programming, tools and techniques
+* Survey design

@@ -2,7 +2,7 @@
 title: "Hugo"
 date: 2021-10-20T16:59:40+01:00
 draft: false
-weight: 50
+weight: 9999
 ---
 
 While I remember, here is a very quick list of things to do when you're using Hugo to make websites so they work properly.

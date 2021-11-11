@@ -33,31 +33,3 @@ Presented here will be material concerning:
 * [A review of training available to ICS staff]({{< ref "training.md" >}})
 
 Some of the other material may end up being on internal documents but it wouldn't be of interest to those outside our organisation anyway. 
-
-## Appendix A: Ideas 
-
-Where is the focus?
-
-1.	ICS Strategic Analytics team
-2.	The strategic analytical needs of the ICS to be met by the above and contributions from partner organisation teams
-3.	All analysts in an ICS meeting ICS and organisational needs
-
-[I think largely 2 + 3, but for discussion]
-
-What types of analysis are we considering? 
-
-1.	clinical decision-making to help busy clinicians diagnose and manage disease
-2.	innovation and change in the NHS, and to evaluate the success of new models of care and whether changes deliver the expected benefits
-3.	effective board-level oversight of complex organisations and care systems
-4.	better everyday management of the monitoring and improvement of the quality and efficiency of care
-5.	senior decision-makers to respond better to national incentives and regulation
-6.	the allocation of finite resources
-7.	better understanding of how patients flow through the system
-8.	new data and digital tools
-9.	patients and the public in using information
-
-### Scope
-
-* Explicitly wider than healthcare and include social care as well
-* PH intelligence analysis and PHM are separate types of analysis to the Performance/ Data analysis/ reporting/ Data science split given elsewhere
-* Need to include supporting the system with strategically allocating resources and interventions to maximise benefit
