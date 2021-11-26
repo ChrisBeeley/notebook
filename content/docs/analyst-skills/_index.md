@@ -29,6 +29,7 @@ Presented here will be material concerning:
 
 * [Types of analytic team]({{< ref "team_types.md" >}})
 * Types of analyst (TODO)
+* [A summary of the skills and activities of the analysts in the region at the time of writing]({{< ref "data_collection.md" >}})
 * [A generic set of skills for analysts in each type of team]({{< ref "skills.md" >}})
 * [A review of training available to ICS staff]({{< ref "training.md" >}})
 

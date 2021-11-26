@@ -28,7 +28,7 @@ It is divided into five areas:
 * Experience
     * The knowledge or mastery of an activity or subject gained through involvement in or exposure to it – “I want to experience something that will help me grow”
 
-## 70 : 20 : 10 learning model
+## 70 : 20 : 10 learning model {#70-20-10}
 
 The learning opportunities on the Learning Curriculum are grouped according to the 70:20:10 Learning Model. This framework suggests that in the workplace:
 
