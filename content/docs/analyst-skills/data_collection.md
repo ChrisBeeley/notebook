@@ -54,6 +54,8 @@ Domains were added to the data collection instrument based on the [five areas of
 
 Population health management was not added because it already existed within the original tool. Economic analysis was also identified as an area of interest but is covered in the original tool under *Options appraisal*. Arguably it would be better to disaggregate options appraisal to leave health economic analysis as a separate domain, but keeping the tool broadly in line with the previous PHE led exercise was felt to be valuable and so it was left in its original form. 
 
+### Adding time spent using skills
+
 As well as the extra other domains, an extra measure was added to each domain, which would assess the amount of time actually spent on the different domain areas. Estimating the actual time spent on 20+ domains was not felt to be a reasonable request and so four levels of use were defined:
 
 * 0: Never
