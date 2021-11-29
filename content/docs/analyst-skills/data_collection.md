@@ -35,10 +35,10 @@ Public Health England carried out a *Team Level Population Health Intelligence S
 
 Skills were defined at four levels:
 
-0: No experience of this skill group or do not need this skill set within their role (this can be all of the team) 
-1: Has an understanding of this group of skills 
-2: Using the skills outlined in this competency regularly as a core component to the work that they do 
-3: High level of expertise in this work area and are supervising or training/ teaching other staff within this area
+* 0: No experience of this skill group or do not need this skill set within their role (this can be all of the team) 
+* 1: Has an understanding of this group of skills 
+* 2: Using the skills outlined in this competency regularly as a core component to the work that they do 
+* 3: High level of expertise in this work area and are supervising or training/ teaching other staff within this area
 
 Repeating this analysis was not felt to be productive on its own, however a more detailed set of data was collected which contained the original data spec- with the repeated part of that data collection shared back with PHE.
 
@@ -56,7 +56,7 @@ Population health management was not added because it already existed within the
 
 As well as the extra other domains, an extra measure was added to each domain, which would assess the amount of time actually spent on the different domain areas. Estimating the actual time spent on 20+ domains was not felt to be a reasonable request and so four levels of use were defined:
 
-0: Never
-1: Once or twice a year
-2: Monthly
-3: Weekly
+* 0: Never
+* 1: Once or twice a year
+* 2: Monthly
+* 3: Weekly
