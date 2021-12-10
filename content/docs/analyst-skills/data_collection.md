@@ -52,6 +52,10 @@ Domains were added to the data collection instrument based on the [five areas of
 *	Transformation and Efficiency
 *	Place based partnerships
 
+One other domain was added to the data collection instrument based on discussions within the project group:
+
+* Knowledge of healthcare domains, datasets, and clinical coding systems 
+
 Population health management was not added because it already existed within the original tool. Economic analysis was also identified as an area of interest but is covered in the original tool under *Options appraisal*. Arguably it would be better to disaggregate options appraisal to leave health economic analysis as a separate domain, but keeping the tool broadly in line with the previous PHE led exercise was felt to be valuable and so it was left in its original form. 
 
 ### Adding time spent using skills
