@@ -1,5 +1,5 @@
 ---
-title: "Opensource"
+title: "Open source"
 weight: 10
 # bookFlatSection: false
 # bookToc: true
