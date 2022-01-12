@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Analyst skills #  I&rsquo;m looking at the issue of analyst skills in the Nottinghamshire ICS with some other people at the moment. The brief is:
- Consider the types of analyst teams within the ICS and their diverse functions Identify a generic set of skills for healthcare analysts in the region Identify extra skills necessary dependent on role and organisation Identify individuals within the ICS who can provide training on these skillsets Identify gaps where the system is not self sufficient for training and procure training (preferring free training) Look at the range of external training available to the system Identify areas of training need that cannot be met internally or externally  This will quite obviously require a very large amount of information about analyst skills, careers, and training, and so I will be making notes as I go along here.">
+<meta name="description" content="Open source #  I constantly talk about open source and regurgigate the same links to policy and best practice over and over again so it has finally dawned on me that I should just write it down once and then, you guessed it&hellip; open source it. So here it is.
+(I may expand this into a whole section in time but let&rsquo;s start with the basics)
+Policy #   Guidance on sharing code from GDS: https://www.">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Analyst skills" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Opensource" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/analyst-skills/" />
+<meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/opensource/" />
 
-<title>Analyst skills | Notebook</title>
+<title>Opensource | Notebook</title>
 <link rel="manifest" href="/notebook/manifest.json">
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
   <script defer src="/notebook/en.search.min.529334a489879ef5ad755ef0a5b8c3f78a647a3d0406fe679a2e6167ed828208.js" integrity="sha256-UpM0pImHnvWtdV7wpbjD94pkej0EBv5nmi5hZ&#43;2Cggg=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/index.xml" title="Notebook" />
+<link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/opensource/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -69,9 +70,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-7429b31c18f9c3356b314c5477ff9431" class="toggle" checked />
+    <input type="checkbox" id="section-7429b31c18f9c3356b314c5477ff9431" class="toggle"  />
     <label for="section-7429b31c18f9c3356b314c5477ff9431" class="flex justify-between">
-      <a href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/" class="active">Analyst skills</a>
+      <a href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/" class="">Analyst skills</a>
     </label>
   
 
@@ -348,7 +349,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://chrisbeeley.github.io/notebook/docs/opensource/" class="">Opensource</a>
+    <a href="https://chrisbeeley.github.io/notebook/docs/opensource/" class=" active">Opensource</a>
   
 
           
@@ -467,7 +468,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/notebook/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Analyst skills</strong>
+  <strong>Opensource</strong>
 
   <label for="toc-control">
     
@@ -483,7 +484,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#summary-of-content">Summary of content</a></li>
+    <li><a href="#open-source">Open source</a>
+      <ul>
+        <li><a href="#policy">Policy</a></li>
+        <li><a href="#guidance">Guidance</a></li>
+        <li><a href="#awesome-repos-that-show-how-its-done">Awesome repos that show how it&rsquo;s done</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -496,34 +503,45 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="analyst-skills">
-  Analyst skills
-  <a class="anchor" href="#analyst-skills">#</a>
-</h1>
-<p>I&rsquo;m looking at the issue of analyst skills in the Nottinghamshire ICS with some other people at the moment. The brief is:</p>
-<ul>
-<li>Consider the types of analyst teams within the ICS and their diverse functions</li>
-<li>Identify a generic set of skills for healthcare analysts in the region</li>
-<li>Identify extra skills necessary dependent on role and organisation</li>
-<li>Identify individuals within the ICS who can provide training on these skillsets</li>
-<li>Identify gaps where the system is not self sufficient for training and procure training (preferring free training)</li>
-<li>Look at the range of external training available to the system</li>
-<li>Identify areas of training need that cannot be met internally or externally</li>
-</ul>
-<p>This will quite obviously require a very large amount of information about analyst skills, careers, and training, and so I will be making notes as I go along here. There may be a couple of things that come out of this that I can&rsquo;t share, thinking in particular of other people&rsquo;s thoughts and ideas, but I&rsquo;ll share as much as I can and hopefully this will prove a useful resource for somebody else doing the same thing in another part of the country (or world, even 😉)</p>
-<h2 id="summary-of-content">
-  Summary of content
-  <a class="anchor" href="#summary-of-content">#</a>
+  <article class="markdown"><h2 id="open-source">
+  Open source
+  <a class="anchor" href="#open-source">#</a>
 </h2>
-<p>Presented here will be material concerning:</p>
+<p>I constantly talk about open source and regurgigate the same links to policy and best practice over and over again so it has finally dawned on me that I should just write it down once and then, you guessed it&hellip; open source it. So here it is.</p>
+<p>(I may expand this into a whole section in time but let&rsquo;s start with the basics)</p>
+<h3 id="policy">
+  Policy
+  <a class="anchor" href="#policy">#</a>
+</h3>
 <ul>
-<li><a href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/team_types/">Types of analytic team</a></li>
-<li>Types of analyst (TODO)</li>
-<li><a href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/data_collection/">A summary of the skills and activities of the analysts in the region at the time of writing</a></li>
-<li><a href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/skills/">A generic set of skills for analysts in each type of team</a></li>
-<li><a href="https://chrisbeeley.github.io/notebook/docs/analyst-skills/training/">A review of training available to ICS staff</a></li>
+<li>Guidance on sharing code from GDS:  <a href="https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable">https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable</a></li>
+<li>The NHS version of the above:  <a href="https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open">https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open</a></li>
+<li>Sharing code being talked about in NHSX’s data saves lives strategy document:  <a href="https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#helping-developers-and-innovators-to-improve-health-and-care">https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#helping-developers-and-innovators-to-improve-health-and-care</a></li>
 </ul>
-<p>Some of the other material may end up being on internal documents but it wouldn&rsquo;t be of interest to those outside our organisation anyway.</p>
+<h3 id="guidance">
+  Guidance
+  <a class="anchor" href="#guidance">#</a>
+</h3>
+<ul>
+<li><a href="https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open">https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open</a></li>
+<li><a href="https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/">https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/</a></li>
+<li><a href="https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb">https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb</a></li>
+</ul>
+<h3 id="awesome-repos-that-show-how-its-done">
+  Awesome repos that show how it&rsquo;s done
+  <a class="anchor" href="#awesome-repos-that-show-how-its-done">#</a>
+</h3>
+<p>(although note some of these are imperfect e.g. they lack licences)</p>
+<ul>
+<li>The superb, world leading coronavirus dashboard from PHE <a href="https://github.com/publichealthengland/coronavirus-dashboard">https://github.com/publichealthengland/coronavirus-dashboard</a></li>
+<li>An analysis of risk factors for COVID deaths across 17 million linked NHS records <a href="https://github.com/opensafely/risk-factors-research">https://github.com/opensafely/risk-factors-research</a></li>
+<li>Open prescribing, an API/ dashboard for GP level prescription data <a href="https://github.com/ebmdatalab/openprescribing">https://github.com/ebmdatalab/openprescribing</a></li>
+<li>A tool to calculate growth centiles for children, developed by RCPCH <a href="https://github.com/rcpch/digital-growth-charts-server">https://github.com/rcpch/digital-growth-charts-server</a></li>
+<li>The NHSX/ NHSR funded R wrapper to our locally developed tool to classify text based patient experience data (this is from my team 😊) <a href="https://github.com/nhs-r-community/pxtextmineR">https://github.com/nhs-r-community/pxtextmineR</a></li>
+<li>An experimental bed allocation tool from NHSX <a href="https://github.com/nhsx/skunkworks-bed-allocation">https://github.com/nhsx/skunkworks-bed-allocation</a></li>
+<li>Open source SQL that produces the MHSDS from NHSE <a href="https://github.com/nhsengland/MHSDS">https://github.com/nhsengland/MHSDS</a></li>
+</ul>
+<p>(This is really just a completely rushed random snapshot. If you know about something cool in open source health and social care, get in touch or make a PR ☺️)</p>
 </article>
  
       
@@ -565,7 +583,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#summary-of-content">Summary of content</a></li>
+    <li><a href="#open-source">Open source</a>
+      <ul>
+        <li><a href="#policy">Policy</a></li>
+        <li><a href="#guidance">Guidance</a></li>
+        <li><a href="#awesome-repos-that-show-how-its-done">Awesome repos that show how it&rsquo;s done</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
