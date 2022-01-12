@@ -26,6 +26,7 @@ I constantly talk about open source and regurgigate the same links to policy and
 * https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open
 * https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/
 * https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb
+* [NCSC Secure development and deployment guidance](https://www.ncsc.gov.uk/collection/developers-collection)
 
 ### Awesome repos that show how it's done
 
