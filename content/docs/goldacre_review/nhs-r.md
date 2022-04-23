@@ -17,14 +17,19 @@ Brilliantly, NHS-R is already leading on many of the things from this review tha
 
 ## What has NHS-R already done?
 
+* NHSA 4. Support an NHS analyst community
+    * [Slack](http://nhsrcommunity.slack.com/), [twitter](https://twitter.com/NHSrCommunity), [conference](https://nhsrcommunity.com/nhs-r-community-conference-2021/), [GitHub](https://github.com/nhs-r-community)
+* NHSA 5. [Develop an annual data conference for NHS service analysts](https://nhsrcommunity.com/nhs-r-community-conference-2021/)
 * NHSA 18. Ensure all training is open by default
     * All NHS R training is open (and open licensed) because of course it is
         * [Intro](https://github.com/nhs-r-community/intro_r)
+        * [Interactive intro](https://github.com/nhs-r-community/NHSRtraining)
         * [Shiny](https://github.com/nhs-r-community/shiny-training)
         * [Git](https://github.com/nhs-r-community/git_training) [bare repo at time of writing but in active development ready for conference November 2022]
         * [RMarkdown](https://github.com/nhs-r-community/intro_rmd)
-        * [Interactive intro](https://github.com/nhs-r-community/NHSRtraining)
 
-* NHSA 4. Support an NHS analyst community
-    * Slack, twitter, conference, GitHub
-* NHSA 5. Develop an annual data conference for NHS service analysts
+## What can NHS-R do in the future?
+
+* NHSA 11. Devise the content of a national training programme for NHS analysts: initial and CPD
+    * NHS-R wouldn't be expected to contribute across the board, but 
+* NHSA 12. Oversee funding and delivery of training, both open online and one-to-one
