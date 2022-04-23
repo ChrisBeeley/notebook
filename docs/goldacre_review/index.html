@@ -3,22 +3,20 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Open source #  I constantly talk about open source and regurgigate the same links to policy and best practice over and over again so it has finally dawned on me that I should just write it down once and then, you guessed it&hellip; open source it. So here it is.
-(I may expand this into a whole section in time but let&rsquo;s start with the basics)
-Policy #   Guidance on sharing code from GDS: https://www.">
+<meta name="description" content="Better, Broader, Safer: Using Health Data for Research and Analysis #  These are my notes from the material in the Goldacare Review. Please note that if you&rsquo;re not me and you&rsquo;re reading this I am only making notes about the bits that particularly pertain to me as a data scientist working in an NHS provider trust. For example, I think trusted research environments are a great idea, but it&rsquo;s not of particularly great interest to me in terms of my work, so I&rsquo;m skimming over those bits.">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Open source" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Goldacre Review" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/opensource/" />
+<meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/goldacre_review/" />
 
-<title>Open source | Notebook</title>
+<title>Goldacre Review | Notebook</title>
 <link rel="manifest" href="/notebook/manifest.json">
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
   <script defer src="/notebook/en.search.min.da822c662a9e9c6cfff1db3beb960aac15030621dea6d8d2591bc448fb55de77.js" integrity="sha256-2oIsZiqenGz/8ds765YKrBUDBiHeptjSWRvESPtV3nc=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/opensource/index.xml" title="Notebook" />
+<link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/goldacre_review/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -289,9 +287,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-257c234a91ffad06abe52b542a4c5e77" class="toggle"  />
+    <input type="checkbox" id="section-257c234a91ffad06abe52b542a4c5e77" class="toggle" checked />
     <label for="section-257c234a91ffad06abe52b542a4c5e77" class="flex justify-between">
-      <a href="https://chrisbeeley.github.io/notebook/docs/goldacre_review/" class="">Goldacre Review</a>
+      <a href="https://chrisbeeley.github.io/notebook/docs/goldacre_review/" class="active">Goldacre Review</a>
     </label>
   
 
@@ -370,7 +368,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://chrisbeeley.github.io/notebook/docs/opensource/" class=" active">Open source</a>
+    <a href="https://chrisbeeley.github.io/notebook/docs/opensource/" class="">Open source</a>
   
 
           
@@ -489,7 +487,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/notebook/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Open source</strong>
+  <strong>Goldacre Review</strong>
 
   <label for="toc-control">
     
@@ -505,13 +503,8 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#open-source">Open source</a>
-      <ul>
-        <li><a href="#policy">Policy</a></li>
-        <li><a href="#guidance">Guidance</a></li>
-        <li><a href="#awesome-repos-that-show-how-its-done">Awesome repos that show how it&rsquo;s done</a></li>
-      </ul>
-    </li>
+    <li><a href="#terms-of-reference">Terms of reference</a></li>
+    <li><a href="#summary">Summary</a></li>
   </ul>
 </nav>
 
@@ -524,47 +517,45 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="open-source">
-  Open source
-  <a class="anchor" href="#open-source">#</a>
+  <article class="markdown"><h1 id="better-broader-safer-using-health-data-for-research-and-analysis">
+  Better, Broader, Safer: Using Health Data for Research and Analysis
+  <a class="anchor" href="#better-broader-safer-using-health-data-for-research-and-analysis">#</a>
+</h1>
+<p>These are my notes from the material in the <a href="https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis">Goldacare Review</a>. Please note that if you&rsquo;re not me and you&rsquo;re reading this I am only making notes about the bits that particularly pertain to me as a data scientist working in an NHS provider trust. For example, I think trusted research environments are a great idea, but it&rsquo;s not of particularly great interest to me in terms of my work, so I&rsquo;m skimming over those bits. I&rsquo;m interested in how we use data at the coalface from within an organisation (or ICS, IG permitting) and in particular how we use data to inform decision making and ensure that staff and patients are getting the best outcomes possible (clinical and experiential).</p>
+<p>Note that the material is provided under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">OGL version 3</a>, and I am complying with the licence by reusing the material with proper attribution and a link to the licence. I read a lot of stuff, code and prose, that is produced with public money without an open licence so I would like to take this opportunity to thank the authors and publishers for opening the material in this way.</p>
+<h2 id="terms-of-reference">
+  Terms of reference
+  <a class="anchor" href="#terms-of-reference">#</a>
 </h2>
-<p>I constantly talk about open source and regurgigate the same links to policy and best practice over and over again so it has finally dawned on me that I should just write it down once and then, you guessed it&hellip; open source it. So here it is.</p>
-<p>(I may expand this into a whole section in time but let&rsquo;s start with the basics)</p>
-<h3 id="policy">
-  Policy
-  <a class="anchor" href="#policy">#</a>
-</h3>
+<p>[verbatim from document]</p>
 <ul>
-<li>Guidance on sharing code from GDS:  <a href="https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable">https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable</a></li>
-<li>The NHS version of the above:  <a href="https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open">https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open</a></li>
-<li>Sharing code being talked about in NHSX’s data saves lives strategy document:  <a href="https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#helping-developers-and-innovators-to-improve-health-and-care">https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#helping-developers-and-innovators-to-improve-health-and-care</a></li>
+<li>How do we facilitate access to NHS data by researchers, commissioners, and innovators, while preserving patient privacy?</li>
+<li>What types of technical platforms, Trusted Research Environments (TREs), and data flows are the most efficient, and safe, for which common analytic tasks?</li>
+<li>How do we overcome the technical and cultural barriers to achieving this goal, and how can they be rapidly overcome?</li>
+<li>Where (with appropriate sensitivity) have current approaches been successful, and where have they struggled?</li>
+<li>How do we avoid unhelpful monopolies being asserted over data access for analysis?</li>
+<li>What are the right responsibilities and expectations on open and transparent sharing of data and code for arm’s length bodies, clinicians, researchers, research funders, electronic health records and other software vendors, providers of medical services, and innovators? And how do we ensure these are met?</li>
+<li>How can we best incentivise and resource practically useful data science by the public and private sectors? What roles must the state perform, and which are best delivered through a mixed economy? How can we ensure true delivery is rewarded?</li>
+<li>How significantly do the issues of data quality, completeness, and harmonisation across the system affect the range of research uses of the data available from health and social care? Given the current quality issues, what research is the UK optimally placed to support now, and what changes would be needed to optimise our position in the next 3 years?</li>
+<li>If data is made available for secondary research, for example to a company developing new treatments, then how can we prove to patients that privacy is preserved, beyond simple reassurance?</li>
+<li>How can data curation best be delivered, cost effectively, to meet these researchers’ needs? We will ensure alignment with Science Research and Evidence (SRE) research priorities and Office for Life Sciences (OLS) (including the data curation programme bid).</li>
+<li>What can we take from the successes and best practice in data science, commercial, and open source software development communities?</li>
+<li>How do we help the NHS to analyse and use data routinely to improve quality, safety and efficiency?</li>
 </ul>
-<h3 id="guidance">
-  Guidance
-  <a class="anchor" href="#guidance">#</a>
-</h3>
+<h2 id="summary">
+  Summary
+  <a class="anchor" href="#summary">#</a>
+</h2>
+<p>[to be completed]</p>
 <ul>
-<li><a href="https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open">Security and open code</a></li>
-<li><a href="https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/">Why code in the open</a></li>
-<li><a href="https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb">https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb</a></li>
-<li><a href="https://www.ncsc.gov.uk/collection/developers-collection">NCSC Secure development and deployment guidance</a></li>
-<li><a href="https://github.com/NHSDigital/rap-community-of-practice">This RAP repo contains loads of excellent material on git and open</a></li>
+<li>Modernising NHS service analytics</li>
+<li>Modern, open working methods for NHS data analysis</li>
+<li>The challenge of privacy in health data</li>
+<li>Trusted Research Environments</li>
+<li>Information governance, ethics and participation</li>
+<li>Data curation</li>
+<li>Strategy</li>
 </ul>
-<h3 id="awesome-repos-that-show-how-its-done">
-  Awesome repos that show how it&rsquo;s done
-  <a class="anchor" href="#awesome-repos-that-show-how-its-done">#</a>
-</h3>
-<p>(although note some of these are imperfect e.g. they lack licences)</p>
-<ul>
-<li>The superb, world leading coronavirus dashboard from PHE <a href="https://github.com/publichealthengland/coronavirus-dashboard">https://github.com/publichealthengland/coronavirus-dashboard</a></li>
-<li>An analysis of risk factors for COVID deaths across 17 million linked NHS records <a href="https://github.com/opensafely/risk-factors-research">https://github.com/opensafely/risk-factors-research</a></li>
-<li>Open prescribing, an API/ dashboard for GP level prescription data <a href="https://github.com/ebmdatalab/openprescribing">https://github.com/ebmdatalab/openprescribing</a></li>
-<li>A tool to calculate growth centiles for children, developed by RCPCH <a href="https://github.com/rcpch/digital-growth-charts-server">https://github.com/rcpch/digital-growth-charts-server</a></li>
-<li>The NHSX/ NHSR funded R wrapper to our locally developed tool to classify text based patient experience data (this is from my team 😊) <a href="https://github.com/nhs-r-community/pxtextmineR">https://github.com/nhs-r-community/pxtextmineR</a></li>
-<li>An experimental bed allocation tool from NHSX <a href="https://github.com/nhsx/skunkworks-bed-allocation">https://github.com/nhsx/skunkworks-bed-allocation</a></li>
-<li>Open source SQL that produces the MHSDS from NHSE <a href="https://github.com/nhsengland/MHSDS">https://github.com/nhsengland/MHSDS</a></li>
-</ul>
-<p>(This is really just a completely rushed random snapshot. If you know about something cool in open source health and social care, get in touch or make a PR ☺️)</p>
 </article>
  
       
@@ -606,13 +597,8 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#open-source">Open source</a>
-      <ul>
-        <li><a href="#policy">Policy</a></li>
-        <li><a href="#guidance">Guidance</a></li>
-        <li><a href="#awesome-repos-that-show-how-its-done">Awesome repos that show how it&rsquo;s done</a></li>
-      </ul>
-    </li>
+    <li><a href="#terms-of-reference">Terms of reference</a></li>
+    <li><a href="#summary">Summary</a></li>
   </ul>
 </nav>
 

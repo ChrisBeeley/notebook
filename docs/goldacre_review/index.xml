@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goldacre Review on Notebook</title>
+    <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/</link>
+    <description>Recent content in Goldacre Review on Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/goldacre_review/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
