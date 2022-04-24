@@ -25,7 +25,8 @@ I constantly talk about open source and regurgigate the same links to policy and
 
 * [Security and open code](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open)
 * [Why code in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/)
-* https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb
+* [When code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)
+* [Health Foundation on opening their code](https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb)
 * [NCSC Secure development and deployment guidance](https://www.ncsc.gov.uk/collection/developers-collection)
 * [This RAP repo contains loads of excellent material on git and open](https://github.com/NHSDigital/rap-community-of-practice)
 
