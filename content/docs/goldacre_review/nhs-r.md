@@ -30,6 +30,8 @@ Brilliantly, NHS-R is already leading on many of the things from this review tha
         * [Shiny](https://github.com/nhs-r-community/shiny-training)
         * [Git](https://github.com/nhs-r-community/git_training) [bare repo at time of writing but in active development ready for conference November 2022]
         * [RMarkdown](https://github.com/nhs-r-community/intro_rmd)
+* NHSA 19. Create and maintain a curated national open library of NHS analyst code
+    * A wonderful [open repo](https://github.com/nhs-r-community/demos-and-how-tos) full of all kinds of useful stuff in the R language
 
 ## What can NHS-R do in the future?
 
