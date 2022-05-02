@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Open working #  Myths about open working #  This section starts with mythbusting, which is very welcome because there is a lot of rubbish spoken about open code in the NHS. To summarise:
- Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach  I&rsquo;m not 100% clear on what is intended by this- but if it was I imagine (dual licensing) I&rsquo;m not sure about the practicalities of this one     ">
+<meta name="description" content="Open working #  For more information about open source and software licensing in the NHS see elsewhere in this notebook.
+Myths about open working #  This section starts with mythbusting, which is very welcome because there is a lot of rubbish spoken about open code in the NHS. To summarise:
+ Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Open Working" />
-<meta property="og:description" content="Open working #  Myths about open working #  This section starts with mythbusting, which is very welcome because there is a lot of rubbish spoken about open code in the NHS. To summarise:
- Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach  I&rsquo;m not 100% clear on what is intended by this- but if it was I imagine (dual licensing) I&rsquo;m not sure about the practicalities of this one     " />
+<meta property="og:description" content="Open working #  For more information about open source and software licensing in the NHS see elsewhere in this notebook.
+Myths about open working #  This section starts with mythbusting, which is very welcome because there is a lot of rubbish spoken about open code in the NHS. To summarise:
+ Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/goldacre_review/open-working/" /><meta property="article:section" content="docs" />
 
@@ -19,7 +21,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.4a4707a3dd1245a6b9b5530e7f2961b9b40dc4a8c625a51ebd9c58bfa82ffcf2.js" integrity="sha256-SkcHo90SRaa5tVMOfylhubQNxKjGJaUevZxYv6gv/PI=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.5fb6254a16b3b5fce1868cdd9418105c66e8640982df75b6f6ccc46ef5413cb7.js" integrity="sha256-X7YlShaztfzhhozdlBgQXGboZAmC33W29szEbvVBPLc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -559,6 +561,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#myths-about-open-working">Myths about open working</a></li>
+    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
   </ul>
 </nav>
 
@@ -575,19 +578,40 @@ https://github.com/alex-shpak/hugo-book
   Open working
   <a class="anchor" href="#open-working">#</a>
 </h1>
+<p>For more information about <a href="https://chrisbeeley.github.io/notebook/docs/datascience/open-source/">open source</a> and <a href="https://chrisbeeley.github.io/notebook/docs/opensource/">software licensing</a> in the NHS see elsewhere in this notebook.</p>
 <h2 id="myths-about-open-working">
   Myths about open working
   <a class="anchor" href="#myths-about-open-working">#</a>
 </h2>
 <p>This section starts with mythbusting, which is very welcome because there is a lot of rubbish spoken about open code in the NHS. To summarise:</p>
-<ul>
-<li>Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach
+<blockquote>
+<p>Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach</p>
+</blockquote>
 <ul>
 <li>I&rsquo;m not 100% clear on what is intended by this- but if it was I imagine (dual licensing) <a href="https://chrisbeeley.github.io/notebook/docs/goldacre_review/further-work/#software-licensing">I&rsquo;m not sure about the practicalities of this one</a></li>
 </ul>
-</li>
-<li></li>
+<blockquote>
+<p>open working is fully compatible with use of commercial products: it requires only that new code and methods created for and funded by the state should be shared as default, for interoperability, quality, and efficiency. Similarly, open working does not mean that nobody is paid: simply that new code and methods are contracted from the outset as a buy-out</p>
+</blockquote>
+<ul>
+<li>An important point. I&rsquo;ve often been told verbally that the code and working out of a contractor will be shared with me- however this rarely happens in practice. This isn&rsquo;t nice to have, it&rsquo;s essential, and a proper <a href="https://opensource.org/licenses">open source licence</a> should be specified in the contract. NHS-R only funds open source work, and the licence is named on the application for funding</li>
 </ul>
+<blockquote>
+<p>open working does not mean that the results of every analysis must be shared openly, or in real time. The results of an analysis are separate to the code and methods used to create them. It may often be reasonable for NHS analysts to run data analyses to monitor and optimise the delivery of care, for example, without disclosing the results of all such analyses publicly in real time</p>
+</blockquote>
+<ul>
+<li>This red herring is trotted out at every opportunity. I only ever want the code, and never the data, but &ldquo;IG&rdquo; is used as an excuse to keep everything hidden</li>
+</ul>
+<blockquote>
+<p>Lastly, open sharing for code is not a philosophical, political, or ideological stance, but rather a practical one. Data curation and analysis is complex technical work across multiple teams, and it can only be done well where technical material (such as code, methods and documentation) is shared between those teams&hellip; the people working on NHS data stretch across hundreds of diverse public and private sector organisations. Creating a closed permissions-based system to carefully police limited sharing among a huge array of individuals across all these organisations would be a vast technical and bureaucratic project, of inconceivable complexity and expense. Most importantly, this expensive approach to balancing closed working and accessibility of information would bring no clear benefit, as there is no clearly articulated need for code and methods to be withheld from wider access</p>
+</blockquote>
+<ul>
+<li>Personally, I think code sharing is both philosophical/ political and practical, but the point is well taken</li>
+</ul>
+<h2 id="reproducible-analytical-pipelines">
+  Reproducible analytical pipelines
+  <a class="anchor" href="#reproducible-analytical-pipelines">#</a>
+</h2>
 </article>
  
       
@@ -630,6 +654,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#myths-about-open-working">Myths about open working</a></li>
+    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
   </ul>
 </nav>
 
