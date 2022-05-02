@@ -38,7 +38,7 @@ Nonetheless, I do not have permission to publish anything that implies the struc
 
 I have asked a vendor about this second issue and they refuse to talk to me. They will only talk to my Trust's representative; my Trust refuses to ask them for this information.
 
-I desperately need crystal clear guidance on the legal and technical aspects of this issue from inside the NHS so I can win this argument once and for all. The failure of a £140bn a year system to answer such a simple question is pretty dismal, in my opinion. NHSX's open code guidance is great but as the linked issue makes clear it does not currently have anything to say on this issue. Hopefully it will in the future. 
+I desperately need crystal clear guidance on the legal and technical aspects of this issue from inside the NHS so I can win this argument once and for all. NHSX's open code guidance is great but as the linked issue makes clear it does not currently have anything to say on this issue. Hopefully it will in the future. 
 
 ## Software licensing
 
@@ -46,4 +46,7 @@ There is a section addressing "myths" about open working in the [section on open
 
 > Adopting open working practices does not mean other countries or industry can exploit intellectual property created with state funds: there should be a robust and thoughtful exceptions framework to impose commercial licenses or restrictions on review and (separately) re-use of publicly funded code, where this is actively helpful; but this closed approach should be used in a planned and deliberate fashion, where it meets national strategic objectives, not as the unplanned default approach
 
-I have heard this objection to open code many times, and have tried to address it where I can. On the face of it it seems very sensible: share the code with, say the NHS, and exploit the code commercially where it can be exploited commercially. 
+I have heard this objection to open code many times, and have tried to address it where I can. On the face of it it seems very sensible: share the code with, say the NHS, and exploit the code commercially where it can be exploited commercially. The original text is not entirely clear but I am assuming that they are referring to dual licensing of code. I have filed [an issue on NHSX's open code guidance](https://github.com/nhsx/open-source-policy/issues/18) on this subject. I am no expert but I am dubious as to whether the benefits of dual licensing code can be realised in the NHS. It's a notoriously tricky area and my fear is that dual licensing will
+
+a) scare off people who would otherwise have contributed, because they don't work in an organisation which can use a free licence and so would have to pay to use a project they themselves contributed to
+b) will not produce anywhere near the revenue to make all the administration worthwhile- companies which can't use a free licence will either just reimplement the code themselves or just use a truly free alternative.
