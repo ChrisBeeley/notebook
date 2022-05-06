@@ -29,6 +29,7 @@ I constantly talk about open source and regurgigate the same links to policy and
 * [Health Foundation on opening their code](https://medium.com/healthfdn-data-analytics/towards-open-health-analytics-our-guide-to-sharing-code-safely-on-github-5d1e018897cb)
 * [NCSC Secure development and deployment guidance](https://www.ncsc.gov.uk/collection/developers-collection)
 * [This RAP repo contains loads of excellent material on git and open](https://github.com/NHSDigital/rap-community-of-practice)
+* [NHSX on open code](https://nhsx.github.io/AnalyticsUnit/codeintheopen.html)
 
 ### Awesome repos that show how it's done
 
