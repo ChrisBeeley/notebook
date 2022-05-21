@@ -38,12 +38,13 @@ Note that the material is provided under the [OGL version 3](https://www.nationa
 
 Good defaults- make good practice the norm, not the exception
 
-* Open 4. Create an ‘exceptions framework’ whereby publicly funded code can be closed [only by] by prior arrangement if this meets NHS and UKplc strategic objectives
-* 
+* "Create an ‘exceptions framework’ whereby publicly funded code can be closed [only by] by prior arrangement if this meets NHS and UKplc strategic objectives"
+* "**it is crucial that** [emphasis added] the core working practices [of [RAP]({{< ref "open-working.md#reproducible-analytical-pipelines-rap" >}})], such as sharing code, are implemented as a norm throughout the system, because of the problems that closed working can create around quality, safety, usability, credibility, and review"
+
 
 ### Modernising NHS service analytics
 
-* 
+* WIP
 
 ### Modern, open working methods for NHS data analysis
 
