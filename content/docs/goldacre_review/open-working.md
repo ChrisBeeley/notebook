@@ -34,3 +34,7 @@ This section starts with mythbusting, which is very welcome because there is a l
 * Personally, I think code sharing is both philosophical/ political and practical, but the point is well taken
 
 ## Reproducible analytical pipelines
+
+> data scientists or analysts who had approached health data from other sectors... They repeatedly expressed how surprised they were to find that approaches regarded as standard in other parts of industry or academia – such as sharing code, or the everyday working practices of collaborative software development – were not yet the norm in teams working with health data
+
+

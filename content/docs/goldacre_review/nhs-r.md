@@ -35,6 +35,8 @@ Brilliantly, NHS-R is already leading on many of the things from this review tha
 
 ## What can NHS-R do in the future?
 
+* NHSA 4. Support an NHS analyst community
+    * [Coffee and coding](https://gss.civilservice.gov.uk/reproducible-analytical-pipelines/coffee-and-coding/)
 * NHSA 11. Devise the content of a national training programme for NHS analysts: initial and CPD
     * NHS-R wouldn't be expected to contribute across the board, but NHS-R includes many experts in:
         * RAP
