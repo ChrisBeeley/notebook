@@ -33,8 +33,35 @@ This section starts with mythbusting, which is very welcome because there is a l
 
 * Personally, I think code sharing is both philosophical/ political and practical, but the point is well taken
 
-## Reproducible analytical pipelines
+## Reproducible analytical pipelines (RAP)
 
 > data scientists or analysts who had approached health data from other sectors... They repeatedly expressed how surprised they were to find that approaches regarded as standard in other parts of industry or academia – such as sharing code, or the everyday working practices of collaborative software development – were not yet the norm in teams working with health data
 
+Reproducible analytical pipelines:
+
+* minimise manual steps, for example copy-paste, point-click or drag-drop operations. Where it is absolutely necessary to include a manual step in the process this must be documented
+* be built using open source software for data management, analysis and visualisation which is available to anyone, preferably R or python
+* be open to anyone for review and re-use, with all code shared openly through open standard file and code sharing platforms such as GitHub (sharing data itself is a separate issue from sharing code, as discussed below, and should be handled very differently)
+* guarantee an audit trail using version control software (such as Git, or in services such as GitHub) which systematically track exactly who has made which changes or contributions to the code, which characters and lines were modified, when, and – as appropriate – why
+* follow existing good practice for quality assurance
+* deepen technical and quality assurance processes with code review by peers
+* contain well-commented code and have documentation embedded and version controlled within the work, rather than saved elsewhere
+
+The key change to RAP: 
+
+> a recognition of the need for those working with data to embrace the many norms and behaviours of the software development community when writing code
+
+"There is undoubtedly a place for traditional and less technical approaches to collaboration and information management such as emails, meetings, phone calls, or written manuals. But these are ill-suited to managing long complex interdependent technical work with code and data"
+
+These practices include (see the report for a description of them):
+
+* Version control and GitHub
+* Code review
+* Functions
+* Unit tests
+* Libraries
+* Documentation
+* Managing the environment
+
+### Who needs these skills
 
