@@ -21,7 +21,7 @@ Myths about open working #  This section starts with mythbusting, which is very 
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.ac967cdeee85ffb5e98f29356a70950aa2e6fb4ee13a1cc85933bf5ac986a6b8.js" integrity="sha256-rJZ83u6F/7Xpjyk1anCVCqLm&#43;07hOhzIWTO/WsmGprg=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.4e1518d309db4f5821b2afc981f822f63e4b74c12533a312666fc21963f85dce.js" integrity="sha256-ThUY0wnbT1ghsq/Jgfgi9j5LdMElM6MSZm/CGWP4Xc4=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -561,7 +561,11 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#myths-about-open-working">Myths about open working</a></li>
-    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
+    <li><a href="#reproducible-analytical-pipelines-rap">Reproducible analytical pipelines (RAP)</a>
+      <ul>
+        <li><a href="#who-needs-these-skills">Who needs these skills</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -608,10 +612,42 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li>Personally, I think code sharing is both philosophical/ political and practical, but the point is well taken</li>
 </ul>
-<h2 id="reproducible-analytical-pipelines">
-  Reproducible analytical pipelines
-  <a class="anchor" href="#reproducible-analytical-pipelines">#</a>
+<h2 id="reproducible-analytical-pipelines-rap">
+  Reproducible analytical pipelines (RAP)
+  <a class="anchor" href="#reproducible-analytical-pipelines-rap">#</a>
 </h2>
+<blockquote>
+<p>data scientists or analysts who had approached health data from other sectors&hellip; They repeatedly expressed how surprised they were to find that approaches regarded as standard in other parts of industry or academia – such as sharing code, or the everyday working practices of collaborative software development – were not yet the norm in teams working with health data</p>
+</blockquote>
+<p>Reproducible analytical pipelines:</p>
+<ul>
+<li>minimise manual steps, for example copy-paste, point-click or drag-drop operations. Where it is absolutely necessary to include a manual step in the process this must be documented</li>
+<li>be built using open source software for data management, analysis and visualisation which is available to anyone, preferably R or python</li>
+<li>be open to anyone for review and re-use, with all code shared openly through open standard file and code sharing platforms such as GitHub (sharing data itself is a separate issue from sharing code, as discussed below, and should be handled very differently)</li>
+<li>guarantee an audit trail using version control software (such as Git, or in services such as GitHub) which systematically track exactly who has made which changes or contributions to the code, which characters and lines were modified, when, and – as appropriate – why</li>
+<li>follow existing good practice for quality assurance</li>
+<li>deepen technical and quality assurance processes with code review by peers</li>
+<li>contain well-commented code and have documentation embedded and version controlled within the work, rather than saved elsewhere</li>
+</ul>
+<p>The key change to RAP:</p>
+<blockquote>
+<p>a recognition of the need for those working with data to embrace the many norms and behaviours of the software development community when writing code</p>
+</blockquote>
+<p>&ldquo;There is undoubtedly a place for traditional and less technical approaches to collaboration and information management such as emails, meetings, phone calls, or written manuals. But these are ill-suited to managing long complex interdependent technical work with code and data&rdquo;</p>
+<p>These practices include (see the report for a description of them):</p>
+<ul>
+<li>Version control and GitHub</li>
+<li>Code review</li>
+<li>Functions</li>
+<li>Unit tests</li>
+<li>Libraries</li>
+<li>Documentation</li>
+<li>Managing the environment</li>
+</ul>
+<h3 id="who-needs-these-skills">
+  Who needs these skills
+  <a class="anchor" href="#who-needs-these-skills">#</a>
+</h3>
 </article>
  
       
@@ -654,7 +690,11 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#myths-about-open-working">Myths about open working</a></li>
-    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
+    <li><a href="#reproducible-analytical-pipelines-rap">Reproducible analytical pipelines (RAP)</a>
+      <ul>
+        <li><a href="#who-needs-these-skills">Who needs these skills</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
