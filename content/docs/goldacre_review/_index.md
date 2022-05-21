@@ -34,14 +34,25 @@ Note that the material is provided under the [OGL version 3](https://www.nationa
 
 ## Summary
 
-[to be completed]
+### Key principles
 
-* Modernising NHS service analytics
-* Modern, open working methods for NHS data analysis
-* The challenge of privacy in health data
-* Trusted Research Environments
-* Information governance, ethics and participation
-* Data curation
-* Strategy
+Good defaults- make good practice the norm, not the exception
+
+* Open 4. Create an ‘exceptions framework’ whereby publicly funded code can be closed [only by] by prior arrangement if this meets NHS and UKplc strategic objectives
+* 
+
+### Modernising NHS service analytics
+
+* 
+
+### Modern, open working methods for NHS data analysis
+
+* Open 4. Create an ‘exceptions framework’ whereby publicly funded code can be closed by prior arrangement if this meets NHS and UKplc strategic objectives
+
+### The challenge of privacy in health data
+### Trusted Research Environments
+### Information governance, ethics and participation
+### Data curation
+### Strategy
 
 
