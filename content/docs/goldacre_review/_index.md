@@ -50,6 +50,8 @@ Good defaults- make good practice the norm, not the exception
 
 * Open 4. Create an ‘exceptions framework’ whereby publicly funded code can be closed by prior arrangement if this meets NHS and UKplc strategic objectives
 
+Note that good practice around code sharing *is good practice around coding*. Good code should *never* include any personal information, whether it's being shared or not. 
+
 ### The challenge of privacy in health data
 ### Trusted Research Environments
 ### Information governance, ethics and participation

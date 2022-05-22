@@ -112,11 +112,11 @@ The Department of Health and Social Care and the UK Health Security Agency shoul
 Open 9. Make it ‘okay to ask’ about access to publicly funded code
 
 The team heard from several interviewees that at present it is commonly regarded as provocative to ask for access to the code used to implement an analysis, especially in some parts of the academic community, despite general positive statements on open working. Culture change will only be possible if it is deemed socially acceptable to question when deviations from the ‘new norm’ of open working are identified. This should be made clear in all relevant policies, and codes of conduct, across academic and NHS organisations.
-Develop guidance on open code from specific key organisations
 
 Open 10. Health and Care Information Governance Panel guidance should facilitate open code
 
 It is important that all NHS organisations are given clear direction that code sharing is not the same as data sharing and that it is entirely possible to share code routinely and safely without the organisation incurring significant costs or reputation risks. To make this clear, the Health and Care Information Governance Panel should create guidance on the importance (and permissibility) of code sharing, to go on the Information Governance Portal, emphasising that transparency is a crucial means to build public trust and clinical safety.
+
 Open 11. The Information Commissioner’s Office should produce guidance to facilitate code sharing
 
 The Information Commissioner’s Office (ICO) is currently working to produce new and updated guidance on anonymisation. Alongside this, the ICO should also produce guidance regarding code sharing. This should make clear that sharing code is not a disclosure risk, and that those writing code have a clear responsibility to ensure that their analytic code is not disclosive of any personal information. Ideally this guidance should also make clear that code sharing and the practices associated with Reproducible Analytical Pipelines are an important aspect of good citizenship around data usage. There is also a need for better guidance and training on ensuring that analytic code is not disclosive of any personal information.
