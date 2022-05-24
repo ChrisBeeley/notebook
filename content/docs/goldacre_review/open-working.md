@@ -69,13 +69,35 @@ Not everyone needs these skills, there are important other roles...
 
 "individuals with good skills around interpreting data, and communicating it effectively to clinicians or managers in the NHS in order to help them effect change. There is also an important role for individuals working as analysts, using more ‘point and click’ interactive tools developed for them by others who have deep skills in data management and analysis"
 
-> **It is, however, crucial** [emphasis added]...
+In respect of workforce:
 
-"that a large number of people have basic skills in this space, where they are developing and implementing analyses..."
+> **It is, however, crucial** [emphasis added] that a large number of people have basic skills in this space, where they are developing and implementing analyses
 
-> **it is crucial that** [emphasis added]...
+In respect of culture and practice:
 
-"the core working practices, such as sharing code, are implemented as a norm throughout the system, because of the problems that closed working can create around quality, safety, usability, credibility, and review"
+> **it is crucial that** [emphasis added] the core working practices, such as sharing code, are implemented as a norm throughout the system, because of the problems that closed working can create around quality, safety, usability, credibility, and review
+
+### Point and click
+
+> There is a legitimate and widespread ambition to have point and click tools for analytics in the NHS... However, it can only be realised by teams that understand the true underpinning reality of how patient data is generated, extracted, prepared and used across the system; who have RAP and computational skills; and who can work alongside people with clinical analytic needs to iteratively develop prototypes of interactive tools; and can then work with other tools to harden the most suitable of those prototypes into scalable interactive tools. Any solution that appears to not entail this kind of process, and workforce, is simply hiding the work, by commissioning it in less effective and closed means, or similar activity. By doing so, the system is prevented from learning about its own data, and developing the open commons of knowledge and workforce that drives high quality analytics and research in other settings and fields
+
+### Build versus buy
+
+> Overall, as discussed in the sections below, the best approach is: re-use existing commercial or open tools that already exist for large tasks (databases, etc) according to which is the best, with a preference for open to ensure access across hundreds of organisations in the NHS; procure open code from public and private vendors for new substantial tasks; build in-house and procure open code from public and private vendors for the vast ongoing workload of data management and analysis within those larger tools.
+
+### Barriers to RAP
+
+#### Skills
+
+"there is an almost limitless array of self-directed online teaching through services such as Coursera, or some MOOCs (Massive Open Online Courses), but no clear signposting or curation of ‘journeys’ through these courses, or guidance on which to choose"
+
+"For NHS service analysts... there is less access to formal training. The recent development of some online discussion forums aiming to drive further training was welcomed, but at present this does seem somewhat limited to links out to various YouTube videos on analysis in adjacent analytic fields, without clear curation of quality, appropriateness, priorities or journeys"
+
+#### Recruitment
+
+Recruitment and retention are very difficult in universities and NHS organisations because of the relatively low status and salary that these jobs have compared with equivalents in the private sector. 
+
+"it is uncommon to find experienced software developers with industry standard skills who also have strong domain knowledge across topics such as: the nature of NHS data; how research is done with electronic health records or related research data; the clinical context for such work; the operational context of the NHS; how data is collected, manipulated, and extracted from clinical systems; and so on. This is particularly concerning given that senior individuals in the NHS and academia repeatedly expressed frustration that they wanted to recruit these staff, but that this is 'like hunting unicorns'"
 
 ## Recommendations
 

@@ -36,10 +36,15 @@ Note that the material is provided under the [OGL version 3](https://www.nationa
 
 ### Key principles
 
-Good defaults- make good practice the norm, not the exception
+#### Good defaults- make good practice the norm, not the exception
 
 * "Create an ‘exceptions framework’ whereby publicly funded code can be closed [only by] by prior arrangement if this meets NHS and UKplc strategic objectives"
 * "**it is crucial that** [emphasis added] the core working practices [of [RAP]({{< ref "open-working.md#reproducible-analytical-pipelines-rap" >}})], such as sharing code, are implemented as a norm throughout the system, because of the problems that closed working can create around quality, safety, usability, credibility, and review"
+
+#### Workforce
+
+* "Point and click tools have their place, but "[they] can only be [produced] by teams that understand the true underpinning reality of how patient data is generated, extracted, prepared and used across the system; who have RAP and computational skills... Any solution that appears to not entail this kind of process, and workforce, is simply hiding the work, by commissioning it in less effective and closed means, or similar activity"
+* "there is an almost limitless array of self-directed online teaching through services such as Coursera, or some MOOCs (Massive Open Online Courses), but no clear signposting or curation of ‘journeys’ through these courses, or guidance on which to choose"
 
 
 ### Modernising NHS service analytics
