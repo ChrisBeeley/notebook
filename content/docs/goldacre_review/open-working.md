@@ -99,6 +99,12 @@ Recruitment and retention are very difficult in universities and NHS organisatio
 
 "it is uncommon to find experienced software developers with industry standard skills who also have strong domain knowledge across topics such as: the nature of NHS data; how research is done with electronic health records or related research data; the clinical context for such work; the operational context of the NHS; how data is collected, manipulated, and extracted from clinical systems; and so on. This is particularly concerning given that senior individuals in the NHS and academia repeatedly expressed frustration that they wanted to recruit these staff, but that this is 'like hunting unicorns'"
 
+"while some developers will accept a lower salary for public service, many equate this ‘public good’ with contributing to open source sharing of code, whereas in academia and the NHS code is often closed. Related to this, developers typically use evidence of prior work to get each new job, and often use their GitHub activity to help future employers see their productivity, and quality; this is not possible when code is withheld from open view; when projects are slow to deliver; or where the software contributions are low status or hidden"
+
+#### Platforms
+
+
+
 ## Recommendations
 
 [mostly verbatim, edits for length]

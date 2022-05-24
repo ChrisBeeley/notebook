@@ -50,3 +50,20 @@ I have heard this objection to open code many times, and have tried to address i
 
 a) scare off people who would otherwise have contributed, because they don't work in an organisation which can use a free licence and so would have to pay to use a project they themselves contributed to
 b) will not produce anywhere near the revenue to make all the administration worthwhile- companies which can't use a free licence will either just reimplement the code themselves or just use a truly free alternative.
+
+## Security and information governance
+
+The "platforms" section of Barriers to RAP in *Open working* rather states "It is reasonable for local IT teams to be cautious, especially for more versatile tools such as Python, and especially when staff are working with more sensitive data", but gives no further details. 
+
+It is unclear what the intention of this statement is. What is caution in this case? Not allowing installation at all? And what is covered other than Python? R? Julia? JavaScript? What qualifies as "sensitive data"? Any row level data at all?
+
+Interpreted literally this statement appears to mean "Python should never be used to interact with row level patient data on a computer issued by a typical NHS organisation [such as a provider trust]". I don't think that can possibly be the intention (?) but I'm not clear.
+
+Regardless, there is a clear need for crystal clear guidance on security and information governance, which will cover things like:
+
+* Language (R, Python, Julia, etc.)
+* Libraries (E.g. The R-based CRAN store of packages is scrutinised by a volunteer team, by contrast Python's PyPI is not and you can deploy anything you like there)
+* Docker, Linux, hosting of analytic products (e.g. using Azure or RStudio) in the cloud/ behind the firewall
+* Should some users be allowed access to software (like Python) that others are not? Should some users have (some) admin privileges on their machine where other users are not given the same privileges?
+* Is free software intrinsically less safe or trustworthy than paid software? Clearly completely unknown software from an unknown individual or organisation is less trustworthy than R, but how do IT teams learn to make judgements like this when they are not familiar with the software from their work?
+
