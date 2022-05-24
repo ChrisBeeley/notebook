@@ -17,7 +17,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.d0a5b14589366c22ecff1090f652f6b83e0286e0c91764bd2534543b3ba689bf.js" integrity="sha256-0KWxRYk2bCLs/xCQ9lL2uD4ChuDJF2S9JTRUOzumib8=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.eda197361c6d27e43d72ce584e445b375dd30f979ebdf738827ea727dac69cf6.js" integrity="sha256-7aGXNhxtJ&#43;Q9cs5YTkRbN13TD5eevfc4gn6nJ9rGnPY=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -558,6 +558,7 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li><a href="#publishing-code-derived-from-databases">Publishing code derived from databases</a></li>
     <li><a href="#software-licensing">Software licensing</a></li>
+    <li><a href="#security-and-information-governance">Security and information governance</a></li>
   </ul>
 </nav>
 
@@ -616,6 +617,21 @@ https://github.com/alex-shpak/hugo-book
 <p>I have heard this objection to open code many times, and have tried to address it where I can. On the face of it it seems very sensible: share the code with, say the NHS, and exploit the code commercially where it can be exploited commercially. The original text is not entirely clear but I am assuming that they are referring to dual licensing of code. I have filed <a href="https://github.com/nhsx/open-source-policy/issues/18">an issue on NHSX&rsquo;s open code guidance</a> on this subject. I am no expert but I am dubious as to whether the benefits of dual licensing code can be realised in the NHS. It&rsquo;s a notoriously tricky area and my fear is that dual licensing will</p>
 <p>a) scare off people who would otherwise have contributed, because they don&rsquo;t work in an organisation which can use a free licence and so would have to pay to use a project they themselves contributed to
 b) will not produce anywhere near the revenue to make all the administration worthwhile- companies which can&rsquo;t use a free licence will either just reimplement the code themselves or just use a truly free alternative.</p>
+<h2 id="security-and-information-governance">
+  Security and information governance
+  <a class="anchor" href="#security-and-information-governance">#</a>
+</h2>
+<p>The &ldquo;platforms&rdquo; section of Barriers to RAP in <em>Open working</em> rather states &ldquo;It is reasonable for local IT teams to be cautious, especially for more versatile tools such as Python, and especially when staff are working with more sensitive data&rdquo;, but gives no further details.</p>
+<p>It is unclear what the intention of this statement is. What is caution in this case? Not allowing installation at all? And what is covered other than Python? R? Julia? JavaScript? What qualifies as &ldquo;sensitive data&rdquo;? Any row level data at all?</p>
+<p>Interpreted literally this statement appears to mean &ldquo;Python should never be used to interact with row level patient data on a computer issued by a typical NHS organisation [such as a provider trust]&rdquo;. I don&rsquo;t think that can possibly be the intention (?) but I&rsquo;m not clear.</p>
+<p>Regardless, there is a clear need for crystal clear guidance on security and information governance, which will cover things like:</p>
+<ul>
+<li>Language (R, Python, Julia, etc.)</li>
+<li>Libraries (E.g. The R-based CRAN store of packages is scrutinised by a volunteer team, by contrast Python&rsquo;s PyPI is not and you can deploy anything you like there)</li>
+<li>Docker, Linux, hosting of analytic products (e.g. using Azure or RStudio) in the cloud/ behind the firewall</li>
+<li>Should some users be allowed access to software (like Python) that others are not? Should some users have (some) admin privileges on their machine where other users are not given the same privileges?</li>
+<li>Is free software intrinsically less safe or trustworthy than paid software? Clearly completely unknown software from an unknown individual or organisation is less trustworthy than R, but how do IT teams learn to make judgements like this when they are not familiar with the software from their work?</li>
+</ul>
 </article>
  
       
@@ -659,6 +675,7 @@ b) will not produce anywhere near the revenue to make all the administration wor
   <ul>
     <li><a href="#publishing-code-derived-from-databases">Publishing code derived from databases</a></li>
     <li><a href="#software-licensing">Software licensing</a></li>
+    <li><a href="#security-and-information-governance">Security and information governance</a></li>
   </ul>
 </nav>
 
