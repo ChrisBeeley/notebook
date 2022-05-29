@@ -43,6 +43,9 @@ Brilliantly, NHS-R is already leading on many of the things from this review tha
     * We already [started doing this](https://github.com/nhs-r-community/statements-on-tools) and would be happy to contribute to work in DHSC and NHST
 * Open 18. Create a ‘Code For Health’ training programme for NHS service analysts and academic researchers
     * NHS-R is mentioned by name, we have already done a huge amount of work training analysts in R and related disciplines (such as git)
+* Open 31. Provide guidance and training on RAP and code sharing
+    * Another recommendation addressed by the [statements on tools repo](https://github.com/nhs-r-community/statements-on-tools)
+    * [Git training](https://github.com/nhs-r-community/git_training) is forthcoming (expected November 2022)
 
 ## What can NHS-R do in the future?
 
