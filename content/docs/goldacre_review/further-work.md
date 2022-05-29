@@ -49,6 +49,7 @@ There is a section addressing "myths" about open working in the [section on open
 I have heard this objection to open code many times, and have tried to address it where I can. On the face of it it seems very sensible: share the code with, say the NHS, and exploit the code commercially where it can be exploited commercially. The original text is not entirely clear but I am assuming that they are referring to dual licensing of code. I have filed [an issue on NHSX's open code guidance](https://github.com/nhsx/open-source-policy/issues/18) on this subject. I am no expert but I am dubious as to whether the benefits of dual licensing code can be realised in the NHS. It's a notoriously tricky area and my fear is that dual licensing will
 
 a) scare off people who would otherwise have contributed, because they don't work in an organisation which can use a free licence and so would have to pay to use a project they themselves contributed to
+
 b) will not produce anywhere near the revenue to make all the administration worthwhile- companies which can't use a free licence will either just reimplement the code themselves or just use a truly free alternative.
 
 ## Security and information governance
