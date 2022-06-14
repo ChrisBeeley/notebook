@@ -67,3 +67,21 @@ Brilliantly, NHS-R is already leading on many of the things from this review tha
 * Open 18. Create a ‘Code For Health’ training programme for NHS service analysts and academic researchers
     * NHS-R is mentioned in this recommendation- NHS-R should continue to provide readily accessible help to those using open source data science methods in their work (*experiential learning*) as well as contribute to formal training programmes inside and outside of NHS-R
     * NHS-R could consider more "MOOC" like approaches to training ("In-person supervision is necessary for a subset of attenders, especially those seeking certification, to supervise practical work, and for marking work to evaluate competences") and should be funded and supported to do so
+
+## Summary
+
+Broadly, three main areas of activity are identified above:
+
+* Community building
+    * Two weekly drop in sessions
+    * Regular updates on GitHub issues and work triage
+    * More involvement of and communication with fellows
+    * Regular, structured communication programme featuring tweets, blogs, and podcasts
+* Experiential learning
+    * Mentoring scheme
+    * NHS data science acceletator launched
+    * Run and co-run NHS-R training
+    * NHS-R solutions can include a component where training/ supervising/ assisting the team delivering them is included
+* Writing code, software, and training
+    * Offer an "out of the box" NHS-R solution where software is provided to organisations that request it
+* Contributing to policy
