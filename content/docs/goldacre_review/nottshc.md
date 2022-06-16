@@ -1,5 +1,5 @@
 ---
-title: "What should Nottinghamshire Healthcare NHS Trust do"
+title: "Nottinghamshire Healthcare NHS Trust"
 weight: 99
 # bookFlatSection: false
 # bookToc: true
@@ -9,7 +9,7 @@ weight: 99
 # bookSearchExclude: false
 ---
 
-# Nottinghamshire Healthcare NHS Trust
+# What should Nottinghamshire Healthcare NHS Trust do
 
 Nottinghamshire Healthcare NHS Trust (NHC) is part of an [analytically able ICS](https://healthandcarenotts.co.uk/) and employs three analytical teams with good working relationships: Applied Information, Performance, and CDU data science. The teams combine expertise in data curation and management, performance and quality surveillance, and data science methods and analytical pipelines. 
 

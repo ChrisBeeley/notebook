@@ -33,7 +33,7 @@ Sweeney codified these ideas within a concept called [k-identity](https://datapr
 
 In more recent times the data available about each individual has proliferated and additional controls are often required in order to thoroughly anonymise data. Controlling the environment can help with this, for example by having data accessed in a secure area where data access is monitored, or providing data in a secure way that doesn't allow it to be recombined with other data, like a [trusted research environment](https://www.hdruk.ac.uk/wp-content/uploads/2021/04/Goldacre-Review-TRE-Response.pdf). 
 
-Environmental controls do not generally affect the utility of data for analysis, but have an associated in cost, control of use, etc. 
+Environmental controls do not generally affect the utility of data for analysis, but have an associated cost, control of use, etc. 
 
 ### Summary
 
