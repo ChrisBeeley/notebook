@@ -34,7 +34,7 @@ It is worth noting finally that the current systems have failed in their attempt
 
 NHS data is not confined to the national datasets (e.g. at NHS Digital) that tend to be the focus of discussions. Because of a lack of clear guidance and secure analytics platforms, every GP practice and NHS Trust is an independent data controller. This leads to a large, confusing patchwork of data flows which are often not consistent even regionally, and certainly are ill defined at a national level. 
 
-> National GP data flowing into a Trusted Research Environment (TRE- see below) is therefore an important privacy safeguard for patients, a substantial net improvement in protections for patients, and a reduction in burden around data flows for GPs
+> National GP data flowing into a Trusted Research Environment (TRE- see below and the [section on TRE]({{<ref "tre.md">}})) is therefore an important privacy safeguard for patients, a substantial net improvement in protections for patients, and a reduction in burden around data flows for GPs
 
 ## The consequences of lack of trust in privacy
 
@@ -51,6 +51,8 @@ There should be no expansion of the use of pseudonymised data until TREs are in 
 "There are other forms of risk mitigation including: removal of ‘sensitive codes’ (which obstructs research on key areas of medicine); data minimisation (which has uses but is under-researched); sub-sampling (which has limits when aiming to detect subtle statistical signals); data perturbation (which has a role but requires a substantial research programme, and is complex to implement); and emergent methods such as ‘homomorphic encryption’ (which has seen no substantial working health implementation to date). Overall they show that this an important area of work which has been relatively neglected. Wider access to NHS patient records requires that the system as a whole takes the challenge of practical approaches to secure analytics, developing and evaluating robust methods for protecting patients privacy at scale. 
 
 There is a clear role for UKRI/NIHR in providing open, competitive resource for applied methods research into privacy preservation, to earn public trust, in collaboration across the NHS, epidemiology and security engineering communities"
+
+[note that there is a substantial amount of discussion in the paper about different privacy protecting methods as well as reidentification risks, these have been omitted in the interests of brevity, but if you're interested they are very much worth reading]
 
 ## Conflict between the views of the public and researchers
 
