@@ -17,6 +17,16 @@ Introduction #  &amp;ldquo;At present there is no formal professional body (but 
     </item>
     
     <item>
+      <title>Trusted Research Environments</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</guid>
+      <description>What is a &amp;ldquo;Trusted Research Environment&amp;rdquo;? #   In outline, a Trusted Research Environment (TRE) is a secure environment that researchers enter in order to work on the data remotely, rather than downloading it onto their own local machine. Users can extract and download the answers from their analyses – such as results tables, or graphs – but individual patients’ data always stays within the secure environment
+ &amp;ldquo;good TREs can also provide a more efficient and collaborative computational environment for all data users, and an opportunity to make modern open working methods the simple default.</description>
+    </item>
+    
+    <item>
       <title>Open Working</title>
       <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/open-working/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
