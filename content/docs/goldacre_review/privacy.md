@@ -58,3 +58,19 @@ The reviewers heard from two groups:
 
 * campaigners, patients, policymakers, and professionals about the need for patients’ privacy to be respected, about the need for medical records to be handled confidentially, and the substantial shortcomings in current ways of working with health data, such as disseminating detailed data out to multiple locations where subsequent activity is less clearly monitored
 * researchers, funders, NHS analysts and senior leaders in the health service and government, [who said that] that the administrative, regulatory, practical and legal aspects of information governance (IG) are obstructive, duplicative, expensive, slow, inefficient, confusing, inconsistent and disproportionate to the risks presented by their work
+
+It was been widely argued that these two views are inherently opposed and lead to a simple trade off between the two. The report authors argue that in fact it is possible to achieve both aims at the same time using the methods detailed in the report.
+
+> The set-up of siloed, and slightly out-of-date data was fine for 25 years ago. This is no longer a viable model. We can have multiple eyes on the data in near real-time
+
+"...all pseudonymised national detailed health datasets should be treated as if they have name and address in the clear, both practically and in our governance, regulatory, and legislative frameworks"
+
+## Better research into privacy
+
+> ...teams managing data access requests in organisations such as NHS Digital and elsewhere are commonly applying rules of thumb, or intuition, to inform their proportionate responses. It would be better for the whole community – patients, researchers, and those serving their needs – if this were addressed with a modest programme of applied health research from a national funder
+
+## Recommendations
+
+* There is no new emergency, but TREs should be used, and data dissemination should not expand
+* UKRI/NIHR should resource applied methods research into privacy preservation
+* Revise the definitions of ‘anonymous’, ‘identifiable’ and ‘linked’ data; add a new category of ‘pseudonymised but re-identifiable’
