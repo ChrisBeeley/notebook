@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Saves Lives on Notebook</title>
+    <link>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/</link>
+    <description>Recent content in Data Saves Lives on Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/data_saves_lives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving Trust</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/improving_trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/improving_trust/</guid>
+      <description> We need to build on this to demonstrate that the health and care system is a trustworthy data custodian, and we will do this in 5 ways:
+ Keep data safe and secure. Be open about how data is used. Ensure fair terms from data partnerships. Give the public a bigger say in how data is used. Improve the public’s access to their own data.   </description>
+    </item>
+    
+  </channel>
+</rss>
