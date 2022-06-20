@@ -36,3 +36,24 @@ There is good evidence that research and other useful activities are being unnec
 > "Sometimes people don’t understand the rules so it’s easier for them to say ‘the data protection law won’t allow me to share data with you.’ Usually, the data protection law would actually say you can share as long as you do xyz."
 
 > "Lots of people will say the GDPR is a blocker. It wasn’t supposed to be. It was supposed to be about sharing data. The blockers are all interpretations. Some of it is there are too many independent bodies."
+
+There are multiple causes of excesive caution in this context, including:
+
+* Anxiety caused by a belief that patients are against data sharing
+* Anxiety caused by a lack of determinacy in information governance rules
+* Anxiety caused by the mechanisms used for data access
+    * "...data dissemination requires decision-makers to trust the recipients of data, and is inherently more risky than TRE access"
+
+### Monopolies, resource, and recognition
+
+> "Monopolies over data are one of the largest hurdles that must be overcome…“Guarding” of data, be it for reasons of commercial advantage, academic competitiveness or resistance to the idea of commercial involvement, is harmful to collaboration and only adds expense or prevents research outright. This hampers the effective use of data and stifles innovation (by both public and private sector organisations)."
+
+There are issues around incentivising of the collection, curation, and sharing of data, and it is very much not the case that the cost to the sharing organisation is zero. In summary:
+
+* It is inappropriate for information governance processes to be used to obstruct data access for other reasons
+* People who have invested time and effort on collecting or managing data that is widely used should be able to access resource to make their work for all sustainable
+* Data collection and curation should be regarded as independent skilled activities with status on a par with writing final data reports
+* The marginal additional costs on an organisation when sharing data should be priced appropriately, and passed on appropriately
+
+### Anxiety about performance management, and public accountability
+
