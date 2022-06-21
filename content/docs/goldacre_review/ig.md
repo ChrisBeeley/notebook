@@ -57,3 +57,8 @@ There are issues around incentivising of the collection, curation, and sharing o
 
 ### Anxiety about performance management, and public accountability
 
+Healthcare organisations can be concerned that data will be used to "punish" them using performance metrics. There is a further [well founded] fear that "data may be used to monitor activity in a haphazard of inaccurate way, which may require time-consuming rebuttals, or have adverse consequences on clinical work"
+
+A good example of this is the refusal of nearly every NHS Trust in the country to publish their patient experience data in full, even though patients can write whatever they like on Twitter and anything that isn't defamatory or otherwise illegal on [Care Opinion](https://www.careopinion.org.uk/)
+
+> [the above] has contributed to the culture of closed working practices around NHS service analytics, as the assumption of secrecy around some specific performance measures for individual healthcare organisations has bled over into an assumption of secrecy around the very methods and code by which such metrics are conceived and calculated
