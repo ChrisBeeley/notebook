@@ -82,5 +82,31 @@ There is some overlap, inevitably, with domain knowledge: the team ingesting and
 
 "This is best understood by analogy with other fields. The data science team at the music-streaming service Spotify do innovative work with data that helps drive the usability and popularity of their subscription service. For example, they extract patterns in the listening behaviour across all their users, and then use this to provide individual users with tailored recommendations for other music they might enjoy. The Spotify data science team couldn’t buy, off the shelf, a data science environment specifically built to service the needs of “a global music streaming service”. They implemented standard off-the-shelf tools for a general purpose data science environment. Then, within that raw environment, they needed to build their own tools, analytic approaches, workflows, data preparation work, and so on. A new arrival in the Spotify data science team today will find modules of code, libraries and packages – some even with nice interactive interfaces – to help them find interesting new patterns in Spotify user data. Many of these tools will feel like part of the furniture, but they were all built by their predecessors in the Spotify data science environment. Furthermore, many of these tools will not have been built to a pre-determined specification, by software developers hired to do that work to order; rather, they will emerge from a team. A single analyst might painstakingly implement a one-off analysis; if it looks like the approach will have broader use, then a more experienced developer might offer to help package it up into a function or library, with good documentation; if it becomes a commonly used approach, they might work with other analysts to create an interactive tool."
 
+## Recommendations
 
+TREs are not really a focus for me, so this will be a very brief summary, but there are some interesting points here:
 
+* TRE 10. All TREs must support code sharing and RAP 
+* TRE 14. Establish a standard scheme to accredit NHS TRE users
+* TRE 18. Switch off data disseminations, without undue panic
+* TRE 21. The National TRE should be open to all legitimate users
+* TRE 24. Create a local NHS TRE programme
+* TRE 25. Work to rapidly standardise local TRE and DAE provision, starting with ICSs:
+    * Create a standard service wrapper model for local NHS TREs.
+    * Ensure all ICSs use a standard TRE approach.
+    * Encourage other local NHS data centres to use the same standard TRE.
+    * Manage diverse local datasets by creating and sharing standard data curation tools and methods.
+    * Ensure all local implementations of national or commonly used datasets such as SUS/HES conform to a single standard.
+    * Ensure all datasets extracted from national datasets in NHS Digital are requested using standard data management code.
+    * Ensure local analysts use a national TRE wherever possible.
+    * Work towards federated analytics with standard local TREs.
+    * Listen carefully to local NHS analysts and TRE managers who describe shortcomings in standard approaches; and address these wherever possible
+* TRE 26. Create a single service wrapper model for local NHS TREs 
+* TRE 29. Manage diverse local datasets by creating and sharing standard data curation tools and methods
+* TRE 33. Ensure local analysts use a national TRE wherever possible
+* TRE 34. NHS Trusts and Data Access Environments
+    * "Many NHS trusts have arrangements for academic and service analysts to use their internal data for a range of projects involving research and service improvement. These projects should be encouraged to adopt the standard NHS TRE service wrapper, and standard NHS TRE technical approaches"
+* TRE 40. Academics should use NHS data infrastructure to access NHS patient records
+* TRE 44. All academic TREs must support, and should require, RAP and open working
+* TRE 57. Address TREs for Artificial Intelligence, but as a separate workstream, funded by existing AI resource
+    * "challenges primarily relate to compute power; the use of specific tools such as GPUs; and export controls, because exported random forest models can ( in ways that are hard to detect) sometimes contain disclosive patient data"
