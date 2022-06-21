@@ -62,3 +62,29 @@ Healthcare organisations can be concerned that data will be used to "punish" the
 A good example of this is the refusal of nearly every NHS Trust in the country to publish their patient experience data in full, even though patients can write whatever they like on Twitter and anything that isn't defamatory or otherwise illegal on [Care Opinion](https://www.careopinion.org.uk/)
 
 > [the above] has contributed to the culture of closed working practices around NHS service analytics, as the assumption of secrecy around some specific performance measures for individual healthcare organisations has bled over into an assumption of secrecy around the very methods and code by which such metrics are conceived and calculated
+
+### Concern about commercial users
+
+This isn't particularly relevant to me, so I'm going to skip over it. Basically, it says there are lots of useful examples of commercial use of NHS data, and the following:
+
+> by far the largest overall economic benefit for the NHS and the nation is likely to come from whole systemic packages: not clinical trial follow-up data alone, but rather platforms that can execute the entire pathway of a clinical trial in an efficient, digital manner, with proportionate governance... new prospects for innovation open up, some of which may be transferable to other settings and nations. In this regard, the greatest commercial benefit is likely to come from the whole system: well-curated data, in accessible and performant TRE platforms, with appropriate technical documentation, alongside a digitally competent NHS, with clear entry points that are technical as well as “negotiations and meetings”, and above all a workforce with deep competencies that combine generalist data science or software development skills with deep domain knowledge on health data, its strengths and weaknesses, its provenance, and its effective use in analytics and innovation
+
+### Exclusive commercial arrangements
+
+These are bad
+
+### Multiple data controllers
+
+Again, to summarise:
+
+> it is hard to argue that it is a sensible or proportionate use of NHS GP time – or even practice manager time – for 6,500 individual GP practices to separately consider all these issues and legal documents, on multiple occasions, for multiple different research projects, both general purpose and singular studies. This requirement also imposes substantial workload and risk on individual clinicians; but it is a natural consequence of the current legal reality that each GP practice is the Data Controller for their own patients’ records, and must separately grant permissions
+
+## Patient and public involvement and engagement
+
+"Well-designed, meaningful PPIE can help to ensure that patient and public trust in research is maintained, and that the individuals to whom records relate are treated with respect and dignity; co-designed PPIE, and co-designed research projects, can also improve the quality of research. Patients and public representatives are the experts of what it is like to experience the care of the NHS, to live with specific conditions, or to care for loved ones experiencing ill health. This means that they often know better than any independent researcher or analyst the most important research questions, the right outcomes to measure, and the best way to ensure that the outputs of any and all research delivers on its ultimate goal: patient and public benefit"
+
+## Recommendations
+
+Going to skim these as well...
+
+IG 13. Revise the definitions of ‘anonymous’, ‘dentifiable’ and ‘linked’ data; add a new category of ‘pseudonymised but re-identifiable’
