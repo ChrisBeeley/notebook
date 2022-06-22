@@ -19,7 +19,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.33d251bec08029c93b5fd60fe9ca979a4e81123c04ea1275721ff4c74f34b026.js" integrity="sha256-M9JRvsCAKck7X9YP6cqXmk6BEjwE6hJ1ch/0x080sCY=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.6740530810a2c9cbf4c8ef8c82729cf36a7466e3084db873884ab27d60a54ef4.js" integrity="sha256-Z0BTCBCiycv0yO&#43;MgnKc82p0ZuMITbhziEqyfWClTvQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -655,6 +655,13 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#the-problem">The problem</a></li>
+    <li><a href="#how-data-management-is-currently-implemented">How data management is currently implemented</a></li>
+    <li><a href="#the-problems">The problems</a>
+      <ul>
+        <li><a href="#data-inconsistencies">Data inconsistencies</a></li>
+        <li><a href="#requesting-datasets-in-code">Requesting datasets in code</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -676,6 +683,32 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>Even for something as simple as hypertension there are hundreds of definitions and SNOMED codes that some individuals may think do (or don&rsquo;t) constitute hypertension.</p>
 <p>&ldquo;Creating these lists is therefore complex and difficult work. To do it, the team need a number of skills which may not all be embodied in one individual. They will need domain knowledge about clinical medicine, to spot the need to include a code such as “arteriolar nephritis”. They will also need domain knowledge about how health data works: they will need to know what SNOMED-CT codes are, how they can be searched, how codes are nested within a poly-hierarchy (and then challenging details such as how parent-child relationships in the poly-hierarchy can create overlapping conflicts, which can in turn change when individual codes move between nodes in different releases); they also need knowledge of how clinicians use clinical systems, what is recorded, how it is coded, and what the strengths and weaknesses of the data are (collectively this is often called “clinical informatics”)&rdquo;</p>
+<ul>
+<li>It is not possible to produce a single &ldquo;hypertension&rdquo; codelist</li>
+<li>Codelists are often imperfect, but secret, either because nobody thinks to share them or because the team who produced them wants to use them for a competitive advantage</li>
+<li>Many patients don&rsquo;t have a diagnosis at all, but it must be inferred instead from their clinical information (systolic BP, for example)</li>
+<li>Diagnoses may change and go out of date- is a 15 year old diagnosis of hypertension still valid?</li>
+</ul>
+<h2 id="how-data-management-is-currently-implemented">
+  How data management is currently implemented
+  <a class="anchor" href="#how-data-management-is-currently-implemented">#</a>
+</h2>
+<blockquote>
+<p>It is clear that this work is typically done in siloes, with minimal formal open sharing, to the frustration of many analysts. However, it is also clear that there is a vast amount of deep expertise currently left untapped and mostly undocumented, in individuals and teams across the system with domain knowledge around clinical relevance, the structure and meaning of individual data elements, the strengths and weaknesses of different national and local datasets, their provenance, and so on. This is <strong>captured in local documents at best, but often resides in the tacit knowledge of individuals and teams</strong> [emphasis added], and shared through informal personal relationships, because of an absence of any expectation or technical facility for wider sharing.</p>
+</blockquote>
+<h2 id="the-problems">
+  The problems
+  <a class="anchor" href="#the-problems">#</a>
+</h2>
+<h3 id="data-inconsistencies">
+  Data inconsistencies
+  <a class="anchor" href="#data-inconsistencies">#</a>
+</h3>
+<p>Data is held with diverse schemata (which are not shared) which means that SQL code is not at all portable between organisations, even when it&rsquo;s the same data</p>
+<h3 id="requesting-datasets-in-code">
+  Requesting datasets in code
+  <a class="anchor" href="#requesting-datasets-in-code">#</a>
+</h3>
 </article>
  
       
@@ -718,6 +751,13 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#the-problem">The problem</a></li>
+    <li><a href="#how-data-management-is-currently-implemented">How data management is currently implemented</a></li>
+    <li><a href="#the-problems">The problems</a>
+      <ul>
+        <li><a href="#data-inconsistencies">Data inconsistencies</a></li>
+        <li><a href="#requesting-datasets-in-code">Requesting datasets in code</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
