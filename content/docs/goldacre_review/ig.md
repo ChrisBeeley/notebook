@@ -88,3 +88,10 @@ Again, to summarise:
 Going to skim these as well...
 
 IG 13. Revise the definitions of ‘anonymous’, ‘dentifiable’ and ‘linked’ data; add a new category of ‘pseudonymised but re-identifiable’
+IG 20. Address the ‘multiple permissions’ problem
+IG 25. Address exclusive commercial arrangements
+IG 26. Ensure PPIE expectations are proportionate to the sensitivity and scale of the project
+IG 27. Provide researchers with easy access to practical guidance, and examples of best-practice
+
+
+
