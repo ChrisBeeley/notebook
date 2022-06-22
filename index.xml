@@ -60,16 +60,6 @@ Team with multidisciplinary skills and perspectives #  The digital, data, and te
     </item>
     
     <item>
-      <title>Trusted Research Environments</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</guid>
-      <description>What is a &amp;ldquo;Trusted Research Environment&amp;rdquo;? #   In outline, a Trusted Research Environment (TRE) is a secure environment that researchers enter in order to work on the data remotely, rather than downloading it onto their own local machine. Users can extract and download the answers from their analyses – such as results tables, or graphs – but individual patients’ data always stays within the secure environment
- &amp;ldquo;good TREs can also provide a more efficient and collaborative computational environment for all data users, and an opportunity to make modern open working methods the simple default.</description>
-    </item>
-    
-    <item>
       <title>Data Saves Lives</title>
       <link>https://chrisbeeley.github.io/notebook/docs/strategy/datasaveslives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -139,16 +129,6 @@ Performance #  Performance teams:
     </item>
     
     <item>
-      <title>Information governance, ethics and participation</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/ig/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/ig/</guid>
-      <description>Summary #   &amp;ldquo;Our experience suggests that IG processes are a ubiquitous challenge in delivering timely and high-quality research with the potential to make a positive impact on health. Currently, such processes are often lengthy, circuitous, opaque, and inconsistent, in a way that creates duplication and wastage of time and effort and is not proportionate to the nature or degree of risk involved.&amp;rdquo;
- LAUNCHES QI study #  &amp;ldquo;LAUNCHES QI, a project initiative in 2018, aimed to link 5 national data sets to generate understanding about Congenital Heart Disease services, with the intention to: describe patient trajectories through secondary and tertiary care; identify useful metrics for driving quality improvement; and explore variation across services&amp;hellip;</description>
-    </item>
-    
-    <item>
       <title>Privacy</title>
       <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -175,6 +155,36 @@ Performance #  Performance teams:
       <description>Training #  Within this piece of work the following training needs have been identified:
  TODO  A summary of available training in these areas follows.
 Area one #   TODO  Appendix A: Training providers #   AphA Health Education England Government Statistics Service NHS R Community Midlands Decision Support Network FutureNHS Healthcare Evaluation Data Kurtosis Skills Development Network Operational Research Society QA EDX WiseOwl FutureLearn Laria Udemy Jumping Rivers Population Health Exchange NIHR CLAHRC North Thames Faculty of Public Health Public Health England East Midlands AHSN Strategy Unit Software carpentry PenARC Mango  </description>
+    </item>
+    
+    <item>
+      <title>Trusted Research Environments</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</guid>
+      <description>What is a &amp;ldquo;Trusted Research Environment&amp;rdquo;? #   In outline, a Trusted Research Environment (TRE) is a secure environment that researchers enter in order to work on the data remotely, rather than downloading it onto their own local machine. Users can extract and download the answers from their analyses – such as results tables, or graphs – but individual patients’ data always stays within the secure environment
+ &amp;ldquo;good TREs can also provide a more efficient and collaborative computational environment for all data users, and an opportunity to make modern open working methods the simple default.</description>
+    </item>
+    
+    <item>
+      <title>Information governance, ethics and participation</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/ig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/ig/</guid>
+      <description>Summary #   &amp;ldquo;Our experience suggests that IG processes are a ubiquitous challenge in delivering timely and high-quality research with the potential to make a positive impact on health. Currently, such processes are often lengthy, circuitous, opaque, and inconsistent, in a way that creates duplication and wastage of time and effort and is not proportionate to the nature or degree of risk involved.&amp;rdquo;
+ LAUNCHES QI study #  &amp;ldquo;LAUNCHES QI, a project initiative in 2018, aimed to link 5 national data sets to generate understanding about Congenital Heart Disease services, with the intention to: describe patient trajectories through secondary and tertiary care; identify useful metrics for driving quality improvement; and explore variation across services&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Data Curation</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/goldacre_review/data_curation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/data_curation/</guid>
+      <description>The Association of the British Pharmaceutical Industry (ABPI) have said that they estimate 80% of all work on an analysis project using NHS data is spent on this data preparation, and they have previously recommended that 80% of the national resource deployed on data science in the NHS should therefore be spent on optimising data curation
+ The problem #  Even for something as simple as hypertension there are hundreds of definitions and SNOMED codes that some individuals may think do (or don&amp;rsquo;t) constitute hypertension.</description>
     </item>
     
     <item>
