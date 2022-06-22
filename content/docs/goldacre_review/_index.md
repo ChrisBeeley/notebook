@@ -1,6 +1,6 @@
 ---
 title: "Goldacre Review"
-weight: 0
+weight: 3
 bookCollapseSection: true
 # bookFlatSection: false
 # bookToc: true

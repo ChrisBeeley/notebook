@@ -109,4 +109,4 @@ TREs are not really a focus for me, so this will be a very brief summary, but th
 * TRE 40. Academics should use NHS data infrastructure to access NHS patient records
 * TRE 44. All academic TREs must support, and should require, RAP and open working
 * TRE 57. Address TREs for Artificial Intelligence, but as a separate workstream, funded by existing AI resource
-    * "challenges primarily relate to compute power; the use of specific tools such as GPUs; and export controls, because exported random forest models can ( in ways that are hard to detect) sometimes contain disclosive patient data"
+    * "challenges primarily relate to compute power; the use of specific tools such as GPUs; and export controls, because exported random forest models can (in ways that are hard to detect) sometimes contain disclosive patient data"
