@@ -30,7 +30,6 @@ Given the other [published](https://www.nhsx.nhs.uk/key-tools-and-info/data-save
     * Feed evaluation information back to clinicians to guide their clinical practice
     * Robust evaluation and high quality clinical practice should feed back into research through peer reviewed publication
 
-
 ## Driving innovation and quality
 
 * Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate joint working between them
@@ -53,6 +52,10 @@ Given the other [published](https://www.nhsx.nhs.uk/key-tools-and-info/data-save
 * Provide legible, real time, analytically robust PROMS, CROMS, and PREMS to all staff who need them
 * Continue to use and build on success of data science methods such as forecasting and text mining
 * Consider implementing [CogStack](https://cogstack.org/) to support text mining of clinical notes in the EHR
+
+## Objectives
+
+* 
 
 Appendix A: Related areas
 
