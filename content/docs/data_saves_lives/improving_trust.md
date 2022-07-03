@@ -1,6 +1,6 @@
 ---
 title: "Improving Trust"
-weight: 1
+weight: 5
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

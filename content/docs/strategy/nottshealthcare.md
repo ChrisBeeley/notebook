@@ -33,7 +33,7 @@ Given the other [published](https://www.nhsx.nhs.uk/key-tools-and-info/data-save
 ## Driving innovation and quality
 
 * Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate joint working between them
-* Workforce plan across clinicians, managers, and analysts in embed QI, statistical, and data science methods in everyday practice
+* Workforce plan across clinicians, managers, and analysts to embed QI, statistical, and data science methods in everyday practice
 * Provide a joined up service, provoke curiosity across the workforce and triage questions across the range of data and analytic services with a single point of access
 * Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service
     * Data and analysis should contribute to ["intelligent transparency"](https://blog.ons.gov.uk/2019/03/08/statisticians-may-have-a-bit-of-an-image-problem-but-their-code-of-practice-is-full-of-good-sense/)
