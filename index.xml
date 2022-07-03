@@ -29,13 +29,12 @@ The executive summary is a pretty powerful statement and is worth reproducing in
     </item>
     
     <item>
-      <title>Improving Trust</title>
-      <link>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/improving_trust/</link>
+      <title>Commitments</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/commitments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/improving_trust/</guid>
-      <description>We need to build on this to demonstrate that the health and care system is a trustworthy data custodian, and we will do this in 5 ways:
- Keep data safe and secure. Be open about how data is used. Ensure fair terms from data partnerships. Give the public a bigger say in how data is used. Improve the public’s access to their own data.   Keeping data secure and safe #  &amp;ldquo;By December 2022, we will work with expert partners and the public to implement secure data environments as a default across the NHS.</description>
+      <guid>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/commitments/</guid>
+      <description>List of commitments #  Improving trust in the health and care system’s use of data #   We will work with expert partners and the public to implement secure data environments as a default across the NHS. We will do this by delivering: We will work with the public to establish, for the first time, a data pact that will set out how we will use health and care data, and what the public has the right to expect.</description>
     </item>
     
     <item>
@@ -84,7 +83,7 @@ Team with multidisciplinary skills and perspectives #  The digital, data, and te
       
       <guid>https://chrisbeeley.github.io/notebook/docs/strategy/nottshealthcare/</guid>
       <description>Nottinghamshire Healthcare #  Given the other published materials, what should be the priority for Nottinghamshire Healthcare? There follows the key elements of the strategy followed by more detail about each.
- Population Health Intelligence Driving innovation and quality Whole system demand and capacity intelligence Intelligent decision support  Population health intelligence #   Analytics should consider:  Mental and physical wellness Factors that contribute to wellbeing such as loneliness and employment Inequalities in health outcomes and service provision   Consider impactability:  Start with a robust evidence base Evaluate what treatments work for whom Feed evaluation information back to clinicians to guide their clinical practice Robust evaluation and high quality clinical practice should feed back into research through peer reviewed publication    Driving innovation and quality #   Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate joint working between them Workforce plan across clinicians, managers, and analysts in embed QI, statistical, and data science methods in everyday practice Provide a joined up service, provoke curiosity across the workforce and triage questions across the range of data and analytic services with a single point of access Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service  Data and analysis should contribute to &amp;ldquo;intelligent transparency&amp;rdquo;  Accessible Comprehensible Usable Assessable- that is, open for inspection      Whole system demand and capacity intelligence #   Contribute to building capacity in the ICS to routinely carry out demand and capacity modelling Develop a system wide approach to demand and capacity, including models of patient flow and early warning systems  Intelligent decision support #   Provide legible, real time, analytically robust PROMS, CROMS, and PREMS to all staff who need them Continue to use and build on success of data science methods such as forecasting and text mining Consider implementing CogStack to support text mining of clinical notes in the EHR  Objectives #     Appendix A: Related areas</description>
+ Population Health Intelligence Driving innovation and quality Whole system demand and capacity intelligence Intelligent decision support  Population health intelligence #   Analytics should consider:  Mental and physical wellness Factors that contribute to wellbeing such as loneliness and employment Inequalities in health outcomes and service provision   Consider impactability:  Start with a robust evidence base Evaluate what treatments work for whom Feed evaluation information back to clinicians to guide their clinical practice Robust evaluation and high quality clinical practice should feed back into research through peer reviewed publication    Driving innovation and quality #   Produce a strategy across QI, evaluation, research, audit, CDU, and applied information and facilitate joint working between them Workforce plan across clinicians, managers, and analysts to embed QI, statistical, and data science methods in everyday practice Provide a joined up service, provoke curiosity across the workforce and triage questions across the range of data and analytic services with a single point of access Analytics should be provided at a whole system level and should be easily shared, reproducible, and self service  Data and analysis should contribute to &amp;ldquo;intelligent transparency&amp;rdquo;  Accessible Comprehensible Usable Assessable- that is, open for inspection      Whole system demand and capacity intelligence #   Contribute to building capacity in the ICS to routinely carry out demand and capacity modelling Develop a system wide approach to demand and capacity, including models of patient flow and early warning systems  Intelligent decision support #   Provide legible, real time, analytically robust PROMS, CROMS, and PREMS to all staff who need them Continue to use and build on success of data science methods such as forecasting and text mining Consider implementing CogStack to support text mining of clinical notes in the EHR  Objectives #     Appendix A: Related areas</description>
     </item>
     
     <item>
@@ -165,6 +164,16 @@ Area one #   TODO  Appendix A: Training providers #   AphA Health Education Engl
       <guid>https://chrisbeeley.github.io/notebook/docs/goldacre_review/tre/</guid>
       <description>What is a &amp;ldquo;Trusted Research Environment&amp;rdquo;? #   In outline, a Trusted Research Environment (TRE) is a secure environment that researchers enter in order to work on the data remotely, rather than downloading it onto their own local machine. Users can extract and download the answers from their analyses – such as results tables, or graphs – but individual patients’ data always stays within the secure environment
  &amp;ldquo;good TREs can also provide a more efficient and collaborative computational environment for all data users, and an opportunity to make modern open working methods the simple default.</description>
+    </item>
+    
+    <item>
+      <title>Improving Trust</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/improving_trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/data_saves_lives/improving_trust/</guid>
+      <description>We need to build on this to demonstrate that the health and care system is a trustworthy data custodian, and we will do this in 5 ways:
+ Keep data safe and secure. Be open about how data is used. Ensure fair terms from data partnerships. Give the public a bigger say in how data is used. Improve the public’s access to their own data.   Keeping data secure and safe #  &amp;ldquo;By December 2022, we will work with expert partners and the public to implement secure data environments as a default across the NHS.</description>
     </item>
     
     <item>
