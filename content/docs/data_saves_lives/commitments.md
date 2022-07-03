@@ -13,7 +13,7 @@ weight: 1
 
 ### Improving trust in the health and care system’s use of data
 
-* We will work with expert partners and the public to implement secure data environments as a default across the NHS. We will do this by delivering:
+* We will work with expert partners and the public to implement secure data environments as a default across the NHS.
 * We will work with the public to establish, for the first time, a data pact that will set out how we will use health and care data, and what the public has the right to expect.
 * We will co-design a transparency statement, as part of a regularly updated online hub, setting out how publicly held health and care data is used across the sector.
 * We will lead the work of the Health and Care Information Governance Panel to develop additional information governance guidance, including the first part of the information governance frameworks for integrated care covering individual care and standards (such as data-sharing and transparency), so the public can be confident in our handling of their data, to be published on the information governance portal.
@@ -73,7 +73,6 @@ weight: 1
     * agree frameworks, guidelines and policies to support the analytical community and address the concerns raised in the Goldacre review
     * build the ecosystem of the profession through communities of practice (local, regional, national and virtual)
     * signpost and provide development opportunities for analysts in both health and social care
-
 * We will initiate a national pilot on improving care co-ordination via the Improving Care Coordination for Patients programme.
 * We will be able to showcase replicable archetypes of national data and analytics technology infrastructure based on the maturity of integrated care systems.
 * We will have a federated data platform that will provide the connectivity needed to transform care and improve outcomes for patients.
@@ -95,7 +94,6 @@ weight: 1
     * a robust accreditation regime to ensure our high standards for secure data environments are implemented. This will include not only accreditation requirements for secure data environments, but also guidance and oversight on users of the environment, as well as the process to monitor and assess implementation
     * a full technical specification, drawing on industry best practice, including requirements to ensure interoperability, cyber security and the use of privacy-enhancing technologies
     * a comprehensive roadmap to ensure all partners across the system know how to implement our framework, with clear indicative timescales and expectations for those at different readiness levels. This will include not only those delivering the transformation in the NHS, but also software providers, academic and industry researchers, as well as funding agencies
-
 * We will create clarity on terminology and legal definitions, working with the research community to alleviate confusion and improve the quality of research access requests.
 * We will create at-scale data sets that bring together the different types of health data to develop new tools for prevention, diagnostics and clinical decision support through the Data for Research and Development programme.
 * We will bring together genomics data, and work with NHSEI to ensure genomic data generated through clinical care is fed back into patients’ records.
