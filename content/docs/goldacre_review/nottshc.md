@@ -9,6 +9,18 @@ weight: 99
 # bookSearchExclude: false
 ---
 
+Modernising
+- Embrace modern, open working methods for NHS data analysis by committing to Reproducible  Analytical Pipelines (RAP) as the core working practice that must be supported by all platforms and teams; make this a core focus of NHS analyst training
+- bridge the gap between health research and software development: train academic  researchers and NHS analysts in contemporary computational data science techniques, using RAP where appropriate…
+	Open
+- Open code
+- Stop doing data curation differently, to variable and unseen standards, duplicatively  in every team, data centre, and project
+- Meet this challenge with systematic curation work, devoted teams, shared working  practices, shared code, shared tools, and shared documentation
+	Other
+- ICS pioneer teams (this is not in Data Saves Lives)
+ 
+A considerable amount of policy and guidance relating to data and analytics in the NHS has been published in recent times, with the publication of the  Goldacre Review (commissioned by the DHSC) and the  Data Saves Lives policy from DHSC. The papers are closely aligned and Data Saves Lives accepts in whole or in part all of the  summary recommendations from the Goldcare Review. The recommendations cover modernising NHS service analytics, open working methods, privacy, Trusted Research Environments, information governance, ethics, and data curation. This paper will focus on modernising  service analytics, open working methods, and data curation. The other recommendations are relevant to the Trust insofar as it shares data with ICB colleagues and with national bodies, but much of this work will be planned and coordinated at the ICB/ national  level.
+
 # What should Nottinghamshire Healthcare NHS Trust do
 
 Nottinghamshire Healthcare NHS Trust (NHC) is part of an [analytically able ICS](https://healthandcarenotts.co.uk/) and employs three analytical teams with good working relationships: Applied Information, Performance, and CDU data science. The teams combine expertise in data curation and management, performance and quality surveillance, and data science methods and analytical pipelines. 
