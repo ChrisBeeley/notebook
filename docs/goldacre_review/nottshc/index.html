@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="What should Nottinghamshire Healthcare NHS Trust do #  Nottinghamshire Healthcare NHS Trust (NHC) is part of an analytically able ICS and employs three analytical teams with good working relationships: Applied Information, Performance, and CDU data science. The teams combine expertise in data curation and management, performance and quality surveillance, and data science methods and analytical pipelines.
-NHC could become one of the &ldquo;data pioneer&rdquo; trusts (or form part of a &ldquo;data pioneer&rdquo; ICS) that the report recommends in NHSA 7 by building on the work already happening at the trust.">
+<meta name="description" content="A considerable amount of policy and guidance relating to data and analytics in the NHS has been published in recent times, with the publication of the Goldacre Review (commissioned by the DHSC) and the Data Saves Lives policy from DHSC. The papers are closely aligned and Data Saves Lives accepts in whole or in part all of the summary recommendations from the Goldcare Review. The recommendations cover modernising NHS service analytics, open working methods, privacy, Trusted Research Environments, information governance, ethics, and data curation.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Nottinghamshire Healthcare NHS Trust" />
-<meta property="og:description" content="What should Nottinghamshire Healthcare NHS Trust do #  Nottinghamshire Healthcare NHS Trust (NHC) is part of an analytically able ICS and employs three analytical teams with good working relationships: Applied Information, Performance, and CDU data science. The teams combine expertise in data curation and management, performance and quality surveillance, and data science methods and analytical pipelines.
-NHC could become one of the &ldquo;data pioneer&rdquo; trusts (or form part of a &ldquo;data pioneer&rdquo; ICS) that the report recommends in NHSA 7 by building on the work already happening at the trust." />
+<meta property="og:description" content="A considerable amount of policy and guidance relating to data and analytics in the NHS has been published in recent times, with the publication of the Goldacre Review (commissioned by the DHSC) and the Data Saves Lives policy from DHSC. The papers are closely aligned and Data Saves Lives accepts in whole or in part all of the summary recommendations from the Goldcare Review. The recommendations cover modernising NHS service analytics, open working methods, privacy, Trusted Research Environments, information governance, ethics, and data curation." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/goldacre_review/nottshc/" /><meta property="article:section" content="docs" />
 
@@ -19,7 +17,7 @@ NHC could become one of the &ldquo;data pioneer&rdquo; trusts (or form part of a
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.9bfa586c572481dc06f767bf6350592fb12e84a9799ecea1dae714cd6ee71385.js" integrity="sha256-m/pYbFckgdwG92e/Y1BZL7EuhKl5ns6h2ucUzW7nE4U=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.cd02a43b5f34c64e16f4e9a037d6cd907100f83cb038ff459ad2877b46e46f35.js" integrity="sha256-zQKkO180xk4W9OmgN9bNkHEA&#43;DywOP9FmtKHe0bkbzU=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -680,9 +678,16 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
-    <li><a href="#outsourcing">Outsourcing</a></li>
-    <li><a href="#open-code">Open code</a></li>
+    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a>
+      <ul>
+        <li><a href="#recommendation">Recommendation</a></li>
+      </ul>
+    </li>
+    <li><a href="#open-code">Open code</a>
+      <ul>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -695,7 +700,8 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="what-should-nottinghamshire-healthcare-nhs-trust-do">
+  <article class="markdown"><p>A considerable amount of policy and guidance relating to data and analytics in the NHS has been published in recent times, with the publication of the  Goldacre Review (commissioned by the DHSC) and the  Data Saves Lives policy from DHSC. The papers are closely aligned and Data Saves Lives accepts in whole or in part all of the  summary recommendations from the Goldcare Review. The recommendations cover modernising NHS service analytics, open working methods, privacy, Trusted Research Environments, information governance, ethics, and data curation. This paper will focus on modernising  service analytics, open working methods, and data curation. The other recommendations are relevant to the Trust insofar as it shares data with ICB colleagues and with national bodies, but much of this work will be planned and coordinated at the ICB/ national  level.</p>
+<h1 id="what-should-nottinghamshire-healthcare-nhs-trust-do">
   What should Nottinghamshire Healthcare NHS Trust do
   <a class="anchor" href="#what-should-nottinghamshire-healthcare-nhs-trust-do">#</a>
 </h1>
@@ -705,20 +711,57 @@ https://github.com/alex-shpak/hugo-book
   Reproducible analytical pipelines
   <a class="anchor" href="#reproducible-analytical-pipelines">#</a>
 </h2>
-<p>TODO</p>
-<h2 id="outsourcing">
-  Outsourcing
-  <a class="anchor" href="#outsourcing">#</a>
-</h2>
-<p>TODO</p>
+<blockquote>
+<p>Reproducibility is the cornerstone of analysis. Analysts should get the same results as each other when using the same data and methods. Since 2017, analysts in the UK public sector have made their analysis more efficient and reproducible using a methodology called Reproducible Analytical Pipelines (RAP). They advocate writing analysis as code and using open-source tools, version control software, and dependency management&hellip; Analysis can be higher quality through automated data validation and testing, more impactful through interactive data presentation, more prompt and less costly by removing manual steps, and more powerful by using advanced analytics.</p>
+</blockquote>
+<p>(source: <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/">Government Reproducible Analytical Pipelines strategy</a>)</p>
+<blockquote>
+<p>[summary recommendation 17]: Embrace modern, open working methods for NHS data analysis by committing to Reproducible Analytical Pipelines (RAP) as the core working practice that must be supported by all platforms and teams; make this a core focus of NHS analyst training.</p>
+</blockquote>
+<p>(source: <a href="https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#summary-recommendations">Goldacre review</a>)</p>
+<p>Reproducible analytic pipelines are analytical tasks that are entirely expressed in code (often, but not always, R or Python). At a minimum they will:</p>
+<ul>
+<li>minimise manual steps, for example copy-paste, point-click or drag-drop operations. Where it is absolutely necessary to include a manual step in the process this must be documented</li>
+<li>be built using open source software for data management, analysis and visualisation which is available to anyone, preferably R or python</li>
+<li>be open to anyone for review and re-use, with all code shared openly through open standard file and code sharing platforms such as GitHub (sharing data itself is a separate issue from sharing code, as discussed below, and should be handled very differently)</li>
+<li>guarantee an audit trail using version control software (such as Git, or in services such as GitHub) which systematically track exactly who has made which changes or contributions to the code, which characters and lines were modified, when, and – as appropriate – why</li>
+<li>follow existing good practice for quality assurance</li>
+<li>deepen technical and quality assurance processes with code review by peers</li>
+<li>contain well-commented code and have documentation embedded and version controlled within the work, rather than saved elsewhere</li>
+</ul>
+<p>(source: <a href="https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#modernising-nhs-service-analytics">Goldacre review</a>)</p>
+<p>They offer a number of advantages over typical workflows such as Excel such as:</p>
+<ul>
+<li>Efficiency- the pipeline can be re-run with new data with very little effort</li>
+<li>Accuracy- because all data manipulation is performed within code, the data and analysis can be checked easily after the analysis is complete</li>
+<li>Sharing and collaboration- RAPs can be shared and collaborated on between teams and organisations simply using tools like git and GitHub</li>
+<li>Transparency- analysis can be shared as code without the sharing of data, which allows external stakeholders to satisfy themselves that the analysis was performed correctly, even if the data is withheld.</li>
+</ul>
+<p>Using RAPs as suggested by government and by the Goldcare review will take a considerable amount of changes in working practice and training, but it can be begun slowly. The ultimate prize is considerable time saved from repetitive tasks and analysts being able to carry out more meaningful and strategic analyses.</p>
+<h3 id="recommendation">
+  Recommendation
+  <a class="anchor" href="#recommendation">#</a>
+</h3>
+<p>The internal data science team in CDU is already looking to produce a RAP of a monthly analytic task. To begin to mainstream the methodology the Trust should identify a business critical analytic task which is suitable to be processed in a RAP compliant way (not all processes are amenable to this process with the current data architecture). The CDU data science team could offer assistance and training in this regard, with the ultimate aim being that this process would sit within the Trust&rsquo;s mainstream analytic functions.</p>
 <h2 id="open-code">
   Open code
   <a class="anchor" href="#open-code">#</a>
 </h2>
-<ul>
-<li>Actively seek permission to open source code that refers to database schema from proprietary databases. <a href="https://www.opensafely.org/">OpenSAFELY</a> publishes code from databases produced by <a href="https://tpp-uk.com/">TPP</a> (<a href="https://github.com/nhsx/open-source-policy/issues/6#issuecomment-1138403404">with their permission</a>), and NHC should do the same, as well as approaching the other main EHR database vendor the trust has engaged, <a href="https://www.servelec.co.uk/">Servelec</a> (regarding the <a href="https://www.servelec.co.uk/product-range/rio-epr-system/">Rio database</a>)</li>
-</ul>
-<p>TODO</p>
+<blockquote>
+<p>We will: begin to make new source code that we produce or commission open and reusable by default (with clear exceptions) and publish it under appropriate licences to encourage further innovation (such as MIT and OGLv3, alongside suitable open data sets or dummy data). Subject to consultation, the relevant policies will also aim to be open and reusable&hellip;)</p>
+</blockquote>
+<p>(source: <a href="https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data#working-with-partners-to-develop-innovations-that-improve-health-and-care">Data Saves Lives</a>)</p>
+<blockquote>
+<p>it is crucial that the core working practices, such as sharing code, are implemented as a norm throughout  the system [i.e. of analytical teams], because of the problems that closed working can create around quality, safety, usability, credibility, and review</p>
+</blockquote>
+<p>(source: <a href="https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#modernising-nhs-service-analytics">Goldacre review</a>)</p>
+<h3 id="recommendations">
+  Recommendations
+  <a class="anchor" href="#recommendations">#</a>
+</h3>
+<p>NHC should actively seek permission to open source code that refers to database schema from proprietary databases. <a href="https://www.opensafely.org/">OpenSAFELY</a> publishes code from databases produced by <a href="https://tpp-uk.com/">TPP</a> (<a href="https://github.com/nhsx/open-source-policy/issues/6#issuecomment-1138403404">with their permission</a>), and NHC should do the same, as well as approaching the other main EHR database vendor the trust has engaged, <a href="https://www.servelec.co.uk/">Servelec</a> (regarding the <a href="https://www.servelec.co.uk/product-range/rio-epr-system/">Rio database</a>)</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 </article>
  
       
@@ -760,9 +803,16 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
-    <li><a href="#outsourcing">Outsourcing</a></li>
-    <li><a href="#open-code">Open code</a></li>
+    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a>
+      <ul>
+        <li><a href="#recommendation">Recommendation</a></li>
+      </ul>
+    </li>
+    <li><a href="#open-code">Open code</a>
+      <ul>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
