@@ -58,7 +58,7 @@ The internal data science team in CDU is already looking to produce a RAP of a m
 
 (source: [Data Saves Lives](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data#working-with-partners-to-develop-innovations-that-improve-health-and-care))
 
-> it is crucial that the core working practices, such as sharing code, are implemented as a norm throughout the system, because of the problems that closed working can create around quality, safety, usability, credibility, and review
+> it is crucial that the core working practices, such as sharing code, are implemented as a norm throughout  the system [i.e. of analytical teams], because of the problems that closed working can create around quality, safety, usability, credibility, and review
 
 (source: [Goldacre review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#modernising-nhs-service-analytics))
 
