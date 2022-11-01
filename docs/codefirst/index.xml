@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code first! on Notebook</title>
+    <link>https://chrisbeeley.github.io/notebook/docs/codefirst/</link>
+    <description>Recent content in Code first! on Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/codefirst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archive</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/codefirst/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/codefirst/archive/</guid>
+      <description>Archive- original code library post #  Many recent reports have highlighted the need for analytic code generated within the health and social care system to be shared, most recently the Goldacre Report. There are many benefits to such a move, and ending the practice of “duplicative working behind closed doors” will improve efficiency by allowing the reuse of code as well as increasing the transparency of the analysis and methods employed.</description>
+    </item>
+    
+  </channel>
+</rss>
