@@ -18,3 +18,15 @@ Another important dimension of the recommendations of the RAP strategy and the G
 There are many individuals and groups across the NHS who are carrying out excellent work using code first and RAP compliant tools, and indeed the Goldacre review names both [NHS-R](https://nhsrcommunity.com/) and [NHSPycom](https://nhs-pycom.net/) as being excellent community  projects bringing together users of these tools. However, it is clear that these practices are far from widespread- many analysts lack the skills and support to use these tools, and even some of those who do have the skills are forbidden to do so on corporate IT equipment
 
 ## Current issues in code first analytics
+
+(outline points for now, to be expanded)
+
+* Fear of open source tools, especially R and especially packages
+* Fear of sharing code
+* Lack of skills
+* Lack of demand for high quality analytics
+* Workforce issues (pay, training, professional recognition)
+
+## Supplemental materials
+
+* Understanding analytical capability in health care, [Health Foundation](https://www.health.org.uk/publications/understanding-analytical-capability-in-health-care)
