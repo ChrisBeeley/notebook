@@ -63,6 +63,12 @@ The code first/ RAP community could adopt a similar approach. The Goldacre revie
  
 A properly resourced team could produce a wide range of resources for managers in the NHS, including but not limited to videos, webinars, blog posts, and training sessions. The team could also actively take this message both to trust boards and to senior IT professionals across organisations in the NHS. Sessions and materials for boards would focus on the potential benefits of adopting code first solutions to analytics, and ensuring that they understand that there is a vibrant community and dedicated teams who are able to provide advice, support, and training to teams within each organisation. The focus with IT professionals would be on understanding security practices in respect of sharing code and database schema, discussing the potential for harm from open source programming languages and packages, and ensuring that they feel that they are able to manage this risk appropriately in their organisation. Showing off the sheer number of NHS organisations who use R and Python safely every day would also be a key message, as well as organisations in other industries (for example the MoD, the Bank of England, and Google). 
 
+## Programme of work with analysts
+
+A similar approach could be adopted engaging with analysts, and indeed looking at the MDC model it is clear that they have been successful at engaging at all levels, from coalface analysts to board members. Work with analysts would naturally have a practical focus, again through videos, blogs, webinars, and training sessions. Through these means the benefits of the approach could be demonstrated as well as efforts made to emphasise that, with the right training and support, these methods can be used by anyone. Specific training could be offered on a bespoke basis to particular teams or organisations who need particular help (or who wish to become outstanding) but much of the work of the team would be compiling and showing off the wide range of materials and community projects which already exist to help people to use RAP and code first methods.
+
+## Open library of code
+
 ## Supplemental materials
 
 * Understanding analytical capability in health care, [Health Foundation](https://www.health.org.uk/publications/understanding-analytical-capability-in-health-care)
