@@ -81,7 +81,21 @@ This piece of work would bring about a very concrete change in that it would pro
 
 ## Funding
 
-The project described is ambitious in scope and requires a robust team to deliver it. It is possible, nonetheless, 
+The project described is ambitious in scope and requires a robust team to deliver it. It is possible, nonetheless, to envision the work being successful with a smaller team if funding is constrained. There are three likely levels of funding required which would naturally give very different outcomes. In all cases the funding should be for at least 3 years.
+
+### 100K per annum
+
+100K per annum would pay for approximately an 8A and a 7. Working across the three programmes would necessarily constrain their efforts somewhat. They could be expected to produce a reasonably minimal set of resources for senior managers and analysts, run perhaps 10 events per year across managers and analysts, and make a fairly modest open code library. Including R and Python may be particularly difficult with two staff and the final resource may be unhelpfully skewed towards one language or another. Nonetheless, they would leave behind and important body of work which could be expanded and translated, and could perhaps be recommissioned beyond year 3, although the pace of work would still be slow.
+
+They would also need to have strong links with a senior figure from the analytical/ RAP community. At this level of funding this would probably be pro bono and would be less intensive and might be possible with a larger team with more funding.
+
+### £250K per annum
+
+This level of funding would pay for approximately one 8C, an 8A, and two 7s. The 8C would be expected to do engagement work with senior managers and IT professionals and to set the strategy and focus for the whole team. The 8A could be responsible for high level planning and supervision across the whole workstream, as well as contributing code and other materials to the training/ engagement programme and the open code library. The 7s would likely focus on a language each, ideally, one R and one Python. This team would be able to produce a suite of materials across the range of workstreams and a code library built with the analytical community that addresses many of their challenges.
+
+### £500K per annum
+
+TBC
 
 ## Supplemental materials
 
