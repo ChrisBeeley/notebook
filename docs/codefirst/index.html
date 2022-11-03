@@ -15,7 +15,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.f7a3860a829854f44b70e0d2b61cc71ad3444917498150e86bdf7ae101264a10.js" integrity="sha256-96OGCoKYVPRLcODSthzHGtNESRdJgVDoa9964QEmShA=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.35c2964c51f6aa9b29d30c7305f72cf6bde0bd4b1903189055d37d9594449775.js" integrity="sha256-NcKWTFH2qpsp0wxzBfcs9r3gvUsZAxiQVdN9lZREl3U=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/codefirst/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
@@ -712,7 +712,16 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#background">Background</a></li>
-    <li><a href="#current-issues-in-code-first-analytics">Current issues in code first analytics</a></li>
+    <li><a href="#current-issues-in-code-first-analytics">Current issues in code first analytics</a>
+      <ul>
+        <li><a href="#tooling">Tooling</a></li>
+        <li><a href="#workforce">Workforce</a></li>
+        <li><a href="#openness">Openness</a></li>
+      </ul>
+    </li>
+    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
+    <li><a href="#key-activities">Key activities</a></li>
+    <li><a href="#programme-of-engagement-with-senior-managers">Programme of engagement with senior managers</a></li>
     <li><a href="#supplemental-materials">Supplemental materials</a></li>
   </ul>
 </nav>
@@ -737,14 +746,47 @@ https://github.com/alex-shpak/hugo-book
   Current issues in code first analytics
   <a class="anchor" href="#current-issues-in-code-first-analytics">#</a>
 </h2>
-<p>(outline points for now, to be expanded)</p>
+<p>The are several barriers to adopting code first analytics identified in the Goldacre review and in <a href="https://www.health.org.uk/publications/understanding-analytical-capability-in-health-care">previous reports</a>. They are outlined briefly following.</p>
+<h3 id="tooling">
+  Tooling
+  <a class="anchor" href="#tooling">#</a>
+</h3>
+<p>Many organisations are reluctant to allow analysts to use open source tools of any kind, and in particular Python. Python is seen as a potential attack vector, both in terms of users installing packages even from official sources (which have no checks) and with respect to its being a general purpose programming language which could theoretically be used by a bad actor. The situation is not as severe in R, perhaps partly just because of there being more name recognition with R, although it is true today that analysts are not allowed to install R and/ or official packages.</p>
+<h3 id="workforce">
+  Workforce
+  <a class="anchor" href="#workforce">#</a>
+</h3>
+<p>There are several problems relating to code first analytics with respect to workforce, some of which are more general problems with the analytical workforce, but they nonetheless represent a barrier to working in this way. There is a lack of coding skills across the NHS, and many analysts will know just Excel and SQL. Those individuals who do have coding and data science experience will often leave for the private sector because of poor recognition of their skills (and therefore poor salary) in the pay structure of the NHS, <em>Agenda for Change</em>. A further problem is a lack of good structures around the profession, few heads of profession and chief analysts, a lack of community, and a lack of knowledge about code first methods in senior analytical roles across the NHS</p>
+<h3 id="openness">
+  Openness
+  <a class="anchor" href="#openness">#</a>
+</h3>
+<p>The recently published <a href="https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data#working-with-partners-to-develop-innovations-that-improve-health-and-care"><em>Data Saves Lives</em></a> includes a strong message that code that is procured should be procured on the condition that it is released as open source (as a default, with clear exceptions). However, there is still very patchy sharing of code by individuals employed by the NHS, and open sourcing is rarely stipulated in procurement contracts (and therefore it is rarely done).</p>
+<p>Some organisations fear the consequences of sharing code, either that they will prove to have made a mistake or that the code they share will somehow make it easier for people without authorisation to access confidential data. In particular, many organisations fear to share database schema, even though <a href="https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed">government advice clearly states that it is safe</a>.</p>
+<h2 id="reproducible-analytical-pipelines">
+  Reproducible analytical pipelines
+  <a class="anchor" href="#reproducible-analytical-pipelines">#</a>
+</h2>
+<p>The Goldacre review promotes that idea of Reproducible Analytical Pipelines (RAP) and they have found widespread adoption in central government who have a <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/">clear strategy on RAP</a> endorsed by the head of the analysis function. Briefly, RAP is a process in which code is used to minimise manual, undocumented steps, and a clear, properly documented process is produced in code which can reliably give the same result from the same dataset.</p>
+<p>RAP has proved itself to be of great benefit in <a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/rap-case-studies/">increasing accuracy and efficiency in central government</a> and implementing RAP is one of the summary recommendations of the Goldacre review</p>
+<blockquote>
+<p>Embrace modern, open working methods for NHS data analysis by committing to Reproducible Analytical Pipelines (RAP) as the core working practice that must be supported by all platforms and teams; make this a core focus of NHS analyst training.</p>
+</blockquote>
+<p>Concerted action is required to give analysts the skills and tools they need to reap the benefits of RAP and the other uses of code first analytics. This action requires a team of experts who can educate and support analysts and analytical leaders across the system, and the composition and programme of work for this team will be described following.</p>
+<h2 id="key-activities">
+  Key activities
+  <a class="anchor" href="#key-activities">#</a>
+</h2>
 <ul>
-<li>Fear of open source tools, especially R and especially packages</li>
-<li>Fear of sharing code</li>
-<li>Lack of skills</li>
-<li>Lack of demand for high quality analytics</li>
-<li>Workforce issues (pay, training, professional recognition)</li>
+<li>A programme of engagement with senior managers</li>
+<li>A programme of work with analysts</li>
+<li>An open library of code for the NHS</li>
 </ul>
+<p>More detail will now be given about each strand of activity.</p>
+<h2 id="programme-of-engagement-with-senior-managers">
+  Programme of engagement with senior managers
+  <a class="anchor" href="#programme-of-engagement-with-senior-managers">#</a>
+</h2>
 <h2 id="supplemental-materials">
   Supplemental materials
   <a class="anchor" href="#supplemental-materials">#</a>
@@ -794,7 +836,16 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#background">Background</a></li>
-    <li><a href="#current-issues-in-code-first-analytics">Current issues in code first analytics</a></li>
+    <li><a href="#current-issues-in-code-first-analytics">Current issues in code first analytics</a>
+      <ul>
+        <li><a href="#tooling">Tooling</a></li>
+        <li><a href="#workforce">Workforce</a></li>
+        <li><a href="#openness">Openness</a></li>
+      </ul>
+    </li>
+    <li><a href="#reproducible-analytical-pipelines">Reproducible analytical pipelines</a></li>
+    <li><a href="#key-activities">Key activities</a></li>
+    <li><a href="#programme-of-engagement-with-senior-managers">Programme of engagement with senior managers</a></li>
     <li><a href="#supplemental-materials">Supplemental materials</a></li>
   </ul>
 </nav>
