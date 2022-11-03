@@ -55,6 +55,14 @@ More detail will now be given about each strand of activity.
 
 ## Programme of engagement with senior managers
 
+Samantha Riley and the “Making Data Count” (MDC) team have produced a considerable suite of documentation and training materials which describe the reasons why switching to reporting using SPC (Statistical Process Control) can significantly raise the quality of decision making in an organisation. SPC is a highly technical topic, but the Making Data Count team has managed to make this topic approachable to all. This has significantly raised  the profile of statistical best practice across the NHS.
+
+At the same time, the MDC team has also run a huge engagement programme, visiting boards across the country to educate them about the use of SPC, as well as doing webinars, meetings, presentations, etc. in order to bring this message to a wide audience. 
+
+The code first/ RAP community could adopt a similar approach. The Goldacre review provides a blueprint for action around code first analytics and RAP but its penetration outside of individuals who are already interested in these methods is potentially quite weak. A team could be grown and funded to tackle the two barriers which were tackled so well by the MDC team. 
+ 
+A properly resourced team could produce a wide range of resources for managers in the NHS, including but not limited to videos, webinars, blog posts, and training sessions. The team could also actively take this message both to trust boards and to senior IT professionals across organisations in the NHS. Sessions and materials for boards would focus on the potential benefits of adopting code first solutions to analytics, and ensuring that they understand that there is a vibrant community and dedicated teams who are able to provide advice, support, and training to teams within each organisation. The focus with IT professionals would be on understanding security practices in respect of sharing code and database schema, discussing the potential for harm from open source programming languages and packages, and ensuring that they feel that they are able to manage this risk appropriately in their organisation. Showing off the sheer number of NHS organisations who use R and Python safely every day would also be a key message, as well as organisations in other industries (for example the MoD, the Bank of England, and Google). 
+
 ## Supplemental materials
 
 * Understanding analytical capability in health care, [Health Foundation](https://www.health.org.uk/publications/understanding-analytical-capability-in-health-care)
