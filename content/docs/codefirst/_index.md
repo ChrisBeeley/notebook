@@ -48,8 +48,8 @@ Concerted action is required to give analysts the skills and tools they need to 
 ## Key activities
 
 * A programme of engagement with senior managers
-* A programme of work with analysts
 * An open library of code for the NHS
+* A programme of work with analysts
 
 More detail will now be given about each strand of activity.
 
@@ -61,15 +61,7 @@ At the same time, the MDC team has also run a huge engagement programme, visitin
 
 The code first/ RAP community could adopt a similar approach. The Goldacre review provides a blueprint for action around code first analytics and RAP but its penetration outside of individuals who are already interested in these methods is potentially quite weak. A team could be grown and funded to tackle the two barriers which were tackled so well by the MDC team. 
  
-A properly resourced team could produce a wide range of resources for managers in the NHS, including but not limited to videos, webinars, blog posts, and training sessions. The team could also actively take this message both to trust boards and to senior IT professionals across organisations in the NHS. Sessions and materials for boards would focus on the potential benefits of adopting code first solutions to analytics, and ensuring that they understand that there is a vibrant community and dedicated teams who are able to provide advice, support, and training to teams within each organisation. The focus with IT professionals would be on understanding security practices in respect of sharing code and database schema, discussing the potential for harm from open source programming languages and packages, and ensuring that they feel that they are able to manage this risk appropriately in their organisation. Showing off the sheer number of NHS organisations who use R and Python safely every day would also be a key message, as well as organisations in other industries (for example the MoD, the Bank of England, and Google). 
-
-## Programme of work with analysts
-
-To be successful the programme would need to engage with a wide range of analysts for a diverse set of purposes. Fundamentally, the aims would be:
-
-* Train a critical mass of healthcare analysts to use RAP methods ([Embrace modern, open working methods for NHS data analysis]({{< relref "#reproducible-analytical-pipelines" >}}))
-
-A similar approach could be adopted engaging with analysts, and indeed looking at the MDC model it is clear that they have been successful at engaging at all levels, from coalface analysts to board members. Work with analysts would naturally have a practical focus, again through videos, blogs, webinars, and training sessions. Through these means the benefits of the approach could be demonstrated as well as efforts made to emphasise that, with the right training and support, these methods can be used by anyone. Specific training could be offered on a bespoke basis to particular teams or organisations who need particular help (or who wish to become outstanding) but much of the work of the team would be compiling and showing off the wide range of materials and community projects which already exist to help people to use RAP and code first methods.
+A properly resourced team could produce a wide range of resources for managers in the NHS, including but not limited to videos, webinars, blog posts, and training sessions. The team could also actively take this message both to trust boards and to senior IT professionals across organisations in the NHS. Sessions and materials for boards would focus on the potential benefits of adopting code first solutions to analytics, and ensuring that they understand that there is a vibrant community and dedicated teams who are able to provide advice, support, and training to teams within each organisation. The focus with IT professionals would be on understanding security practices in respect of sharing code and database schema, discussing the potential for harm from open source programming languages and packages, and ensuring that they feel that they are able to manage this risk appropriately in their organisation. Showing off the sheer number of NHS organisations who use R and Python safely every day would also be a key message, as well as organisations in other industries (for example the MoD, the Bank of England, and Google).
 
 ## Open library of code
 
@@ -82,6 +74,19 @@ Producing an open library of code would produce a highly useful resource for tra
 With the first engagement stage complete work could begin on the resource. It is likely to contain code written in at least two languages (R and Python) and may also include other languages (Julia, SQL, Bash...). It is highly likely that it would be presented as a book, with chapters, online, in a similar way to The Turing Way https://the-turing-way.netlify.app/welcome but there are other formats and standards that could be considered (for example, audio or video segments that link out to individual GitHub repos on particular subjects). The format and content of the work should be considered in detail in the engagement phase prior to this one. As the content begins to take shape, further engagement work could take place to ensure that the content is comprehensible and useful and to encourage analysts to use the work as well as to make contributions to it. A larger piece of work could also take place to find gaps in the library and to attempt to commission solutions or find existing ones. Where no solution can be found, the data scientist working on the library could write the code, or if it is too technical or difficult could attempt to induce an individual or team to produce it.
  
 This piece of work would bring about a very concrete change in that it would produce a highly useful tool for learning and training as well as for day to day work. The engagement and work which occurred in order to produce a diverse library from a range of individuals working in health and care would also be likely to lead to better communication between analysts, better visibility of open work and the individuals engaged in it, and hopefully lasting cultural change. Individuals engaged in producing and using the library would be more likely to write better, more generic code, and to seek open code solutions for their day to day tasks rather than writing their own. With the right support, the library could itself help to encourage other collaborative pieces of work based on the shared interests of the users and creators of the library (who, of course, overlap). This work would, it is hoped, feed back into the library too, creating a virtuous circle of open material and collaboration leading to larger pieces of collaborative analytic work, which themselves can be written into the library.
+
+## Programme of work with analysts
+
+In order to produce an analytical workforce capable of reaping the benefits provided by open methods and an open library of code, as well as capable of collaborating and engaging with other open coders to write useful open code for sharing in the library and/ or elsewhere it will be necessary to close a significant skills gap across the workforce. There is existing work going on at a regional and national level but this programme would have a specific role co-ordinating and joining up such work, carrying out an assessment of the needs of analysts and the gap between needs and provision, and filling gaps. In particular, this programme of work would:
+
+* Form an understanding of the capability of analysts nationally and identify gaps between the 
+existing provision and what's needed to produce a modern workforce as defined in Goldacre
+* Train a critical mass of healthcare analysts to use RAP methods ([Embrace modern, open working methods for NHS data analysis]({{< relref "#reproducible-analytical-pipelines" >}}))
+* Work alongside existing communities (NHS-R, NHSPycom, APHA) \\TODO
+
+
+A similar approach could be adopted engaging with analysts, and indeed looking at the MDC model it is clear that they have been successful at engaging at all levels, from coalface analysts to board members. Work with analysts would naturally have a practical focus, again through videos, blogs, webinars, and training sessions. Through these means the benefits of the approach could be demonstrated as well as efforts made to emphasise that, with the right training and support, these methods can be used by anyone. Specific training could be offered on a bespoke basis to particular teams or organisations who need particular help (or who wish to become outstanding) but much of the work of the team would be compiling and showing off the wide range of materials and community projects which already exist to help people to use RAP and code first methods.
+
 
 ## Funding
 
