@@ -75,6 +75,13 @@ With the first engagement stage complete work could begin on the resource. It is
  
 This piece of work would bring about a very concrete change in that it would produce a highly useful tool for learning and training as well as for day to day work. The engagement and work which occurred in order to produce a diverse library from a range of individuals working in health and care would also be likely to lead to better communication between analysts, better visibility of open work and the individuals engaged in it, and hopefully lasting cultural change. Individuals engaged in producing and using the library would be more likely to write better, more generic code, and to seek open code solutions for their day to day tasks rather than writing their own. With the right support, the library could itself help to encourage other collaborative pieces of work based on the shared interests of the users and creators of the library (who, of course, overlap). This work would, it is hoped, feed back into the library too, creating a virtuous circle of open material and collaboration leading to larger pieces of collaborative analytic work, which themselves can be written into the library.
 
+The function of the parts of the code library should be left to be determined within the engagement phase, however it is likely to include elements of:
+
+* Packages and code examples to help analysts to interact with NHS data APIs (as well as other relevant APIs)
+* Tools to visualise and analyse geographical features of NHS services (such as LSOA characteristics or service provision across a geography), including producing maps
+* Cookbook examples for common data processing, visualisation, and statistical tasks within the NHS
+* RAP compliant dashboard and reporting tool templates
+
 ## Programme of work with analysts
 
 In order to produce an analytical workforce capable of reaping the benefits provided by open methods and an open library of code, as well as capable of collaborating and engaging with other open coders to write useful open code for sharing in the library and/ or elsewhere it will be necessary to close a significant skills gap across the workforce. There is existing work going on at a regional and national level but this programme would have a specific role co-ordinating and joining up such work, carrying out an assessment of the needs of analysts and the gap between needs and provision, and filling gaps. In particular, this programme of work would:
@@ -96,9 +103,9 @@ Ongoing support is crucial for analysts to become competent in RAP, and this cou
 
 The project described is ambitious in scope and requires a robust team to deliver it. Naturally, the level of funding would influence the amount of work which is feasible.
 
-### £250K per annum
+Broadly, two senior data scientists would be expected to carry out engagement work with senior DDAT managers, with the lead data scientist expected also to manage the overall programme and staffing. At £250K pa there would only be budget for one member of staff to work on the training stream and one on the open code library. £500K gives two staff for training and three for an open code library. This is the level of funding which would produce the rapid advances in the analytic workforce which are necessary to meet the ["Goldacre gap"](https://www.linkedin.com/pulse/how-close-goldacre-data-analysis-gap-andi-orlowski/), however the lower amount of funding would enable some progress which could be built on in future years.
 
-This level of funding would pay for approximately one 8C, an 8A, and two 7s. The 8C would be expected to do engagement work with senior managers and IT professionals and to set the strategy and focus for the whole team. The 8A could be responsible for high level planning and supervision across the whole workstream, as well as contributing code and other materials to the training/ engagement programme and the open code library. The 7s would likely focus on a language each, ideally, one R and one Python. This team would be able to produce a suite of materials across the range of workstreams and a code library built with the analytical community that addresses many of their challenges.
+### £250K per annum
 
 {{<mermaid>}}
 flowchart TB
