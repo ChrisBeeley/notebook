@@ -79,14 +79,18 @@ This piece of work would bring about a very concrete change in that it would pro
 
 In order to produce an analytical workforce capable of reaping the benefits provided by open methods and an open library of code, as well as capable of collaborating and engaging with other open coders to write useful open code for sharing in the library and/ or elsewhere it will be necessary to close a significant skills gap across the workforce. There is existing work going on at a regional and national level but this programme would have a specific role co-ordinating and joining up such work, carrying out an assessment of the needs of analysts and the gap between needs and provision, and filling gaps. In particular, this programme of work would:
 
-* Form an understanding of the capability of analysts nationally and identify gaps between the 
-existing provision and what's needed to produce a modern workforce as defined in Goldacre
+* Form an understanding of the capability of analysts nationally and identify gaps between the existing provision and what's needed to produce a modern workforce as defined in Goldacre
 * Train a critical mass of healthcare analysts to use RAP methods ([Embrace modern, open working methods for NHS data analysis]({{< relref "#reproducible-analytical-pipelines" >}}))
-* Work alongside existing communities (NHS-R, NHSPycom, APHA) \\TODO
+* Work alongside existing communities (NHS-R, NHSPycom, APHA) joining up and enhancing the development work that they already do
+* Give particular attention to providing training and ongoing support to enable the analytic workforce to reuse and contribute reusable code
 
+The Making Data Count model was also successful in this area. Like MDC, this programme could make a significant impact by producing a wide range of resources (blog posts, webinars, YouTube videos, online documents) which would serve both to promote the code first RAP approach as well as to provide specific instructions in it. Working with existing communities would also be important to highlight good work in the area as well as to make existing practitioner more visible to each other. This function would be particularly useful to span existing communities (NHS-R, NHSPycom, APHA), ensuring that RAP practitioners within each group are visible to each other and are able to collaborate and cross pollinate across community boundaries.
 
-A similar approach could be adopted engaging with analysts, and indeed looking at the MDC model it is clear that they have been successful at engaging at all levels, from coalface analysts to board members. Work with analysts would naturally have a practical focus, again through videos, blogs, webinars, and training sessions. Through these means the benefits of the approach could be demonstrated as well as efforts made to emphasise that, with the right training and support, these methods can be used by anyone. Specific training could be offered on a bespoke basis to particular teams or organisations who need particular help (or who wish to become outstanding) but much of the work of the team would be compiling and showing off the wide range of materials and community projects which already exist to help people to use RAP and code first methods.
+The most important contribution from this strand of work would be providing training to a considerable number of analysts. Although there is existing training being carried out by NHS-R and NHSPycom it is being carried out almost entirely by volunteers and is therefore limited in scope and volume. A properly staffed national programme of training is necessary to produce the critical mass of RAP capable staff necessary to move analytic capacity in the NHS forwards.
 
+Existing training and resources could be collated and built on and advances made by the training team could be shared back to the communities from which they were drawn. A great deal of the work would be reusing existing materials, 
+
+Ongoing support is crucial for analysts to become competent in RAP, and this could be offered on a targeted basis for individuals who have attended training courses. The programme team could work to make sure that individuals feel comfortable using RAP in their own workplace, and are able to carry out exercises with their own data. They would receive occasional support from the project team for a fixed amount of time (e.g. 4 weeks) or until they felt that they were confident with the methods.
 
 ## Funding
 
@@ -96,9 +100,47 @@ The project described is ambitious in scope and requires a robust team to delive
 
 This level of funding would pay for approximately one 8C, an 8A, and two 7s. The 8C would be expected to do engagement work with senior managers and IT professionals and to set the strategy and focus for the whole team. The 8A could be responsible for high level planning and supervision across the whole workstream, as well as contributing code and other materials to the training/ engagement programme and the open code library. The 7s would likely focus on a language each, ideally, one R and one Python. This team would be able to produce a suite of materials across the range of workstreams and a code library built with the analytical community that addresses many of their challenges.
 
+{{<mermaid>}}
+flowchart TB
+    subgraph Strategy and engagement
+    8CA(8C)
+    end
+    8CA-->7AA(7)
+    subgraph Training
+    7AA(7)
+    end
+    subgraph Open code library
+    8CA-->7AB(7)
+    end
+    8CA-->8AC(8A)
+    subgraph Enagement
+    8AC
+    end
+
+{{</mermaid>}}
+
 ### £500K per annum
 
-TBC
+{{<mermaid>}}
+flowchart TB
+    subgraph Strategy and engagement
+    8CA(8C)
+    end
+    8CA-->8AA(8A)
+    subgraph Open code library
+    8AA-->7AA(7)
+    8AA-->7AD(7)
+    end
+    8CA-->8AB(8A)
+    subgraph Training
+    8AB-->7B(7)
+    end
+    8CA-->8AC(8A)
+    subgraph Enagement
+    8AC
+    end
+
+{{</mermaid>}}
 
 ## Supplemental materials
 
