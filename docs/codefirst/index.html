@@ -15,7 +15,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.66b765ab64d45bb3833909a71d7ebb26f015843da9abc5755c3e9c326e1a85ef.js" integrity="sha256-Zrdlq2TUW7ODOQmnHX67JvAVhD2pq8V1XD6cMm4ahe8=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.aad16297d561aeebca144c7bef909f76692c79d9c84045d3d79f2aad1a1094ab.js" integrity="sha256-qtFil9VhruvKFEx775CfdmksednIQEXT158qrRoQlKs=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/codefirst/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
@@ -814,12 +814,15 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>In order to produce an analytical workforce capable of reaping the benefits provided by open methods and an open library of code, as well as capable of collaborating and engaging with other open coders to write useful open code for sharing in the library and/ or elsewhere it will be necessary to close a significant skills gap across the workforce. There is existing work going on at a regional and national level but this programme would have a specific role co-ordinating and joining up such work, carrying out an assessment of the needs of analysts and the gap between needs and provision, and filling gaps. In particular, this programme of work would:</p>
 <ul>
-<li>Form an understanding of the capability of analysts nationally and identify gaps between the
-existing provision and what&rsquo;s needed to produce a modern workforce as defined in Goldacre</li>
+<li>Form an understanding of the capability of analysts nationally and identify gaps between the existing provision and what&rsquo;s needed to produce a modern workforce as defined in Goldacre</li>
 <li>Train a critical mass of healthcare analysts to use RAP methods (<a href="#reproducible-analytical-pipelines">Embrace modern, open working methods for NHS data analysis</a>)</li>
-<li>Work alongside existing communities (NHS-R, NHSPycom, APHA) \TODO</li>
+<li>Work alongside existing communities (NHS-R, NHSPycom, APHA) joining up and enhancing the development work that they already do</li>
+<li>Give particular attention to providing training and ongoing support to enable the analytic workforce to reuse and contribute reusable code</li>
 </ul>
-<p>A similar approach could be adopted engaging with analysts, and indeed looking at the MDC model it is clear that they have been successful at engaging at all levels, from coalface analysts to board members. Work with analysts would naturally have a practical focus, again through videos, blogs, webinars, and training sessions. Through these means the benefits of the approach could be demonstrated as well as efforts made to emphasise that, with the right training and support, these methods can be used by anyone. Specific training could be offered on a bespoke basis to particular teams or organisations who need particular help (or who wish to become outstanding) but much of the work of the team would be compiling and showing off the wide range of materials and community projects which already exist to help people to use RAP and code first methods.</p>
+<p>The Making Data Count model was also successful in this area. Like MDC, this programme could make a significant impact by producing a wide range of resources (blog posts, webinars, YouTube videos, online documents) which would serve both to promote the code first RAP approach as well as to provide specific instructions in it. Working with existing communities would also be important to highlight good work in the area as well as to make existing practitioner more visible to each other. This function would be particularly useful to span existing communities (NHS-R, NHSPycom, APHA), ensuring that RAP practitioners within each group are visible to each other and are able to collaborate and cross pollinate across community boundaries.</p>
+<p>The most important contribution from this strand of work would be providing training to a considerable number of analysts. Although there is existing training being carried out by NHS-R and NHSPycom it is being carried out almost entirely by volunteers and is therefore limited in scope and volume. A properly staffed national programme of training is necessary to produce the critical mass of RAP capable staff necessary to move analytic capacity in the NHS forwards.</p>
+<p>Existing training and resources could be collated and built on and advances made by the training team could be shared back to the communities from which they were drawn. A great deal of the work would be reusing existing materials,</p>
+<p>Ongoing support is crucial for analysts to become competent in RAP, and this could be offered on a targeted basis for individuals who have attended training courses. The programme team could work to make sure that individuals feel comfortable using RAP in their own workplace, and are able to carry out exercises with their own data. They would receive occasional support from the project team for a fixed amount of time (e.g. 4 weeks) or until they felt that they were confident with the methods.</p>
 <h2 id="funding">
   Funding
   <a class="anchor" href="#funding">#</a>
@@ -830,11 +833,67 @@ existing provision and what&rsquo;s needed to produce a modern workforce as defi
   <a class="anchor" href="#250k-per-annum">#</a>
 </h3>
 <p>This level of funding would pay for approximately one 8C, an 8A, and two 7s. The 8C would be expected to do engagement work with senior managers and IT professionals and to set the strategy and focus for the whole team. The 8A could be responsible for high level planning and supervision across the whole workstream, as well as contributing code and other materials to the training/ engagement programme and the open code library. The 7s would likely focus on a language each, ideally, one R and one Python. This team would be able to produce a suite of materials across the range of workstreams and a code library built with the analytical community that addresses many of their challenges.</p>
+
+
+<script src="/notebook/mermaid.min.js"></script>
+
+  <script>mermaid.initialize({
+  "flowchart": {
+    "useMaxWidth":true
+  },
+  "theme": "default"
+}
+)</script>
+
+
+
+
+<p class="mermaid">
+flowchart TB
+    subgraph Strategy and engagement
+    8CA(8C)
+    end
+    8CA-->7AA(7)
+    subgraph Training
+    7AA(7)
+    end
+    subgraph Open code library
+    8CA-->7AB(7)
+    end
+    8CA-->8AC(8A)
+    subgraph Enagement
+    8AC
+    end
+
+</p>
+
 <h3 id="500k-per-annum">
   £500K per annum
   <a class="anchor" href="#500k-per-annum">#</a>
 </h3>
-<p>TBC</p>
+
+
+<p class="mermaid">
+flowchart TB
+    subgraph Strategy and engagement
+    8CA(8C)
+    end
+    8CA-->8AA(8A)
+    subgraph Open code library
+    8AA-->7AA(7)
+    8AA-->7AD(7)
+    end
+    8CA-->8AB(8A)
+    subgraph Training
+    8AB-->7B(7)
+    end
+    8CA-->8AC(8A)
+    subgraph Enagement
+    8AC
+    end
+
+</p>
+
 <h2 id="supplemental-materials">
   Supplemental materials
   <a class="anchor" href="#supplemental-materials">#</a>
