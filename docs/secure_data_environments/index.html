@@ -3,23 +3,20 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="The Association of the British Pharmaceutical Industry (ABPI) have said that they estimate 80% of all work on an analysis project using NHS data is spent on this data preparation, and they have previously recommended that 80% of the national resource deployed on data science in the NHS should therefore be spent on optimising data curation
- The problem #  Even for something as simple as hypertension there are hundreds of definitions and SNOMED codes that some individuals may think do (or don&rsquo;t) constitute hypertension.">
+<meta name="description" content="Introduction #  The policy guidelines for secure data environments for NHS health and social care data was published on 6th September 2022.">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Data Curation" />
-<meta property="og:description" content="The Association of the British Pharmaceutical Industry (ABPI) have said that they estimate 80% of all work on an analysis project using NHS data is spent on this data preparation, and they have previously recommended that 80% of the national resource deployed on data science in the NHS should therefore be spent on optimising data curation
- The problem #  Even for something as simple as hypertension there are hundreds of definitions and SNOMED codes that some individuals may think do (or don&rsquo;t) constitute hypertension." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/goldacre_review/data_curation/" /><meta property="article:section" content="docs" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Secure Data Environments" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://chrisbeeley.github.io/notebook/docs/secure_data_environments/" />
 
-
-
-<title>Data Curation | Notebook</title>
+<title>Secure Data Environments | Notebook</title>
 <link rel="manifest" href="/notebook/manifest.json">
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
   <script defer src="/notebook/en.search.min.957d35f7c1721b28f196e7c87e5dc21b5e4457770800f80b40d905fe10a10332.js" integrity="sha256-lX0198FyGyjxlufIfl3CG15EV3cIAPgLQNkF/hChAzI=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/secure_data_environments/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -290,7 +287,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-257c234a91ffad06abe52b542a4c5e77" class="toggle" checked />
+    <input type="checkbox" id="section-257c234a91ffad06abe52b542a4c5e77" class="toggle"  />
     <label for="section-257c234a91ffad06abe52b542a4c5e77" class="flex justify-between">
       <a href="/notebook/docs/goldacre_review/" class="">Goldacre Review</a>
     </label>
@@ -371,7 +368,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/notebook/docs/goldacre_review/data_curation/" class="active">Data Curation</a>
+    <a href="/notebook/docs/goldacre_review/data_curation/" class="">Data Curation</a>
   
 
         </li>
@@ -597,7 +594,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/notebook/docs/secure_data_environments/" class="">Secure Data Environments</a>
+    <a href="/notebook/docs/secure_data_environments/" class="active">Secure Data Environments</a>
   
 
           
@@ -716,7 +713,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/notebook/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Data Curation</strong>
+  <strong>Secure Data Environments</strong>
 
   <label for="toc-control">
     
@@ -730,18 +727,7 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#the-problem">The problem</a></li>
-    <li><a href="#how-data-management-is-currently-implemented">How data management is currently implemented</a></li>
-    <li><a href="#the-problems">The problems</a>
-      <ul>
-        <li><a href="#data-inconsistencies">Data inconsistencies</a></li>
-        <li><a href="#requesting-datasets-in-code">Requesting datasets in code</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
 
@@ -752,41 +738,11 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><blockquote>
-<p>The Association of the British Pharmaceutical Industry (ABPI) have said that they estimate 80% of all work on an analysis project using NHS data is spent on this data preparation, and they have previously recommended that 80% of the national resource deployed on data science in the NHS should therefore be spent on optimising data curation</p>
-</blockquote>
-<h2 id="the-problem">
-  The problem
-  <a class="anchor" href="#the-problem">#</a>
-</h2>
-<p>Even for something as simple as hypertension there are hundreds of definitions and SNOMED codes that some individuals may think do (or don&rsquo;t) constitute hypertension.</p>
-<p>&ldquo;Creating these lists is therefore complex and difficult work. To do it, the team need a number of skills which may not all be embodied in one individual. They will need domain knowledge about clinical medicine, to spot the need to include a code such as “arteriolar nephritis”. They will also need domain knowledge about how health data works: they will need to know what SNOMED-CT codes are, how they can be searched, how codes are nested within a poly-hierarchy (and then challenging details such as how parent-child relationships in the poly-hierarchy can create overlapping conflicts, which can in turn change when individual codes move between nodes in different releases); they also need knowledge of how clinicians use clinical systems, what is recorded, how it is coded, and what the strengths and weaknesses of the data are (collectively this is often called “clinical informatics”)&rdquo;</p>
-<ul>
-<li>It is not possible to produce a single &ldquo;hypertension&rdquo; codelist</li>
-<li>Codelists are often imperfect, but secret, either because nobody thinks to share them or because the team who produced them wants to use them for a competitive advantage</li>
-<li>Many patients don&rsquo;t have a diagnosis at all, but it must be inferred instead from their clinical information (systolic BP, for example)</li>
-<li>Diagnoses may change and go out of date- is a 15 year old diagnosis of hypertension still valid?</li>
-</ul>
-<h2 id="how-data-management-is-currently-implemented">
-  How data management is currently implemented
-  <a class="anchor" href="#how-data-management-is-currently-implemented">#</a>
-</h2>
-<blockquote>
-<p>It is clear that this work is typically done in siloes, with minimal formal open sharing, to the frustration of many analysts. However, it is also clear that there is a vast amount of deep expertise currently left untapped and mostly undocumented, in individuals and teams across the system with domain knowledge around clinical relevance, the structure and meaning of individual data elements, the strengths and weaknesses of different national and local datasets, their provenance, and so on. This is <strong>captured in local documents at best, but often resides in the tacit knowledge of individuals and teams</strong> [emphasis added], and shared through informal personal relationships, because of an absence of any expectation or technical facility for wider sharing.</p>
-</blockquote>
-<h2 id="the-problems">
-  The problems
-  <a class="anchor" href="#the-problems">#</a>
-</h2>
-<h3 id="data-inconsistencies">
-  Data inconsistencies
-  <a class="anchor" href="#data-inconsistencies">#</a>
-</h3>
-<p>Data is held with diverse schemata (which are not shared) which means that SQL code is not at all portable between organisations, even when it&rsquo;s the same data</p>
-<h3 id="requesting-datasets-in-code">
-  Requesting datasets in code
-  <a class="anchor" href="#requesting-datasets-in-code">#</a>
-</h3>
+  <article class="markdown"><h1 id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h1>
+<p><a href="https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines">The policy guidelines for secure data environments for NHS health and social care data</a> was published on 6th September 2022.</p>
 </article>
  
       
@@ -826,18 +782,7 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#the-problem">The problem</a></li>
-    <li><a href="#how-data-management-is-currently-implemented">How data management is currently implemented</a></li>
-    <li><a href="#the-problems">The problems</a>
-      <ul>
-        <li><a href="#data-inconsistencies">Data inconsistencies</a></li>
-        <li><a href="#requesting-datasets-in-code">Requesting datasets in code</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
  
