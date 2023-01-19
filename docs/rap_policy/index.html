@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Introduction #  RAP is becoming a widely known term, but for the sake of clarity it can be simply described as
- a process in which code is used to minimise manual, undocumented steps, and a clear, properly documented process is produced in code which can reliably give the same result from the same dataset.
- The Goldacre review&rsquo;s summary recommendation 17 states that RAPs should be
- the core working practice that must be supported by all platforms and teams; make this a core focus of NHS analyst training.">
+<meta name="description" content="Introduction #  Note that much of the material on this page is reproduced verbatim from sources that are licensed under OGL and MIT, therefore links are provided to the source material in all cases.
+RAP is becoming a widely known term, but for the sake of clarity it can be simply described as
+ a process in which code is used to minimise manual, undocumented steps, and a clear, properly documented process is produced in code which can reliably give the same result from the same dataset.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="RAP policy in government and the NHS" />
 <meta property="og:description" content="" />
@@ -18,7 +17,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.ec9275f4db0915fff240634a20f0a51e6f2543f8fcd86e9ea2226b129a0ebc3c.js" integrity="sha256-7JJ19NsJFf/yQGNKIPClHm8lQ/j82G6eoiJrEpoOvDw=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.4b129f248c47cd0a71e11dcbb0c5dbfb99b130fd44e3c1c4d8d6c38e062d3571.js" integrity="sha256-SxKfJIxHzQpx4R3LsMXb&#43;5mxMP1E48HE2NbDjgYtNXE=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/rap_policy/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
@@ -754,7 +753,13 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#levels-of-rap">Levels of RAP</a></li>
+    <li><a href="#levels-of-rap">Levels of RAP</a>
+      <ul>
+        <li><a href="#baseline-rap">Baseline RAP</a></li>
+        <li><a href="#silver-rap">Silver RAP</a></li>
+        <li><a href="#gold-rap">Gold RAP</a></li>
+      </ul>
+    </li>
     <li><a href="#appendix-source-materials">Appendix: Source materials</a></li>
   </ul>
 </nav>
@@ -772,6 +777,7 @@ https://github.com/alex-shpak/hugo-book
   Introduction
   <a class="anchor" href="#introduction">#</a>
 </h2>
+<p>Note that much of the material on this page is reproduced verbatim from sources that are licensed under OGL and MIT, therefore links are provided to the source material in all cases.</p>
 <p>RAP is becoming a widely known term, but for the sake of clarity it can be simply described as</p>
 <blockquote>
 <p><a href="/notebook/docs/codefirst/#reproducible-analytical-pipelines">a process in which code is used to minimise manual, undocumented steps, and a clear, properly documented process is produced in code which can reliably give the same result from the same dataset</a>.</p>
@@ -785,10 +791,49 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#levels-of-rap">#</a>
 </h2>
 <p>Within the <a href="https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/">NHS Digital RAP community of practice</a> there are three levels of RAP given:</p>
+<blockquote>
 <ul>
 <li>Baseline - RAP fundamentals offering resilience against future change</li>
 <li>Silver - Implementing best practice by following good analytical and software engineering standards</li>
 <li>Gold - Analysis as a product to further elevate your analytical work and enhance its reusability to the public</li>
+</ul>
+</blockquote>
+<p>These are summarised following.</p>
+<h3 id="baseline-rap">
+  Baseline RAP
+  <a class="anchor" href="#baseline-rap">#</a>
+</h3>
+<ul>
+<li>Data produced by code in an open-source language (e.g., Python, R, SQL).</li>
+<li>Code is version controlled (see [Git basics][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/git/intro-to-git.md] and [using Git collaboratively][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/git/using-git-collaboratively.md] guides).</li>
+<li>Repository includes a README.md file (or equivalent) that clearly details steps a user must follow to reproduce the code (use <a href="https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md#b-readmes">NHS Open Source Policy section on Readmes</a> as a guide.</li>
+<li>Code has been [peer reviewed][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/implementing_RAP/code-review.md].</li>
+<li>Code is [published in the open][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/implementing_RAP/how-to-publish-your-code-in-the-open.md] and linked to &amp; from accompanying publication (if relevant).</li>
+</ul>
+<h3 id="silver-rap">
+  Silver RAP
+  <a class="anchor" href="#silver-rap">#</a>
+</h3>
+<ul>
+<li>Outputs are produced by code with minimal manual intervention.</li>
+<li>Code is well-documented including user guidance, explanation of code structure &amp; methodology and [docstrings][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md#documentation] for functions.</li>
+<li>Code is well-organised following [standard directory format][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/project-structure-and-packaging.md].</li>
+<li>[Reusable functions][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md] and/or classes are used where appropriate.</li>
+<li>Code adheres to agreed coding standards (e.g PEP8, [style guide for Pyspark][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/pyspark/pyspark-style-guide.md]).</li>
+<li>Pipeline includes a testing framework ([unit tests][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/unit-testing.md], [back tests][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/backtesting.md]).</li>
+<li>Repository includes dependency information (e.g. <a href="https://pip.pypa.io/en/stable/user_guide/#requirements-files">requirements.txt</a>, <a href="https://github.com/pypa/pipfile/blob/main/README.rst">PipFile</a>, [environment.yml][https://pip.pypa.io/en/stable/user_guide/#requirements-files]).</li>
+<li>[Logs][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/logging-and-error-handling.md] are automatically recorded by the pipeline to ensure outputs are as expected.</li>
+<li>Data is handled and output in a <a href="https://medium.com/@kimrodrikwa/untidy-data-a90b6e3ebe4c">Tidy data format</a>.</li>
+</ul>
+<h3 id="gold-rap">
+  Gold RAP
+  <a class="anchor" href="#gold-rap">#</a>
+</h3>
+<ul>
+<li>Code is fully <a href="https://packaging.python.org/en/latest/">packaged</a>.</li>
+<li>Repository automatically runs tests etc. via <a href="https://github.com/skills/continuous-integration">CI</a>/CD or a different integration/deployment tool e.g. <a href="https://docs.github.com/en/actions">GitHub Actions</a>.</li>
+<li>Process runs based on event-based triggers (e.g., new data in database) or on a schedule.</li>
+<li>Changes to the RAP are clearly signposted. E.g. a changelog in the package, releases etc. (See gov.uk info on <a href="https://github.com/alphagov/govuk-frontend/blob/main/docs/contributing/versioning.md">Semantic Versioning</a>)</li>
 </ul>
 <h2 id="appendix-source-materials">
   Appendix: Source materials
@@ -842,7 +887,13 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#levels-of-rap">Levels of RAP</a></li>
+    <li><a href="#levels-of-rap">Levels of RAP</a>
+      <ul>
+        <li><a href="#baseline-rap">Baseline RAP</a></li>
+        <li><a href="#silver-rap">Silver RAP</a></li>
+        <li><a href="#gold-rap">Gold RAP</a></li>
+      </ul>
+    </li>
     <li><a href="#appendix-source-materials">Appendix: Source materials</a></li>
   </ul>
 </nav>
