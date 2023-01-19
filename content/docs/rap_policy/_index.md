@@ -34,19 +34,19 @@ These are summarised following.
 ### Baseline RAP
 
 * Data produced by code in an open-source language (e.g., Python, R, SQL).
-* Code is version controlled (see [Git basics][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/git/intro-to-git.md] and [using Git collaboratively][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/git/using-git-collaboratively.md] guides).
+* Code is version controlled (see [Git basics](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/git/intro-to-git.md) and [using Git collaboratively](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/git/using-git-collaboratively.md) guides).
 * Repository includes a README.md file (or equivalent) that clearly details steps a user must follow to reproduce the code (use [NHS Open Source Policy section on Readmes](https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md#b-readmes) as a guide.
-* Code has been [peer reviewed][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/implementing_RAP/code-review.md].
-* Code is [published in the open][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/implementing_RAP/how-to-publish-your-code-in-the-open.md] and linked to & from accompanying publication (if relevant).
+* Code has been [peer reviewed](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/implementing_RAP/code-review.md).
+* Code is [published in the open](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/implementing_RAP/how-to-publish-your-code-in-the-open.md) and linked to & from accompanying publication (if relevant).
 
 ### Silver RAP
 
 * Outputs are produced by code with minimal manual intervention.
-* Code is well-documented including user guidance, explanation of code structure & methodology and [docstrings][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md#documentation] for functions.
-* Code is well-organised following [standard directory format][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/project-structure-and-packaging.md].
-* [Reusable functions][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md] and/or classes are used where appropriate.
-* Code adheres to agreed coding standards (e.g PEP8, [style guide for Pyspark][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/pyspark/pyspark-style-guide.md]).
-* Pipeline includes a testing framework ([unit tests][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/unit-testing.md], [back tests][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/backtesting.md]).
+* Code is well-documented including user guidance, explanation of code structure & methodology and [docstrings](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md#documentation) for functions.
+* Code is well-organised following [standard directory format](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/project-structure-and-packaging.md).
+* [Reusable functions](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md) and/or classes are used where appropriate.
+* Code adheres to agreed coding standards (e.g PEP8, [style guide for Pyspark](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/pyspark/pyspark-style-guide.md)).
+* Pipeline includes a testing framework ([unit tests](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/unit-testing.md), [back tests](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/backtesting.md)).
 * Repository includes dependency information (e.g. [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files), [PipFile](https://github.com/pypa/pipfile/blob/main/README.rst), [environment.yml][https://pip.pypa.io/en/stable/user_guide/#requirements-files]).
 * [Logs][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/logging-and-error-handling.md] are automatically recorded by the pipeline to ensure outputs are as expected.
 * Data is handled and output in a [Tidy data format](https://medium.com/@kimrodrikwa/untidy-data-a90b6e3ebe4c).
