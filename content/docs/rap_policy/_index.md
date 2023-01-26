@@ -47,8 +47,8 @@ These are summarised following.
 * [Reusable functions](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/python-functions.md) and/or classes are used where appropriate.
 * Code adheres to agreed coding standards (e.g PEP8, [style guide for Pyspark](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/pyspark/pyspark-style-guide.md)).
 * Pipeline includes a testing framework ([unit tests](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/unit-testing.md), [back tests](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/backtesting.md)).
-* Repository includes dependency information (e.g. [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files), [PipFile](https://github.com/pypa/pipfile/blob/main/README.rst), [environment.yml][https://pip.pypa.io/en/stable/user_guide/#requirements-files]).
-* [Logs][https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/logging-and-error-handling.md] are automatically recorded by the pipeline to ensure outputs are as expected.
+* Repository includes dependency information (e.g. [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files), [PipFile](https://github.com/pypa/pipfile/blob/main/README.rst), [environment.yml](https://pip.pypa.io/en/stable/user_guide/#requirements-files).
+* [Logs](https://github.com/NHSDigital/rap-community-of-practice/blob/main/docs/training_resources/python/logging-and-error-handling.md) are automatically recorded by the pipeline to ensure outputs are as expected.
 * Data is handled and output in a [Tidy data format](https://medium.com/@kimrodrikwa/untidy-data-a90b6e3ebe4c).
 
 ### Gold RAP
