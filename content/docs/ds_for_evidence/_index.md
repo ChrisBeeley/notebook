@@ -39,6 +39,12 @@ This package is designed mainly to simplify download and export of bibliographic
 
 ## litsearchr
 
+[Litsearchr has a GUI](https://elizagrames.shinyapps.io/litsearchr/) which is in early development
+
+> [The litsearchr package for R is designed to partially automate search term selection and writing search strategies for systematic reviews](https://elizagrames.github.io/litsearchr/litsearchr_vignette.html)
+
+Litsearchr identifies keywords
+
 ## Appendix
 
 https://rmetaverse.github.io/
