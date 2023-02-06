@@ -13,7 +13,7 @@ The SU data science team are currently looking at how we can use DS tools to hel
 
 ## Metaverse
 
-Metaverse is "An R ecosystem for meta-research". It is a meta package which installs:
+[Metaverse](https://rmetaverse.github.io/) is "An R ecosystem for meta-research". It is a meta package which installs:
 
 * synthsisr
     * Import, assemble and de-duplicate bibliographic data 
@@ -43,11 +43,27 @@ This package is designed mainly to simplify download and export of bibliographic
 
 > [The litsearchr package for R is designed to partially automate search term selection and writing search strategies for systematic reviews](https://elizagrames.github.io/litsearchr/litsearchr_vignette.html)
 
-Litsearchr identifies keywords
+Litsearchr identifies keywords by looking at an existing set of search results using algorithms such as Rapid Automatic Keyword Extraction (RAKE) (or a simple ngram search). The package can then group the keywords into concepts and then write a boolean search strategy. This can then be checked for precision and recall against a "Gold standard" of papers which should be returned by the search. 
+
+## revtools
+
+Revtools is a package which allows the user to interact with their literature search using code as well as with a GUI. It includes:
+
+* Locating duplicates
+* Screening duplicates
+* Screening of titles
+* Screening of abstracts
+* Creation of topic models to cluster and show similarity between papers
+
+## metaDigitise
+
+This package can extract data points from graphics, as well as computing statistics for data extracted from a graphic. It includes GUI elements to assist with the extraction.
+
+## robvis
+
+The robvis package takes the summary table from risk-of-bias assessments and produces plots formatted according to the assessment tool used
 
 ## Appendix
-
-https://rmetaverse.github.io/
 
 http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677
 
