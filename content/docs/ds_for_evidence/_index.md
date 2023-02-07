@@ -63,10 +63,21 @@ This package can extract data points from graphics, as well as computing statist
 
 The robvis package takes the summary table from risk-of-bias assessments and produces plots formatted according to the assessment tool used
 
+## Resources for automation in systematic reviews
+
+[A variety of point and click tools (with fairly restricted licences, on the whole)](http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677)
+
+## Litstudy
+
+This is a [Python package to help with literature reviews](https://github.com/NLeSC/litstudy). It includes:
+
+* Data import and merge
+* Statistics (publication year, country of origin, number of authors etc.)
+* Network analysis (co-citation network)
+* Topic modelling (automatic topic discovery based on the words used in documents abstracts)
+
 ## Appendix
 
-http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677
-
-https://www.sciencedirect.com/science/article/pii/S235271102200125X
+### Cochrane guidelines on the use of automated tools in paper selection
 
 https://training.cochrane.org/handbook/current/chapter-04#section-4-6-6-2
