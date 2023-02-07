@@ -9,8 +9,6 @@ weight: 50
 # bookSearchExclude: false
 ---
 
-The SU data science team are currently looking at how we can use DS tools to help with evidence review. I know nothing whatsoever about this so I'm going to do some reading on it and I may as well write it here in case it helps anyone else. So far I have a list of links, I will flesh this document out with these and more in due course.
-
 ## Metaverse
 
 [Metaverse](https://rmetaverse.github.io/) is "An R ecosystem for meta-research". It is a meta package which installs:
