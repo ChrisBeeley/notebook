@@ -26,7 +26,7 @@ The SU data science team are currently looking at how we can use DS tools to hel
 * robvis
     * Publication quality risk-of-bias figures 
 
-## synthsisr
+### synthsisr
 
 This package is designed mainly to simplify download and export of bibliographic information:
 
@@ -37,7 +37,7 @@ This package is designed mainly to simplify download and export of bibliographic
 * Write bibliographic files
     * To facilitate exporting results to other platforms after assembly and deduplication, synthesisr can write bibliographic data to .ris or .bib files
 
-## litsearchr
+### litsearchr
 
 [Litsearchr has a GUI](https://elizagrames.shinyapps.io/litsearchr/) which is in early development
 
@@ -45,7 +45,7 @@ This package is designed mainly to simplify download and export of bibliographic
 
 Litsearchr identifies keywords by looking at an existing set of search results using algorithms such as Rapid Automatic Keyword Extraction (RAKE) (or a simple ngram search). The package can then group the keywords into concepts and then write a boolean search strategy. This can then be checked for precision and recall against a "Gold standard" of papers which should be returned by the search. 
 
-## revtools
+### revtools
 
 Revtools is a package which allows the user to interact with their literature search using code as well as with a GUI. It includes:
 
@@ -55,19 +55,17 @@ Revtools is a package which allows the user to interact with their literature se
 * Screening of abstracts
 * Creation of topic models to cluster and show similarity between papers
 
-## metaDigitise
+### metaDigitise
 
 This package can extract data points from graphics, as well as computing statistics for data extracted from a graphic. It includes GUI elements to assist with the extraction.
 
-## robvis
+### robvis
 
 The robvis package takes the summary table from risk-of-bias assessments and produces plots formatted according to the assessment tool used
 
 ## Appendix
 
 http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677
-
-https://elizagrames.github.io/litsearchr/
 
 https://www.sciencedirect.com/science/article/pii/S235271102200125X
 
