@@ -15,7 +15,7 @@
 <link rel="icon" href="/notebook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/notebook/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
   <script defer src="/notebook/flexsearch.min.js"></script>
-  <script defer src="/notebook/en.search.min.be5ee05eb6152e10ccb145b732c61117eb4ee3d0b3114b41f7fd244ff7a78db1.js" integrity="sha256-vl7gXrYVLhDMsUW3MsYRF&#43;tO49CzEUtB9/0kT/enjbE=" crossorigin="anonymous"></script>
+  <script defer src="/notebook/en.search.min.0fbf1efa2dcb5d045f1277fb3674271a2b815b07b3b0bec30dfa24395709cad1.js" integrity="sha256-D78e&#43;i3LXQRfEnf7NnQnGiuBWwezsL7DDfokOVcJytE=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://chrisbeeley.github.io/notebook/docs/ds_for_evidence/index.xml" title="Notebook" />
 <!--
 Made with Book Theme
@@ -768,13 +768,22 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#metaverse">Metaverse</a></li>
-    <li><a href="#synthsisr">synthsisr</a></li>
-    <li><a href="#litsearchr">litsearchr</a></li>
-    <li><a href="#revtools">revtools</a></li>
-    <li><a href="#metadigitise">metaDigitise</a></li>
-    <li><a href="#robvis">robvis</a></li>
-    <li><a href="#appendix">Appendix</a></li>
+    <li><a href="#metaverse">Metaverse</a>
+      <ul>
+        <li><a href="#synthsisr">synthsisr</a></li>
+        <li><a href="#litsearchr">litsearchr</a></li>
+        <li><a href="#revtools">revtools</a></li>
+        <li><a href="#metadigitise">metaDigitise</a></li>
+        <li><a href="#robvis">robvis</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources-for-automation-in-systematic-reviews">Resources for automation in systematic reviews</a></li>
+    <li><a href="#litstudy">Litstudy</a></li>
+    <li><a href="#appendix">Appendix</a>
+      <ul>
+        <li><a href="#cochrane-guidelines-on-the-use-of-automated-tools-in-paper-selection">Cochrane guidelines on the use of automated tools in paper selection</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -820,10 +829,10 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 </ul>
-<h2 id="synthsisr">
+<h3 id="synthsisr">
   synthsisr
   <a class="anchor" href="#synthsisr">#</a>
-</h2>
+</h3>
 <p>This package is designed mainly to simplify download and export of bibliographic information:</p>
 <ul>
 <li>Read and assemble bibliographic files
@@ -842,19 +851,19 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 </ul>
-<h2 id="litsearchr">
+<h3 id="litsearchr">
   litsearchr
   <a class="anchor" href="#litsearchr">#</a>
-</h2>
+</h3>
 <p><a href="https://elizagrames.shinyapps.io/litsearchr/">Litsearchr has a GUI</a> which is in early development</p>
 <blockquote>
 <p><a href="https://elizagrames.github.io/litsearchr/litsearchr_vignette.html">The litsearchr package for R is designed to partially automate search term selection and writing search strategies for systematic reviews</a></p>
 </blockquote>
 <p>Litsearchr identifies keywords by looking at an existing set of search results using algorithms such as Rapid Automatic Keyword Extraction (RAKE) (or a simple ngram search). The package can then group the keywords into concepts and then write a boolean search strategy. This can then be checked for precision and recall against a &ldquo;Gold standard&rdquo; of papers which should be returned by the search.</p>
-<h2 id="revtools">
+<h3 id="revtools">
   revtools
   <a class="anchor" href="#revtools">#</a>
-</h2>
+</h3>
 <p>Revtools is a package which allows the user to interact with their literature search using code as well as with a GUI. It includes:</p>
 <ul>
 <li>Locating duplicates</li>
@@ -863,23 +872,40 @@ https://github.com/alex-shpak/hugo-book
 <li>Screening of abstracts</li>
 <li>Creation of topic models to cluster and show similarity between papers</li>
 </ul>
-<h2 id="metadigitise">
+<h3 id="metadigitise">
   metaDigitise
   <a class="anchor" href="#metadigitise">#</a>
-</h2>
+</h3>
 <p>This package can extract data points from graphics, as well as computing statistics for data extracted from a graphic. It includes GUI elements to assist with the extraction.</p>
-<h2 id="robvis">
+<h3 id="robvis">
   robvis
   <a class="anchor" href="#robvis">#</a>
-</h2>
+</h3>
 <p>The robvis package takes the summary table from risk-of-bias assessments and produces plots formatted according to the assessment tool used</p>
+<h2 id="resources-for-automation-in-systematic-reviews">
+  Resources for automation in systematic reviews
+  <a class="anchor" href="#resources-for-automation-in-systematic-reviews">#</a>
+</h2>
+<p><a href="http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677">A variety of point and click tools (with fairly restricted licences, on the whole)</a></p>
+<h2 id="litstudy">
+  Litstudy
+  <a class="anchor" href="#litstudy">#</a>
+</h2>
+<p>This is a <a href="https://github.com/NLeSC/litstudy">Python package to help with literature reviews</a>. It includes:</p>
+<ul>
+<li>Data import and merge</li>
+<li>Statistics (publication year, country of origin, number of authors etc.)</li>
+<li>Network analysis (co-citation network)</li>
+<li>Topic modelling (automatic topic discovery based on the words used in documents abstracts)</li>
+</ul>
 <h2 id="appendix">
   Appendix
   <a class="anchor" href="#appendix">#</a>
 </h2>
-<p><a href="http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677">http://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3677</a></p>
-<p><a href="https://elizagrames.github.io/litsearchr/">https://elizagrames.github.io/litsearchr/</a></p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S235271102200125X">https://www.sciencedirect.com/science/article/pii/S235271102200125X</a></p>
+<h3 id="cochrane-guidelines-on-the-use-of-automated-tools-in-paper-selection">
+  Cochrane guidelines on the use of automated tools in paper selection
+  <a class="anchor" href="#cochrane-guidelines-on-the-use-of-automated-tools-in-paper-selection">#</a>
+</h3>
 <p><a href="https://training.cochrane.org/handbook/current/chapter-04#section-4-6-6-2">https://training.cochrane.org/handbook/current/chapter-04#section-4-6-6-2</a></p>
 </article>
  
@@ -922,13 +948,22 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#metaverse">Metaverse</a></li>
-    <li><a href="#synthsisr">synthsisr</a></li>
-    <li><a href="#litsearchr">litsearchr</a></li>
-    <li><a href="#revtools">revtools</a></li>
-    <li><a href="#metadigitise">metaDigitise</a></li>
-    <li><a href="#robvis">robvis</a></li>
-    <li><a href="#appendix">Appendix</a></li>
+    <li><a href="#metaverse">Metaverse</a>
+      <ul>
+        <li><a href="#synthsisr">synthsisr</a></li>
+        <li><a href="#litsearchr">litsearchr</a></li>
+        <li><a href="#revtools">revtools</a></li>
+        <li><a href="#metadigitise">metaDigitise</a></li>
+        <li><a href="#robvis">robvis</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources-for-automation-in-systematic-reviews">Resources for automation in systematic reviews</a></li>
+    <li><a href="#litstudy">Litstudy</a></li>
+    <li><a href="#appendix">Appendix</a>
+      <ul>
+        <li><a href="#cochrane-guidelines-on-the-use-of-automated-tools-in-paper-selection">Cochrane guidelines on the use of automated tools in paper selection</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
