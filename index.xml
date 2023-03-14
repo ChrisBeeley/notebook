@@ -68,6 +68,16 @@ Team with multidisciplinary skills and perspectives #  The digital, data, and te
     </item>
     
     <item>
+      <title>Verification and validation</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/aqua_book/verification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/aqua_book/verification/</guid>
+      <description>Summary #   Providing quality assured analysis means that the following must all be appropriately addressed:
+ that the engagement between the analyst and the stakeholders have been effectively managed to ensure an proportionate amount of effort goes into an analytical project that confidence has been provided that the analytical output is fit-for-purpose and that there needs to be verification and validation of the analysis that the uncertainties and risks associated with the analysis have been understood, quantified where appropriate and managed actively   RIGOUR #   Repeatable  For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs   Independent  analysis that is free of prejudice or bias.</description>
+    </item>
+    
+    <item>
       <title>Data Saves Lives</title>
       <link>https://chrisbeeley.github.io/notebook/docs/strategy/datasaveslives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Aqua Book on Notebook</title>
+    <link>https://chrisbeeley.github.io/notebook/docs/aqua_book/</link>
+    <description>Recent content in The Aqua Book on Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://chrisbeeley.github.io/notebook/docs/aqua_book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verification and validation</title>
+      <link>https://chrisbeeley.github.io/notebook/docs/aqua_book/verification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisbeeley.github.io/notebook/docs/aqua_book/verification/</guid>
+      <description>Summary #   Providing quality assured analysis means that the following must all be appropriately addressed:
+ that the engagement between the analyst and the stakeholders have been effectively managed to ensure an proportionate amount of effort goes into an analytical project that confidence has been provided that the analytical output is fit-for-purpose and that there needs to be verification and validation of the analysis that the uncertainties and risks associated with the analysis have been understood, quantified where appropriate and managed actively   RIGOUR #   Repeatable  For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs   Independent  analysis that is free of prejudice or bias.</description>
+    </item>
+    
+  </channel>
+</rss>
